@@ -2075,6 +2075,8 @@ ISO 3166-1目前有249個代碼（193聯合國成員+2觀察員+其餘屬地）�
 
 ## 提問
 
+literature_review/ + systematic_review/ + meta_analysis/ + source_check/ + cross_validation/ + cross_validation/ + evidence_grade/ + provenance/ + uncertainty/ + first_principles/ + socratic/ + steelman/ + falsification/ + sensitivity/ + eda/ + data_quality/ + feature_engineering/ + anomaly_detection/ + hypothesis_test/ + bootstrap/ + bayesian/ + survival/ + forecast/ + ml/ + deep_learning/ + transformer/ + reinforcement_learning/ + multi_agent/ + model_card/ + ablation/ + calibration/ + portfolio/ + risk_management/ + walk_forward/ + stress_test/ + architecture_review/ + code_review/ + unit_test/ + integration_test/ + profiling/ + zero_trust/ + privacy/ + access_control/ + access_control/ + incident_response/ + due_diligence/ + cost_benefit/ + gap_analysis/ + decision_matrix/ + acceptance_test/ + executive_summary/ + technical_spec/ + reproducibility/ + changelog/ + research/ + verify/ + factcheck/ + analyze/ + deepdive/ + compare/ + redteam/ + critic/ + killcritic/ + blindspot/ + assumptions/ + falsification/ model/ + simulate/ + backtest/ + causal/ + counterfactual/ + architect/ + code/ + debug/ + optimize/ + benchmark/ + security/ + threatmodel/ + blueprint/ + cheatsheet/ + strategy/ + scenario/ + actionplan/ + roadmap/ + checklist/ + audit/ + report/ + summary/
+
 
 ## 解答
 
