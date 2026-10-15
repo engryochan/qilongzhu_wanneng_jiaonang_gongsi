@@ -1,0 +1,51 @@
+{
+  "scope": "v0.2.0 強化版：原 v0.2.0 三份 Markdown 保留並追加 2025-2026 查證章節；僅依公開來源核對",
+  "as_of": "2026-10-15",
+  "items": [
+    {
+      "original_file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md",
+      "output_file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_強化.md",
+      "original_lines": 521,
+      "new_lines": 571,
+      "added_lines": 50,
+      "original_preserved_as_prefix": true,
+      "enhancement": "新增交流統一術語閘門、2025-2026 Floquet/tACS/脈動流/磁熱療前沿"
+    },
+    {
+      "original_file": "神經網絡學_交流跨領域研究增訂_20261014.md",
+      "output_file": "神經網絡學_交流跨領域研究增訂_20261015.md",
+      "original_lines": 11422,
+      "new_lines": 11442,
+      "added_lines": 20,
+      "original_preserved_as_prefix": true,
+      "enhancement": "追加 tACS 2025-2026 臨床指引與 40Hz 長期數據"
+    },
+    {
+      "original_file": "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md",
+      "output_file": "七龍珠能力技術對照冊_v1_2_0_交流科技強化.md",
+      "original_lines": 435,
+      "new_lines": 457,
+      "added_lines": 22,
+      "original_preserved_as_prefix": true,
+      "enhancement": "新增實證等級與最新機構工具對照表"
+    },
+    {
+      "evidence_csv": "寰宇交流科技_證據註冊表_20261015.csv",
+      "record_count": 48,
+      "previous_count": 35,
+      "added_records": 13,
+      "as_of": "2026-10-15",
+      "scope": "public, source-linked; EV36-EV48 為 2025-2026 新條目"
+    },
+    {
+      "delivery_note": "交流科技三文件_查證交付說明_20261015.md",
+      "iron_rule": "公開可追溯、機制獨立、能量守恆、否證條件明確"
+    }
+  ],
+  "limitations": [
+    "未進行實體獨立復現",
+    "國別關聯非國籍核定",
+    "醫療主張須另行符合當地法規與 ISO 14971",
+    "原檔歷史陳述不因此全部取得新認證"
+  ]
+}

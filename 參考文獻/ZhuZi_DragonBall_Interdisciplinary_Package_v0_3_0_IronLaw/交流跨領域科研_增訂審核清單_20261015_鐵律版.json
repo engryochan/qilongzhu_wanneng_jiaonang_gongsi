@@ -1,0 +1,81 @@
+{
+  "scope": "鐵律核驗：交流電類比跨域必須獨立能量收支；新增15筆2023-2026頂尖證據；保留原文前綴",
+  "verification_date": "2026-10-15",
+  "iron_law": [
+    "交流數學形式可類比，機制、能量、媒介獨立驗證",
+    "地區關聯非國籍，機構不代表全部產品有效",
+    "理論≠專利≠模擬≠動物≠人體≠RCT≠監管核准",
+    "高能束、人體電刺激、未批准療法僅文獻研析"
+  ],
+  "items": [
+    {
+      "output_file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_3_0_鐵律核驗增訂.md",
+      "evidence_count": 50,
+      "new_chapters": "第11章交流五域"
+    },
+    {
+      "output_file": "七龍珠能力技術對照冊_v1_2_0_交流科技鐵律增訂.md",
+      "added_mapping": "龜派氣功/普魯茲波/仙豆/瞬移的工程拆解"
+    },
+    {
+      "output_file": "寰宇交流科技_證據註冊表_20261015_鐵律擴充.csv",
+      "record_count": 50,
+      "new_evidence": [
+        "EV36激光引雷Nature Photonics 2023",
+        "EV37 Optune Lua FDA 2024",
+        "EV38-40 Floquet 2026",
+        "EV41機械返老2026",
+        "EV42 ICU晶片2024",
+        "EV43-44合成射流/離子風",
+        "EV45-47軟件"
+      ]
+    }
+  ],
+  "top_entities_verified": [
+    {
+      "name": "NASA",
+      "type": "美國國企/研究所",
+      "evidence": "EV02 NTRS"
+    },
+    {
+      "name": "MIT",
+      "type": "學術",
+      "evidence": "EV44 Nature 2018"
+    },
+    {
+      "name": "ENSTA Paris / UNIGE / Säntis聯盟",
+      "type": "學術",
+      "evidence": "EV36 Nature Photonics 2023"
+    },
+    {
+      "name": "TRUMPF",
+      "type": "德國民企",
+      "evidence": "EV36致謝/設備"
+    },
+    {
+      "name": "Novocure",
+      "type": "上市民企",
+      "evidence": "EV37 FDA PMA P230042"
+    },
+    {
+      "name": "Helmholtz München / Ege / METU",
+      "type": "土耳其/德國學術",
+      "evidence": "EV42 Commun Biol 2024"
+    },
+    {
+      "name": "OpenPIV / FEniCSx / QuTiP / MNE-Python / Brian2 / k-Wave / COMSOL",
+      "type": "開源/商業軟件",
+      "evidence": "EV27-33,45-47"
+    },
+    {
+      "name": "Windows 11 + WSL2 Ubuntu 22.04",
+      "type": "操作系統",
+      "evidence": "官網兼容性"
+    },
+    {
+      "name": "ISO 14971 / PRISMA 2020",
+      "type": "標準",
+      "evidence": "EV50, EV35"
+    }
+  ]
+}
