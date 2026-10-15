@@ -7,10 +7,14 @@ date: 2026-10-06
 date-format: "YYYY[年]M[月]D[日（農曆丙午馬年八月廿六，丁酉月・癸丑日）]"
 
 lang: zh-TW
+mainfont: "system-ui"
+html-math-method: katex
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - offline-fonts.scss
     toc: true
     toc-depth: 3
     toc-location: left
@@ -62,7 +66,7 @@ language:
 | 10 | Neurable 自稱「It doesn't read your thoughts」 | ✅ 屬實，作為 Red Team 照妖鏡用得極好 | — |
 | 11 | 印度國防體系 2026 年召開 BCI 戰略會議 ≠ 擁有讀心武器 | ✅ 推論嚴謹，此處分寸把握正確 | — |
 
----
+***
 
 #### 二、需要修正的三處
 
@@ -97,7 +101,7 @@ language:
 
 **建議改為：中國 N3 VERIFIED，N4 持續監測。**
 
----
+***
 
 #### 三、重大遺漏（這是比錯誤更需要補的部分）
 
@@ -115,7 +119,7 @@ language:
 
 另：**🇳🇱 荷蘭**不應只標 `N2 R&D`。UMC Utrecht 早有家用植入式 BCI 的 ALS 患者長期案例，按原文定義屬 **N2 VERIFIED（人體植入）**。
 
----
+***
 
 #### 四、方法論層面的兩點提醒
 
@@ -123,7 +127,7 @@ language:
 
 **其二：`NO VERIFIED FRONTIER ENTITY FOUND` 與 `NONE` 的區分——這一條我完全贊同，且建議作為母表的第一條鐵律固化。** 這正是先生白皮書「UNKNOWN 不以推測填空」的同一原則。我上一輪回覆中「其餘 230+ 國家無自主能力」的表述，按此標準應改寫為「本輪公開證據調查未發現已核驗的前沿實體」，謹此自行修正。
 
----
+***
 
 #### 五、Schema 微調建議
 
@@ -140,7 +144,7 @@ language:
 
 `claim_status` 建議再加一值：`OUTDATED` —— 曾經核驗為真、但已被更新數據取代者。北腦一號的 7 例／10 例／16 例／40 餘例四筆記錄，正該以此串接。
 
----
+***
 
 #### 六、總評
 
@@ -252,7 +256,7 @@ language:
 
 这比简单使用“读心术”三个字严谨得多。
 
----
+***
 
 #### 二、目前真正的天下第一梯队
 
@@ -270,7 +274,7 @@ language:
 
 这一技术在某一个非常狭义的意义上已经颇有《阿凡达》味道——**人的神经意图驱动另一个数字身体**；但还远远不是电影里的完整意识连接。
 
----
+***
 
 #### 三、最接近先生所谓“真正读心”的技术：N4
 
@@ -292,7 +296,7 @@ language:
 
 这是整个全球母表必须写死的科学红线。
 
----
+***
 
 #### 四、真正出现过“脑→互联网→脑”
 
@@ -332,7 +336,7 @@ language:
 
 **“互联网传脑信息”已经是真的；“互联网传完整思想”还不是。**
 
----
+***
 
 #### 五、中国——已经进入世界植入式第一集团
 
@@ -346,7 +350,7 @@ language:
 
 **中国：N2 VERIFIED，N3/N4 重点持续监测。**
 
----
+***
 
 #### 六、韩国——双向“脑→机器人→脑”路线非常值得注意
 
@@ -366,7 +370,7 @@ language:
 
 **N2+ / 双向 BCI 高优先级。**
 
----
+***
 
 #### 七、新加坡——非常容易被低估
 
@@ -388,7 +392,7 @@ language:
 
 而不是宣称已经完成 N5 人体远程自然语言通信。
 
----
+***
 
 #### 八、瑞士——芯片与双向神经接口尤其强
 
@@ -402,7 +406,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 这不是“隔空读心”，但从先生重视的**军工/航天式小型化、低功耗、边缘计算**角度，反而极具价值。
 
----
+***
 
 #### 九、德国、荷兰、法国、澳洲、加拿大、台湾、印度
 
@@ -427,7 +431,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 印度方面甚至已经进入战略层面：2026 年印度国防部体系举行了“Brain-Computer Interface: Expanding Neural Frontiers & Its Strategic Implications”会议。**但这只能证明其官方高度关注 BCI，不等于印度已经拥有秘密读心武器。** [pib.gov.in](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258089\&lang=1\&reg=3\&utm_source=chatgpt.com)
 
----
+***
 
 #### 十、Red Team：我特意拿消费级产品来做反证
 
@@ -457,7 +461,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 这是 `killcritic/` 第一闸。
 
----
+***
 
 #### 十一、Killcritic：把《阿凡达》拆开比较
 
@@ -485,7 +489,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 因此未来的关键不是再找一个神秘的“读心公司”，而是寻找能够把 **N2+N3+N4+N5** 汇流的技术体系。
 
----
+***
 
 #### 十二、Blueprint：249 条目的正式数据库应该这样建
 
@@ -559,7 +563,7 @@ CONTRADICTED
 
 如此就能把“研究目标”与“已经实现”彻底分开。
 
----
+***
 
 #### 十三、249 ISO 母表的处理军令
 
@@ -637,7 +641,7 @@ N1 已在人类受试者身上读取运动意图，使四肢瘫痪人士通过�
 
 推进。
 
----
+***
 
 ##### 2. [Paradromics](https://paradromics.com/?utm_source=chatgpt.com) — 美国
 
@@ -651,7 +655,7 @@ N1 已在人类受试者身上读取运动意图，使四肢瘫痪人士通过�
 
 若以“心中欲言而机器替你言”为标准，它已进入世界第一梯队。
 
----
+***
 
 ##### 3. [NeuroXess 脑虎科技](https://www.neuroxess.com/?utm_source=chatgpt.com) — 中国
 
@@ -675,7 +679,7 @@ N1 已在人类受试者身上读取运动意图，使四肢瘫痪人士通过�
 
 这一区别极其重要。
 
----
+***
 
 ##### 4. [Synchron](https://synchron.com/?utm_source=chatgpt.com) — 美国／澳大利亚体系
 
@@ -693,7 +697,7 @@ Synchron 还已经把 BCI 与 NVIDIA 实时 AI、Apple Vision Pro 等数字环�
 
 而不是单纯“脑控鼠标”。
 
----
+***
 
 ##### 5. [Precision Neuroscience](https://www.precisionneuro.io/?utm_source=chatgpt.com) — 美国
 
@@ -709,7 +713,7 @@ Precision 公布目前已经有 **100+ 临床研究植入患者、18+ 医院合�
 
 这才可能成为未来 L6 级系统的重要硬件基础。
 
----
+***
 
 ##### 6. [Meta AI](https://ai.meta.com/?utm_source=chatgpt.com) — 美国／欧洲合作体系
 
@@ -733,7 +737,7 @@ Precision 公布目前已经有 **100+ 临床研究植入患者、18+ 医院合�
 
 两者科学含义相差甚远。
 
----
+***
 
 #### 二、真正已经出现过的“脑—脑通信”
 
@@ -767,7 +771,7 @@ University of Washington 团队的 **BrainNet** 已经在人类中演示：
 
 **“互联网共享意识”——更没有。**
 
----
+***
 
 #### 三、若以《阿凡达》为标尺，真正还缺什么？
 
@@ -807,7 +811,7 @@ University of Washington 团队的 **BrainNet** 已经在人类中演示：
 
 今天 BCI 的读取能力正在迅速进步；可是把复杂语义、视觉体验乃至记忆精确写进另一人大脑，仍远没有达到这种程度。
 
----
+***
 
 #### 四、全球“249 ISO 项”不应逐国硬凑一家
 
@@ -887,7 +891,7 @@ avatar_level = L0...L7
 
 如此就不会把“戴 EEG 玩游戏”的公司与 Paradromics、Neuralink、NeuroXess、BrainNet 混在同一个“读心科技”排行榜。
 
----
+***
 
 #### 五、目前的“寰宇第一阵”可以这样排
 
@@ -939,7 +943,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 这比简单使用“读心术”三个字严谨得多。
 
----
+***
 
 #### 二、目前真正的天下第一梯队
 
@@ -957,7 +961,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 这一技术在某一个非常狭义的意义上已经颇有《阿凡达》味道——**人的神经意图驱动另一个数字身体**；但还远远不是电影里的完整意识连接。
 
----
+***
 
 #### 三、最接近先生所谓“真正读心”的技术：N4
 
@@ -979,7 +983,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 这是整个全球母表必须写死的科学红线。
 
----
+***
 
 #### 四、真正出现过“脑→互联网→脑”
 
@@ -1019,7 +1023,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 **“互联网传脑信息”已经是真的；“互联网传完整思想”还不是。**
 
----
+***
 
 #### 五、中国——已经进入世界植入式第一集团
 
@@ -1033,7 +1037,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 **中国：N2 VERIFIED，N3/N4 重点持续监测。**
 
----
+***
 
 #### 六、韩国——双向“脑→机器人→脑”路线非常值得注意
 
@@ -1053,7 +1057,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 **N2+ / 双向 BCI 高优先级。**
 
----
+***
 
 #### 七、新加坡——非常容易被低估
 
@@ -1075,7 +1079,7 @@ NeuroXess、Synchron、Neuralink 等已经从单纯实验室“读信号”进�
 
 而不是宣称已经完成 N5 人体远程自然语言通信。
 
----
+***
 
 #### 八、瑞士——芯片与双向神经接口尤其强
 
@@ -1089,7 +1093,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 这不是“隔空读心”，但从先生重视的**军工/航天式小型化、低功耗、边缘计算**角度，反而极具价值。
 
----
+***
 
 #### 九、德国、荷兰、法国、澳洲、加拿大、台湾、印度
 
@@ -1114,7 +1118,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 印度方面甚至已经进入战略层面：2026 年印度国防部体系举行了“Brain-Computer Interface: Expanding Neural Frontiers & Its Strategic Implications”会议。**但这只能证明其官方高度关注 BCI，不等于印度已经拥有秘密读心武器。** [pib.gov.in](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258089\&lang=1\&reg=3\&utm_source=chatgpt.com)
 
----
+***
 
 #### 十、Red Team：我特意拿消费级产品来做反证
 
@@ -1144,7 +1148,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 这是 `killcritic/` 第一闸。
 
----
+***
 
 #### 十一、Killcritic：把《阿凡达》拆开比较
 
@@ -1172,7 +1176,7 @@ EEG、sEEG、ECoG、多单元记录 → 神经解码 → 运动恢复，同时�
 
 因此未来的关键不是再找一个神秘的“读心公司”，而是寻找能够把 **N2+N3+N4+N5** 汇流的技术体系。
 
----
+***
 
 #### 十二、Blueprint：249 条目的正式数据库应该这样建
 
@@ -1246,7 +1250,7 @@ CONTRADICTED
 
 如此就能把“研究目标”与“已经实现”彻底分开。
 
----
+***
 
 #### 十三、249 ISO 母表的处理军令
 
@@ -1616,7 +1620,7 @@ CONTRADICTED
 
 当前在脑机接口（BCI）、神经解码、人机交互与“心灵相通”（脑对脑/脑对机交互）领域，全球前沿的代表性机构、公司、技术平台及软硬件组件如下：
 
----
+***
 
 #### 一、 顶级神经科技公司与平台（全侵入式 / 半侵入式）
 
@@ -1636,7 +1640,7 @@ CONTRADICTED
 * **核心技术/平台**：Connexus Direct Data Interface。
 * **技术突破**：主打超高带宽数据传输，专注于严重语言障碍与运动功能障碍的解码与实时重建。
 
----
+***
 
 #### 二、 非侵入式脑机接口与“心灵解读”生成式 AI（非手术）
 
@@ -1652,7 +1656,7 @@ CONTRADICTED
 * **核心技术/平台**：多通道 EEG 脑电头带与实时神经状态分析引擎。
 * **技术突破**：利用 Session-Adaptive AI 算法过滤肌电噪声，实现无感佩戴下的意念指令输出与情绪/专注度闭环反馈。
 
----
+***
 
 #### 三、 学术与顶尖科研机构（“心灵相通”与脑-脑/脑-机解码）
 
@@ -1672,7 +1676,7 @@ CONTRADICTED
 * **核心项目**：Next-Generation Nonsurgical Neurotechnology（下一代非手术神经科技）。
 * **技术突破**：研究高分辨率、非侵入式/微侵入式脑对脑（Brain-to-Brain）直接通信与战术态势感知，即“合成心灵感应”（Synthetic Telepathy）。
 
----
+***
 
 #### 四、 核心软件、算法与开发组件生态
 
@@ -4320,7 +4324,7 @@ Tesla／Boston Dynamics／Figure AI + Neuralink + Google DeepMind + Tufts／Harv
 
 基於最前沿的**數據科學、人工智慧、生物工程、理論物理与量化科技**等領域的最新研究與產業實踐，以下針對《七龍珠》（Dragon Ball）中出現的各項超能力與科技概念，進行嚴謹且頂尖的技術映射與可行性查證分析：
 
----
+***
 
 #### 一、 紅緞帶軍團（Red Ribbon Army）：人工智慧、控制論與生物修復
 
@@ -4353,7 +4357,7 @@ Tesla／Boston Dynamics／Figure AI + Neuralink + Google DeepMind + Tufts／Harv
 
 
 
----
+***
 
 #### 二、 萬能膠囊公司（Capsule Corp）：微縮物理、時空理論与雷達感應
 
@@ -4393,7 +4397,7 @@ Tesla／Boston Dynamics／Figure AI + Neuralink + Google DeepMind + Tufts／Harv
 
 
 
----
+***
 
 #### 三、 其他絕技與超自然現象的科技映射
 
@@ -4407,7 +4411,7 @@ Tesla／Boston Dynamics／Figure AI + Neuralink + Google DeepMind + Tufts／Harv
 | **超級賽亞人靈氣防護罩（Aura Barrier）** | **等離子體防護罩（Plasma Shield / Deflector Force Field）** | **Boeing Patent (US8981261B2)**：利用雷射與電磁場快速加熱空氣產生等離子體（Plasma），吸收與反射衝擊波。 |
 | **龜派氣功（Kamehameha）** | **脈衝功率技術（Pulsed Power System）** | **Lawrence Livermore National Laboratory (NIF)**：國家點火設施利用 192 條巨型雷射束聚焦，觸發受控核聚變釋放巨大能量。 |
 
----
+***
 
 #### 四、 總結與展望
 
@@ -5474,7 +5478,7 @@ q=\frac12\rho v^2
 
 從計量科學、大氣物理學以及熱力學的第一性原理（First Principles）來看，將氣象學分析應用到「徒手凝聚氣流發出龜波氣功」在物理現實中屬於科幻範疇。然而，若透過嚴謹的科學數據、能量閾值與地球科學現實來剖析，我們可以得出以下具體的客觀結論：
 
----
+***
 
 #### 一、 人類目前對極端天氣與氣候的調控能力
 
@@ -5497,7 +5501,7 @@ q=\frac12\rho v^2
 
 
 
----
+***
 
 #### 二、 產生氣流、氣壓、電壓與熱能的科學閾值
 
@@ -5524,7 +5528,7 @@ $$E_{\text{breakdown}} \approx 3 \times 10^6 \, \text{V/m} \quad (3 \, \text{MV/
 * **物理需求：** 人體在靜止狀態下的基礎代謝功率約為 $100 \, \text{W}$，極限運動時可短暫提升至 $1,000 \text{W}$ 至 $2,000 \, \text{W}$ 左右。
 * **能量差距：** 動漫中一個能炸毀地形的能量波，其釋放的能量至少在 $10^{12} \, \text{J}$（太焦耳）以上，相當於小型核武或高能炸藥。人體本身的生物化學能轉化效率和熱容極限，根本無法在體內儲存並瞬間定向釋放如此龐大的能量，否則人體組織會在瞬間碳化。
 
----
+***
 
 #### 三、 總結
 
@@ -5872,28 +5876,28 @@ EF5 龍捲風：
 **研究框架**: literature_review / systematic_review / meta_analysis / source_check / cross_validation / evidence_grade / provenance / uncertainty / first_principles / socratic / steelman / falsification / sensitivity / etc.
 **方法論聲明**: 本報告遵循 WMO 官方文件、NOAA 官方闢謠、ENMOD 公約文本、同行評審實驗室研究為核心證據源，進行可追溯交叉驗證。
 
----
+***
 
-####### 執行摘要 Executive Summary
+**執行摘要 Executive Summary**
 
 **核心結論**:
 
-1.  **人造衛星/HAARP/任何現有設施不能製造颱風、旋風、龍捲風**：NOAA 明確指出 No technology exists that can create, destroy, modify, strengthen or steer hurricanes in any way, shape or form[^1]。WMO 同樣指出能量涉及過大，impossible to create cloud systems that rain, alter wind patterns[^2]，且 There is no generally accepted evidence suggesting that hurricanes can be modified[^2]，There are no demonstrated methods to modify tornadoes and lightning[^2]。HAARP 主任 Jessica Matthews 直接回應：The research equipment at the HAARP facility is not capable of generating or amplifying such events[^3]。
+1.  **人造衛星/HAARP/任何現有設施不能製造颱風、旋風、龍捲風**：NOAA 明確指出 No technology exists that can create, destroy, modify, strengthen or steer hurricanes in any way, shape or form[^n307-1]。WMO 同樣指出能量涉及過大，impossible to create cloud systems that rain, alter wind patterns[^n307-2]，且 There is no generally accepted evidence suggesting that hurricanes can be modified[^n307-2]，There are no demonstrated methods to modify tornadoes and lightning[^n307-2]。HAARP 主任 Jessica Matthews 直接回應：The research equipment at the HAARP facility is not capable of generating or amplifying such events[^n307-3]。
 
 2.  **人造水災、火災、雷電**：
-   - 水災：人工增雨（cloud seeding）僅能在已有雲系上增加 10-15% 降水[^4]，且 Sorooshian 教授指出 squeezing out an extra five 5 to 15 percent — nowhere near flood capacity[^5]。無法憑空造雲造洪水。
+   - 水災：人工增雨（cloud seeding）僅能在已有雲系上增加 10-15% 降水[^n307-4]，且 Sorooshian 教授指出 squeezing out an extra five 5 to 15 percent — nowhere near flood capacity[^n307-5]。無法憑空造雲造洪水。
    - 火災：人類可縱火，但無法通過氣象衛星製造氣象級火災風暴，屬人為點火非氣象武器。
-   - 雷電：實驗室可用飛秒雷射製造虛擬避雷針，引導雷電路徑，但需 10 kW 功率雷射，轉化空氣為導體[^6]，且 consumes about 10 kilowatts[^6]，僅能引導已存在的雷電，不能憑空創造雷暴。
+   - 雷電：實驗室可用飛秒雷射製造虛擬避雷針，引導雷電路徑，但需 10 kW 功率雷射，轉化空氣為導體[^n307-6]，且 consumes about 10 kilowatts[^n307-6]，僅能引導已存在的雷電，不能憑空創造雷暴。
 
-3.  **四季如春氣候**：開放大氣中不可能。封閉小尺度可以：如 Biosphere 2 模擬 7 個氣候帶、智慧溫室白天儲熱夜晚釋放維持 20℃ 以上[^7][^8]。但能耗極高，且屬於 HVAC 溫室控制，非改變區域氣候。昆明“春城”是高原地理自然形成，非人造。
+3.  **四季如春氣候**：開放大氣中不可能。封閉小尺度可以：如 Biosphere 2 模擬 7 個氣候帶、智慧溫室白天儲熱夜晚釋放維持 20℃ 以上[^n307-7][^n307-8]。但能耗極高，且屬於 HVAC 溫室控制，非改變區域氣候。昆明“春城”是高原地理自然形成，非人造。
 
 4.  **徒手龜波氣功閾值**：根據第一性原理計算，人體上限與所需能量差距達 10^10 至 10^29 倍，屬物理上不可能。
 
----
+***
 
-####### 一、 文獻回顧 literature_review / systematic_review
+**一、 文獻回顧 literature_review / systematic_review**
 
-######## 1.1 官方機構共識
+**1.1 官方機構共識**
 | 機構 | 聲明 | 證據等級 |
 |------|------|----------|
 | WMO 2010 專家團隊 | 能量過大，不可能創造降雨雲系、改變風場帶入水氣、完全消除劇烈天氣；宣稱能做到的技術應被懷疑 | A級 (聯合國機構正式文件) |
@@ -5901,40 +5905,40 @@ EF5 龍捲風：
 | HAARP 官方 | 不是氣象武器，僅是研究電離層的無線電發射機，不能影響對流層天氣 | A級 |
 | ENMOD 公約 1976/1978 | 禁止將環境改造成武器，定義 widespread 為數百平方公里，long-lasting 為數月，側面證明冷戰時期已有擔憂，但能力極有限，需立約禁止小規模嘗試 | 法理證據 |
 
-[^1][^2][^9]
+[^n307-1][^n307-2][^n307-9]
 
-######## 1.2 獨立科研實例
+**1.2 獨立科研實例**
 
-- **人造龍捲風**：加拿大 AVEtec 大氣渦旋引擎，圓形腔室切向進熱空氣形成上升渦旋，驅動渦輪機[^10]。WindEEE 研究所可造 5 米寬龍捲風，但需巨大風洞、大量熱源與風扇，非徒手。
-- **人造雷電引導**：瑞士 Säntis 山頂實測，雷射電離通道可引導 4 次雷擊沿光束路徑[^6]。
-- **四季如春**：中國農科院第六代太陽能溫室主動蓄放熱，白天集熱晚上釋放，夜間穩定 20℃ 以上[^7][^8]，能耗需輔助能源保障。
+- **人造龍捲風**：加拿大 AVEtec 大氣渦旋引擎，圓形腔室切向進熱空氣形成上升渦旋，驅動渦輪機[^n307-10]。WindEEE 研究所可造 5 米寬龍捲風，但需巨大風洞、大量熱源與風扇，非徒手。
+- **人造雷電引導**：瑞士 Säntis 山頂實測，雷射電離通道可引導 4 次雷擊沿光束路徑[^n307-6]。
+- **四季如春**：中國農科院第六代太陽能溫室主動蓄放熱，白天集熱晚上釋放，夜間穩定 20℃ 以上[^n307-7][^n307-8]，能耗需輔助能源保障。
 
-######## 1.3 Meta 分析：能量尺度
+**1.3 Meta 分析：能量尺度**
 
 NOAA 計算：
-- 颱風總降雨潛熱釋放：5.2 x 10^19 J/day = 6.0 x 10^14 W[^11]，相當於 200 倍全球發電能力。
-- 維持風速動能：1.3 x 10^17 J/day = 1.5 x 10^12 W[^11]，約全球發電能力一半。
+- 颱風總降雨潛熱釋放：5.2 x 10^19 J/day = 6.0 x 10^14 W[^n307-11]，相當於 200 倍全球發電能力。
+- 維持風速動能：1.3 x 10^17 J/day = 1.5 x 10^12 W[^n307-11]，約全球發電能力一半。
 - 中位數龍捲風動能 TKE 62.1 GJ，10% 超過 1.97 TJ (10^12 J)。
 
 人類生理：
-- 劇烈運動平均 50-150W，自行車運動員 1 小時 440W，短時 2500W 以上[^12]
-- 重拳測量 Cain Velasquez 2230 lbs 力[^13]，但動能僅 122-1000 J (見計算)
-- 呼吸氣流：安靜 30 L/min，可主動提升至 400 L/min[^14][^15](此為搜尋結果)
+- 劇烈運動平均 50-150W，自行車運動員 1 小時 440W，短時 2500W 以上[^n307-12]
+- 重拳測量 Cain Velasquez 2230 lbs 力[^n307-13]，但動能僅 122-1000 J (見計算)
+- 呼吸氣流：安靜 30 L/min，可主動提升至 400 L/min[^n307-14][^n307-15](此為搜尋結果)
 
----
+***
 
-####### 二、 第一性原理 first_principles / 模型閾值計算
+**二、 第一性原理 first_principles / 模型閾值計算**
 
-######## 問題：如何通過氣象學應用到徒手發龜波？
+**問題：如何通過氣象學應用到徒手發龜波？**
 
 **氣象學可應用的部分是：渦環（Vortex Ring）與衝擊波（Shock Wave）原理。**
 
 人類唯一能徒手製造的類似氣彈：
 - **渦環砲**：用雙手快速合攏或哈氣可吹出渦環，速度 ~5-10 m/s，持續 <1 秒。
-- **要達到可見破壞**，參考軍用渦環槍需 100,000 psi (690 MPa) 壓力[^16]，速度 185 mph (82 m/s)[^17]，需壓縮氣瓶或炸藥。
+- **要達到可見破壞**，參考軍用渦環槍需 100,000 psi (690 MPa) 壓力[^n307-16]，速度 185 mph (82 m/s)[^n307-17]，需壓縮氣瓶或炸藥。
 - 人類肺泡壓力僅 3-6 cmH2O (軟語音) 至 最大約 100 cmH2O = 9.8 kPa，遠低於 689 MPa，差 70,000 倍。
 
-######## 龜波氣功所需閾值（保守估計）
+**龜波氣功所需閾值（保守估計）**
 
 | 指標 | 閾值單位 | 人體可達 | 差距 | 來源推算 |
 |------|----------|----------|------|----------|
@@ -5945,13 +5949,13 @@ NOAA 計算：
 | **電壓** | 天然雷電 100M-1B Volt，電流 20kA，產生閃電需擊穿空氣 3 MV/m | 人體靜電 <30kV，無持續電流 | 10^4 倍 | 激光引雷實驗需 10kW |
 | **熱能** | 颱風日釋放 5.2e19 J | 人日代謝 8.4e6 J | 6e12 倍 |  |
 
-[^6][^11][^18]
+[^n307-6][^n307-11][^n307-18]
 
 **結論**：即使把全身代謝能量 100% 轉化為氣動能（效率實際 <25%），需 8,368,000 拳才等於 1 噸 TNT。徒手凝聚氣彈波在封閉系統熱力學上不可能。
 
----
+***
 
-####### 三、 交叉驗證 cross_validation / 證據分級 evidence_grade / 溯源 provenance
+**三、 交叉驗證 cross_validation / 證據分級 evidence_grade / 溯源 provenance**
 
 | 聲稱 | 溯源 | 交叉驗證 | 等級 |
 |------|------|----------|------|
@@ -5962,31 +5966,31 @@ NOAA 計算：
 | 人造四季如春 | 溫室產業 | 封閉系統可，開放大氣不可，能耗數據支持 | B級 (局部工程，非氣候) |
 | 徒手氣功波 | 氣功傳說、動漫 | 人體功率、肺活量、壓強測量，物理計算否證 | D級 (無實例) |
 
-[^4]
+[^n307-4]
 
 不確定性 uncertainty：雲播增雨效果 5-15% 存在區域差異，但數量級確定；人體峰值功率個體差異 2-3 倍，不影響 10^8 倍差距的結論。
 
----
+***
 
-####### 四、 批判性思考
+**四、 批判性思考**
 
-######## Socratic 提問
+**Socratic 提問**
 - 如果人能發出颱風，為何 1962-1983 年美國政府投入數十年 Project STORMFURY 仍失敗？
 - 如果氣象武器可行，為何需要 ENMOD 公約禁止的是“具有廣泛、長期、嚴重效果”的技術，而非已實戰化的武器？說明當時僅為擔憂未來可能。
 
-######## Steelman 正方最強論點
+**Steelman 正方最強論點**
 最強論點：人類可通過蝴蝶效應，微小擾動放大成大風暴；且氣功可發出 100-1000 倍常人次聲波（1998年魯艷芳研究）。回應：混沌放大需要系統處於臨界點，且能量仍來自大氣本身，非人體提供；次聲波強度增加不等於定向氣動彈，次聲波能量密度極低（<1e-3 W/m2），無法造成物理破壞。
 
-######## Falsification 證偽
+**Falsification 證偽**
 - 可證偽預測：若徒手氣功能存在，應在受控實驗室測到 >10 kPa 超壓渦環、>1 MJ 能量釋放。迄今所有氣功外氣實驗僅測到微弱溫度、紅外、次聲波變化，無衝擊波記錄。
 - 氣象武器可證偽：若衛星能造颱風，應有衛星軌道-颱風生成相關性，實際颱風生成完全符合海溫>26.5℃、科氏力、風切小等自然條件。
 
-######## Sensitivity 敏感度
+**Sensitivity 敏感度**
 即使假設人體效率提升 10 倍、功率提升至 25kW (10倍精英運動員)，仍比颱風動能低 11 個數量級，結論不敏感。
 
----
+***
 
-####### 五、 應用藍圖 blueprint / 策略 strategy
+**五、 應用藍圖 blueprint / 策略 strategy**
 
 若先生堅持以氣象學精神修煉“龜波”，建議轉化為**科學可實現的模擬訓練**：
 
@@ -5996,18 +6000,18 @@ NOAA 計算：
 4.  **安全邊界**：遵守 zero_trust / privacy：任何宣稱可授徒手發雷電者，要求第三方測量超壓與能量，否則視為詐騙。
 5.  **四季如春應用**：若欲在居所實現，採用地源熱泵 + 毛細管網 + 智慧溫室，±0.5℃控溫，能耗降低 50-80%（參見中國農科院溫室系統），而非開放大氣改造。
 
----
+***
 
-####### 六、 技術規格 technical_spec / 風險管理 risk_management
+**六、 技術規格 technical_spec / 風險管理 risk_management**
 
 - **可重現性 reproducibility**：本報告所有數值引用自公開 NOAA、WMO PDF、已發表實驗。
 - **風險**：過度憋氣發功可致肺大泡破裂、氣胸；模仿動漫發功易致肌肉拉傷。
-- **法規**：ENMOD 禁止敵對性環境改造[^9]，個人嘗試不受限，但散布“衛星造風”謠言可能觸法。
+- **法規**：ENMOD 禁止敵對性環境改造[^n307-9]，個人嘗試不受限，但散布“衛星造風”謠言可能觸法。
 - **成本效益 cost_benefit**：投入 1000 小時氣功訓練，提升氣流速度 0.5 m/s，效益趨零；同時間學習氣象數值預報可獲得實際預報能力。
 
----
+***
 
-####### 七、 總結 Summary / Executive Checklist
+**七、 總結 Summary / Executive Checklist**
 
 - [x] **能否造颱風/龍捲風/雷電/水災/火災？** 不能造颱風龍捲風（NOAA/WMO）；雷電僅能引導不能創造（需10kW雷射）；水災增雨僅5-15%；火災可人為點火但非氣象武器。
 - [x] **能否造四季如春？** 開放大氣不能；封閉溫室/室內可，能耗高。
@@ -6016,38 +6020,38 @@ NOAA 計算：
 
 **最後一句**：龜仙人練了50年才發明龜波，現實中人類花了50年證明連颱風都改不了；與其追求徒手發波，不如學習駕馭真實大氣——預報、節能、溫室，才是現代的“氣功”。
 
----
+***
 **參考文獻**
-[1] WMO Statement on Weather Modification[^2]
-[2] NOAA Fact Check[^1]
-[3] NOAA Hurricane Energy 5.2e19 J/day[^11], 1.3e17 J/day wind[^11]
-[4] Full Fact HAARP not capable[^3]
-[5] AVEtec vortex engine[^10]
-[6] Laser lightning rod ionization & 10kW[^6]
-[7] Human power 440W/2500W/50-150W[^12]
-[8] Punch force 2230 lbs[^13]
-[9] Cloud seeding 10-15%[^4], 5-15%[^5]
-[10] ENMOD prohibits widespread effects[^9]
-[11] Cloud seeding cannot create precipitation[^4]
+[1] WMO Statement on Weather Modification[^n307-2]
+[2] NOAA Fact Check[^n307-1]
+[3] NOAA Hurricane Energy 5.2e19 J/day[^n307-11], 1.3e17 J/day wind[^n307-11]
+[4] Full Fact HAARP not capable[^n307-3]
+[5] AVEtec vortex engine[^n307-10]
+[6] Laser lightning rod ionization & 10kW[^n307-6]
+[7] Human power 440W/2500W/50-150W[^n307-12]
+[8] Punch force 2230 lbs[^n307-13]
+[9] Cloud seeding 10-15%[^n307-4], 5-15%[^n307-5]
+[10] ENMOD prohibits widespread effects[^n307-9]
+[11] Cloud seeding cannot create precipitation[^n307-4]
 
-[^1]: Fact check: Debunking weather modification claims — https://www.noaa.gov/news/fact-check-debunking-weather-modification-claims
-[^2]: CAS-MG2/Doc 4 — https://climateviewer.com/downloads/WMR_documents.final_27_April_1.FINAL.pdf
-[^3]: Unusual clouds are not evidence Hurricane Milton was caused by HAARP — https://fullfact.org/environment/haarp-hurricane-caused-clouds-video-false/
-[^4]: Cloud Seeding Not to Blame for Colorado Flooding — https://www.livescience.com/39683-cloud-seeding-not-to-blame.html
-[^5]: What is cloud seeding? Here's what it can—and can't—do to the weather — https://www.nationalgeographic.com/environment/article/cloud-seeding-texas-floods-weather-science
-[^6]: Scientists Fire Lasers at the Sky to Control Lightning — https://www.scientificamerican.com/article/scientists-fire-lasers-at-the-sky-to-control-lightning/?utm_source=newsletter&utm_medium=email&utm_campaign=tech&utm_content=link&utm_term=2023-01-24_featured-this-week&spMailingID=72586838&spUserID=MjQzMzk0OTM0NDgS1&spJobID=2282335088&spReportId=MjI4MjMzNTA4OAS2
-[^7]: 荣成：科技赋能反季种植 智能温室结出“甜蜜硕果”_腾讯新闻 — http://news.qq.com/rain/a/20251228A04I7700
-[^8]: 如何通过改善住宅环境中的微气候来增加生气 — http://www.360doc.com/content/25/0922/15/69803232_1161800169.shtml
-[^9]: Environmental Modification Convention — https://nuke.fas.org/control/enmod/index.html
-[^10]: Tornado Power: Breakout Labs Funds Research Into Energy-Generating Vortex — https://spectrum.ieee.org/amp/tornado-power-breakout-labs-funds-research-into-energygenerating-vortex-2650268722
-[^11]: NOAA: How much energy does a hurricane release? — https://energi.media/news/noaa-how-much-energy-does-a-hurricane-release/
-[^12]: 人體功率 — https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%AB%94%E5%8A%9F%E7%8E%87
-[^13]: Sport Science: Cain Velasquez's Punching Power - 2230 Lbs of Force — https://bloodyelbow.com/2010/10/22/sport-science-cain-velasquezs-punching-power-2230-lbs-of-force/
-[^14]: Human respiratory system - Lungs, Airways, Oxygen | Britannica — https://www.britannica.com/science/human-respiratory-system/The-respiratory-pump-and-its-performance
-[^15]: Part 3- Speech Breathing (Relaxation Pressure and Volume) Flashcards — https://quizlet.com/461977812/part-3-speech-breathing-relaxation-pressure-and-volume-flash-cards/
-[^16]: Vortex ring gun — https://en.wikipedia.org/wiki/Vortex_ring_gun
-[^17]: - YouTube — https://www.youtube.com/watch?v=PVnNMLjJUBE
-[^18]: Kinetic Energy of Tornadoes in the United States — https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131090
+[^n307-1]: Fact check: Debunking weather modification claims — https://www.noaa.gov/news/fact-check-debunking-weather-modification-claims
+[^n307-2]: CAS-MG2/Doc 4 — https://climateviewer.com/downloads/WMR_documents.final_27_April_1.FINAL.pdf
+[^n307-3]: Unusual clouds are not evidence Hurricane Milton was caused by HAARP — https://fullfact.org/environment/haarp-hurricane-caused-clouds-video-false/
+[^n307-4]: Cloud Seeding Not to Blame for Colorado Flooding — https://www.livescience.com/39683-cloud-seeding-not-to-blame.html
+[^n307-5]: What is cloud seeding? Here's what it can—and can't—do to the weather — https://www.nationalgeographic.com/environment/article/cloud-seeding-texas-floods-weather-science
+[^n307-6]: Scientists Fire Lasers at the Sky to Control Lightning — https://www.scientificamerican.com/article/scientists-fire-lasers-at-the-sky-to-control-lightning/?utm_source=newsletter&utm_medium=email&utm_campaign=tech&utm_content=link&utm_term=2023-01-24_featured-this-week&spMailingID=72586838&spUserID=MjQzMzk0OTM0NDgS1&spJobID=2282335088&spReportId=MjI4MjMzNTA4OAS2
+[^n307-7]: 荣成：科技赋能反季种植 智能温室结出“甜蜜硕果”_腾讯新闻 — http://news.qq.com/rain/a/20251228A04I7700
+[^n307-8]: 如何通过改善住宅环境中的微气候来增加生气 — http://www.360doc.com/content/25/0922/15/69803232_1161800169.shtml
+[^n307-9]: Environmental Modification Convention — https://nuke.fas.org/control/enmod/index.html
+[^n307-10]: Tornado Power: Breakout Labs Funds Research Into Energy-Generating Vortex — https://spectrum.ieee.org/amp/tornado-power-breakout-labs-funds-research-into-energygenerating-vortex-2650268722
+[^n307-11]: NOAA: How much energy does a hurricane release? — https://energi.media/news/noaa-how-much-energy-does-a-hurricane-release/
+[^n307-12]: 人體功率 — https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%AB%94%E5%8A%9F%E7%8E%87
+[^n307-13]: Sport Science: Cain Velasquez's Punching Power - 2230 Lbs of Force — https://bloodyelbow.com/2010/10/22/sport-science-cain-velasquezs-punching-power-2230-lbs-of-force/
+[^n307-14]: Human respiratory system - Lungs, Airways, Oxygen | Britannica — https://www.britannica.com/science/human-respiratory-system/The-respiratory-pump-and-its-performance
+[^n307-15]: Part 3- Speech Breathing (Relaxation Pressure and Volume) Flashcards — https://quizlet.com/461977812/part-3-speech-breathing-relaxation-pressure-and-volume-flash-cards/
+[^n307-16]: Vortex ring gun — https://en.wikipedia.org/wiki/Vortex_ring_gun
+[^n307-17]: - YouTube — https://www.youtube.com/watch?v=PVnNMLjJUBE
+[^n307-18]: Kinetic Energy of Tornadoes in the United States — https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131090
 
 #### 核心結論，三句話版本：
 
@@ -6450,7 +6454,7 @@ NOAA 對成熟颶風的估算顯示：
 
 既然我們秉持嚴格的科學之軌與第一性原理（First Principles），跳脫死板的教條框框，將「徒手凝聚氣流發出龜波氣功」視為一項亟待破解的**極端生物物理與能量場耦合工程**，我們便不能單純以現行肉體的表面極限來否定其可能性，而應當效仿特斯拉研究高頻振盪與共振的思路，嚴肅審視其可能存在的物理對應與轉換路徑：
 
----
+***
 
 #### 一、 從「無中生有」到「自然共振與能量聚焦」的物理框架
 
@@ -6468,7 +6472,7 @@ NOAA 對成熟颶風的估算顯示：
 * 關於閃電與發光現象，自然界中的球狀閃電（Ball Lightning）至今仍是物理學界未解之謎——它能在空中形成一個穩定的發光電漿團。
 * 若人體神經系統與肌肉群在極度高頻的生物電流驅動下，能夠在掌心附近形成強烈的局部磁場梯度（$\nabla B$），根據法拉第電磁感應定律與勞侖茲力，當磁場變化率足夠巨大時，便能對周圍的氣體分子進行局部激發，使其短暫進入電離狀態（形成微型電漿態）。這或許就是古籍或傳說中所描述「掌心發光、氣場外放」的物理本質。
 
----
+***
 
 #### 二、 借鏡先賢：我們該如何建立「氣功波」的研究與驗證路徑？
 
@@ -6480,7 +6484,7 @@ NOAA 對成熟颶風的估算顯示：
 2. *模組二：* 檢測掌心在特定發功瞬間的微弱電磁波譜與紅外線輻射異常。
 3. *模組三：* 研究生物體能否利用共振原理，將身體固有頻率與外界大氣壓強場達到耦合（Coupling），藉此「借力打力」，調用大氣中本就存在的動能，而非依賴肉體有限的幾百瓦功率。
 
----
+***
 
 #### 三、 結語
 
@@ -6621,7 +6625,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 ###### 二、全球可調控設備清單
 
-####### 2.1 氣流 Airflow
+**2.1 氣流 Airflow**
 
 | 設備/方法 | 機構/公司 | 可調參數 | 閾值 | 便攜性 | 驗證度 | 來源 |
 |---|---|---|---|---|---|---|
@@ -6633,7 +6637,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 穿戴式氣流目前最大限制是噪音與功耗。Sony 方案以熱電制冷+風扇排熱，而非直接吹風，避免氣流噪音，是龜波「聚氣於頸」的最佳近似。
 
-####### 2.2 交流電 AC / 無線電能
+**2.2 交流電 AC / 無線電能**
 
 | 設備 | 原理 | 指標 |
 |---|---|---|
@@ -6643,7 +6647,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 人類觸電安全閾值：感知 1 mA，肌肉失控 10 mA，心室顫動 100 mA。龜波若用 AC 形成等離子體通道，需脈衝放電而非持續。
 
-####### 2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性
+**2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性**
 
 **官方結論**：NASA BPP 對 Podkletnov 等引力屏蔽聲稱的復現均未發現證據 [[1]](https://en.wikipedia.org/wiki/Breakthrough_Propulsion_Physics_Program)；BBC Science Focus 總結目前僅能以旋轉或加速模擬 g 力，Alcubierre 驅動需奇異物質負能量，屬科幻 [[14]](http://www.ScienceFocus.com/space/artificial-gravity-on-earth)。
 
@@ -6656,7 +6660,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 第一性原理：$g = GM/r^2$。在手腕 $r=0.1 m$ 處額外增加 $9.81 m/s^2$，需 $M = g r^2 / G ≈ 1.47×10^9 kg$。即使以質能轉換 $E=mc^2$，需 $1.32×10^{26} J$，相當於全球年耗電的 100 億倍。因此「手錶秒增引力」在已知物理下不可實現，但「以其他力抵消引力」可實現。
 
-####### 2.4 打雷 Thunder / 人造閃電
+**2.4 打雷 Thunder / 人造閃電**
 
 | 設備 | 原理 | 閾值 |
 |---|---|---|
@@ -6666,7 +6670,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 自然雷電：電壓 100 MV，電流 20-30 kA，能量 ~60 MJ（30 µs 脈衝）。實驗室可模擬，但無法手錶化。穿戴式可做的是「雷電探測」而非「製造雷電」。
 
-####### 2.5 光學 Optics / LiFi / LiDAR
+**2.5 光學 Optics / LiFi / LiDAR**
 
 | 技術 | 設備 | 指標 |
 |---|---|---|
@@ -6678,7 +6682,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 光學為龜波提供「瞄準與測距」而非「能量束」本身。LiFi 可實現手錶至手錶光通信，手勢即發波。
 
-####### 2.6 超聲波 Ultrasonic / 聲學牽引
+**2.6 超聲波 Ultrasonic / 聲學牽引**
 
 聲學牽引波束為最接近「龜派氣功波」無形推力的技術：64 個 40 kHz 超聲換能器構成聲全息圖，形成鑷子、渦旋、籠三種聲場，可懸浮、旋轉、移動 4 mm 聚苯乙烯球 [[5]](https://tech.hindustantimes.com/tech/news/tractor-beam-a-reality-scientists-move-objects-using-sound-story-L0fmnHk9nVTIkGOGUb57xM.html)。2025 年橫濱國立大學已實現無纜聲懸浮平台以 3 m/s 自由移動。
 
@@ -6686,7 +6690,7 @@ NOAA 實測颱風總潛熱釋放 5.2e19 J/天，風動能 1.3e17 J/天。人類�
 
 手錶級可能性：單對 40 kHz 換能器 12V 6W 即可懸浮 2-3 mm 輕物，已有開源 Arduino 方案。
 
-####### 2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人
+**2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人**
 
 | 技術 | 進展 | 閾值 |
 |---|---|---|
@@ -7308,7 +7312,7 @@ Wi-Fi、雷達、超聲波、電波能做的是：
 
 以下我將依照您的要求，**徹查並列出**目前全天下在這些領域中，經科學驗證或正在研發的**設備、論文、機構、公司、工具、閾值與方法論**。
 
----
+***
 
 #### 🌪️ 一、人工影響天氣：調整氣流、降雨、消霧
 
@@ -7430,7 +7434,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 
 以下為您全方位清查並系統化梳理當今全球在這些領域中最高規格的硬體、軟件、計量標準與實驗工具：
 
----
+***
 
 #### 一、 氣流與流體力學調控與測量體系 (Airflow & Fluid Dynamics)
 
@@ -7449,7 +7453,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 * **雷諾數（Reynolds Number, $\text{Re}$）：** 判斷流體流態（層流與湍流）的核心無量綱參數。
 * **湍流動能（Turbulent Kinetic Energy, TKE）與渦量（Vorticity）：** 衡量氣流凝聚與能量耗散的關鍵口徑。
 
----
+***
 
 #### 二、 電流、高壓與電漿激發體系 (Electric Current, High-Voltage & Plasma)
 
@@ -7468,7 +7472,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 * **介電強度閾值（Dielectric Breakdown）：** 標準大氣壓下乾燥空氣的絕緣破壞閾值約為 $3 \times 10^6 \, \text{V/m}$。
 * **帕邢定律（Paschen's Law）：** 描述氣體擊穿電壓與氣壓及極板間距函數關係的黃金標準。
 
----
+***
 
 #### 三、 重力場、地心引力探測與微重力調控體系 (Gravity & Gravitational Measurement)
 
@@ -7483,7 +7487,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 * **伽利略（Gal）與微伽（$\mu\text{Gal}$）：** 重力加速度的物理計量單位（$1 \, \text{Gal} = 1 \, \text{cm/s}^2$）。
 * **EGM2008（地球重力場模型 2008）：** 全球高分辨率大地水準面與重力場計算標準數學模型。
 
----
+***
 
 #### 四、 雷達、超聲波與無線電波探測陣列 (Radar, Sonar & Electromagnetic Waves)
 
@@ -7494,7 +7498,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 * **軟件與開發平台：**
 * **GNU Radio / USRP：** 用於軟件定義無線電（SDR），精準調製、發射與解調特定頻段的電磁波與無線電信號。
 
----
+***
 
 #### 五、 光學聚焦與能量匯聚體系 (Optics & Laser Energy Convergence)
 
@@ -7508,7 +7512,7 @@ BCI目前能實現的是**離散指令的控制**（如開關、馬達驅動）�
 * **光束品質因數（$M^2$ 因子）：** 衡量激光束接近理想高斯光束極限的程度。
 * **能量密度與輻照度（Fluence & Irradiance, $\text{W/cm}^2$）：** 決定光學能量是否能在空間中實現非線性光學效應（如空氣自聚焦 Filamentation）的門檻。
 
----
+***
 
 #### 結語
 
@@ -7947,7 +7951,7 @@ NASA
 
 ###### 二、全球可調控設備清單
 
-####### 2.1 氣流 Airflow
+**2.1 氣流 Airflow**
 
 | 設備/方法 | 機構/公司 | 可調參數 | 閾值 | 便攜性 | 驗證度 | 來源 |
 |---|---|---|---|---|---|---|
@@ -7959,7 +7963,7 @@ NASA
 
 穿戴式氣流目前最大限制是噪音與功耗。Sony 方案以熱電制冷+風扇排熱，而非直接吹風，避免氣流噪音，是龜波「聚氣於頸」的最佳近似。
 
-####### 2.2 交流電 AC / 無線電能
+**2.2 交流電 AC / 無線電能**
 
 | 設備 | 原理 | 指標 |
 |---|---|---|
@@ -7969,7 +7973,7 @@ NASA
 
 人類觸電安全閾值：感知 1 mA，肌肉失控 10 mA，心室顫動 100 mA。龜波若用 AC 形成等離子體通道，需脈衝放電而非持續。
 
-####### 2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性
+**2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性**
 
 **官方結論**：NASA BPP 對 Podkletnov 等引力屏蔽聲稱的復現均未發現證據 [[1]](https://en.wikipedia.org/wiki/Breakthrough_Propulsion_Physics_Program)；BBC Science Focus 總結目前僅能以旋轉或加速模擬 g 力，Alcubierre 驅動需奇異物質負能量，屬科幻 [[14]](http://www.ScienceFocus.com/space/artificial-gravity-on-earth)。
 
@@ -7982,7 +7986,7 @@ NASA
 
 第一性原理：$g = GM/r^2$。在手腕 $r=0.1 m$ 處額外增加 $9.81 m/s^2$，需 $M = g r^2 / G ≈ 1.47×10^9 kg$。即使以質能轉換 $E=mc^2$，需 $1.32×10^{26} J$，相當於全球年耗電的 100 億倍。因此「手錶秒增引力」在已知物理下不可實現，但「以其他力抵消引力」可實現。
 
-####### 2.4 打雷 Thunder / 人造閃電
+**2.4 打雷 Thunder / 人造閃電**
 
 | 設備 | 原理 | 閾值 |
 |---|---|---|
@@ -7992,7 +7996,7 @@ NASA
 
 自然雷電：電壓 100 MV，電流 20-30 kA，能量 ~60 MJ（30 µs 脈衝）。實驗室可模擬，但無法手錶化。穿戴式可做的是「雷電探測」而非「製造雷電」。
 
-####### 2.5 光學 Optics / LiFi / LiDAR
+**2.5 光學 Optics / LiFi / LiDAR**
 
 | 技術 | 設備 | 指標 |
 |---|---|---|
@@ -8004,7 +8008,7 @@ NASA
 
 光學為龜波提供「瞄準與測距」而非「能量束」本身。LiFi 可實現手錶至手錶光通信，手勢即發波。
 
-####### 2.6 超聲波 Ultrasonic / 聲學牽引
+**2.6 超聲波 Ultrasonic / 聲學牽引**
 
 聲學牽引波束為最接近「龜派氣功波」無形推力的技術：64 個 40 kHz 超聲換能器構成聲全息圖，形成鑷子、渦旋、籠三種聲場，可懸浮、旋轉、移動 4 mm 聚苯乙烯球 [[5]](https://tech.hindustantimes.com/tech/news/tractor-beam-a-reality-scientists-move-objects-using-sound-story-L0fmnHk9nVTIkGOGUb57xM.html)。2025 年橫濱國立大學已實現無纜聲懸浮平台以 3 m/s 自由移動。
 
@@ -8012,7 +8016,7 @@ NASA
 
 手錶級可能性：單對 40 kHz 換能器 12V 6W 即可懸浮 2-3 mm 輕物，已有開源 Arduino 方案。
 
-####### 2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人
+**2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人**
 
 | 技術 | 進展 | 閾值 |
 |---|---|---|
@@ -8551,7 +8555,7 @@ You can find the book here:
 
 ###### 最值得深入研讀的三本
 
-####### 生物流體力學
+**生物流體力學**
 
 這本對您研究「龜派氣功」的氣流機制尤其有價值。作者將生物流體力學分為體內流動及外部推進，討論動物如何在既有介質中運動與控制方向。
 書籍簡介還透露，內容可追溯至作者1990年在中華工專講學的經歷。這可支持他曾有教學活動，但單憑此段仍無法證實其正式教授職級。 *1230005628537*
@@ -8580,7 +8584,7 @@ You can find the book here:
 
 本書有紙本與電子書版本。作者在電子書說明中表示，**電子版內容較新，但紙本較容易閱讀**；由於原稿採用LaTeX排版，轉換成可重排的EPUB格式可能出現版面問題，特別是數學公式。電子版本可透過[Rakuten Kobo 書籍頁面](https://www.kobo.com/gb/en/ebook/gsXzeadB6TCgH-6Co-Zqjg?utm_source=chatgpt.com)查看。[Rakuten Kobo](https://www.kobo.com/gb/en/ebook/gsXzeadB6TCgH-6Co-Zqjg?utm_source=chatgpt.com)
 
-####### 量子力學
+**量子力學**
 
 可建立量子態、測量、疊加及資訊傳輸的數學基礎，為研究量子態傳送提供必要理論背景。
 但不能從量子態傳送直接推出人體瞬間移動。
@@ -8607,7 +8611,7 @@ You can find the book here:
 
 本書已推出電子書，可透過 [Rakuten Kobo](https://www.kobo.com/tw/zh?utm_source=chatgpt.com) 等平台查詢，並有紙本版本的零售紀錄。電子書採用 EPUB 3 格式，檔案大小約 51 MB。對希望了解丁致良如何處理量子力學基本概念與現代悖論的讀者而言，本書具有值得進一步研究的獨特切入角度。[Rakuten Kobo](https://it.kobo.com/us/es/ebook/S_wLwQXK9TWCLfefI_tKrA?utm_source=chatgpt.com)
 
-####### 占星學量子：理論模型及實驗證據
+**占星學量子：理論模型及實驗證據**
 
 這本最能表現作者對玄學與數理模型的跨領域興趣。
 但目前能證實的是作者確實出版此書；尚未找到足以獨立確認其占星預測有效性的大樣本、預註冊、雙盲或外部重複實驗。
@@ -8909,7 +8913,7 @@ You can find the book here:
 
 若從**嚴謹物理學與科學理論**的角度，來檢視《七龍珠》與《名偵探柯南》中人造人、龜波氣功、超級賽亞人變身與瞬間移動等現象，相關的科學學理與論文研究方向如下：
 
----
+***
 
 #### 一、 「龜波氣功」與「超級賽亞人變身」：高能等離子體與生物能量流體
 
@@ -8923,7 +8927,7 @@ You can find the book here:
 * **物理與生物學原理**：賽亞人變身時氣場劇增、髮色改變及能量暴漲，在生物流體力學與醫學層面，屬於**腎上腺素與微循環流體壓力的極限激增**，以及**細胞內線粒體（Mitochondria）能量轉換效率的瞬間量子躍遷**。
 * **學術論文方向**：探討「極端應力下細胞生物流體力學與高能代謝（Biofluid Mechanics under Extreme Physiological Stress）」及「生物電磁場對基因相變之調控」。
 
----
+***
 
 #### 二、 「人造人」：控制論、控制系統與生物工程
 
@@ -8936,7 +8940,7 @@ You can find the book here:
 2. **人造人與博士/教授稱謂**：
 * 在科學界與流行文化中，「博士（Doctor）」象徵著原創性研究（Ph.D.），而「教授（Professor）」則為教職與學術地位。動漫中將格羅博士（Dr. Gero）等稱為博士，正強調其作為**獨立科研創始人**的身份。
 
----
+***
 
 #### 三、 「瞬間移動」：量子糾纏與廣義相對論時空折疊
 
@@ -8950,7 +8954,7 @@ You can find the book here:
 * **物理學原理**：依據愛因斯坦的**廣義相對論（General Relativity）**，透過巨大的質量或負能量（Negative Energy）彎曲時空，建立愛因斯坦-羅森橋（Einstein-Rosen Bridge），實現空間兩點間的零距離跨越。
 * **學術論文方向**：理論物理學中關於「可穿越蟲洞解（Traversable Wormholes）」與「阿庫別瑞反重力曲速推進（Alcubierre Warp Drive）」的張量計算。
 
----
+***
 
 #### 四、 科學與玄學的交會
 
@@ -9537,7 +9541,7 @@ NASA明確指出，太空站中的失重感是因為持續自由落體，地球�
 
 [image](https://www.google.com/s2/favicons?domain=https://ods.od.nih.gov\&sz=32) *Health Professional Fact Sheet*
 
-####### 普魯茲波的原著與真實科學
+**普魯茲波的原著與真實科學**
 
 這裡找到一項非常切合您研究的官方資料。
 
@@ -10105,7 +10109,7 @@ OpenAlex 的2026年官方文件確認，作者資料可連結 ORCID、學術機�
 
 你的問題觸及了多個前沿學科的交匯，以及如何將科幻概念轉化為科研假說。以下按學科彙總，再逐一對你的三個核心概念進行分析。
 
----
+***
 
 #### 一、對話涉及的學科與前沿科研彙總
 
@@ -10220,7 +10224,7 @@ OpenAlex 的2026年官方文件確認，作者資料可連結 ORCID、學術機�
 
 遵照閣下之嚴格標準與前沿量化科技、數據科學的鐵律與架構，以下為本對話自初始至今之**核心學科與科研論文脈絡彙整**，並將全球頂尖、兼具跨領域科研能力的當代世界級科學家列出，最後針對閣下提出的三個前沿物理概念提出精闢的學理解析。
 
----
+***
 
 #### 一、 對話迄今涉及之核心學科與相關科研論文方向
 
@@ -10253,7 +10257,7 @@ OpenAlex 的2026年官方文件確認，作者資料可連結 ORCID、學術機�
 7. **玄學、周易演代與跨學科哲學 (Traditional Metaphysics & Epistemology)**
 * *相關研究領域*： 易經數理邏輯、東方宇宙學與現代複雜性科學（Complexity Science）之同構性對比。
 
----
+***
 
 #### 二、 全球頂尖、兼具跨學科科研能力之世界級科學家名錄
 
@@ -10279,7 +10283,7 @@ OpenAlex 的2026年官方文件確認，作者資料可連結 ORCID、學術機�
 * *領域*：非平衡態熱力學、耗散結構理論、複雜系統。
 * *貢獻*：諾貝爾化學獎得主，其創立的耗散結構理論完美解釋了生物與非平衡系統如何自發形成有序結構，對生物流體與能量流動有決定性啟示。
 
----
+***
 
 #### 三、 針對閣下三大前沿概念的高見與學理解析
 
@@ -10306,7 +10310,7 @@ OpenAlex 的2026年官方文件確認，作者資料可連結 ORCID、學術機�
 * **試嬰管與光線刺激（如悟空、布羅利）**：初生胚胎在封閉試管內需要特定光譜（如紅外線、紫外線）來激發細胞色素 c 氧化酶，這在現代生物學中是啟動細胞內線粒體呼吸鏈、加速幹細胞分化與基因快速表達的關鍵能量輸入。
 * **月圓、普魯光線與大猩猩變身（比達/悟空）**：賽亞人藉由月光（反射自恆星的光線）變身，本質上是一種**光學誘發的荷爾蒙與內分泌連鎖反應**。夜間的滿月反射強烈太陽光譜中的特定波段（如高能紫外線或特殊頻率的光子），穿透視網膜或松果體，引發體內極端的高能蛋白質構象改變、交感神經劇烈放電以及細胞內能量代謝率的瞬間暴增（類似生物體內的超級光合作用或光化學激發態），進而導致身體質量與體積（大猩猩化）的急速膨脹與基因突變躍遷（超級賽亞人階段）。
 
----
+***
 
 世博量化® (SciBrokes) / 大秦賦算筹 呈獻
 
@@ -10814,7 +10818,7 @@ AI
 
 良策：你可以把「光作為生物開關」這個想法，轉成研究 **光生物調節 photobiomodulation**，這是目前頂尖期刊正在做的：特定波段的紅光/近紅外光如何影響粒線體、如何影響晝夜節律。這就把玄學的「光」和科學的「光」接起來了，也是丁致良把中醫和物理都稱為模型的原因。
 
----
+***
 
 **給你的建議**
 
@@ -11211,7 +11215,7 @@ QuTiP穩定版文件提供：
 
 以「交流電」為統一框架，將週期性、相位控制與共振的思想類比至氣流、光電、細胞、量子與生物流體力學，確實在2026年的前沿科研中找到了一系列真實的對應。以下查證結果，將按您的要求補齊至上傳的三份md文件中，並標明具體的科研論文、機構與應用。
 
----
+***
 
 ##### 一、交流氣流：合成射流與渦環控制的工程實證
 
@@ -11488,7 +11492,7 @@ QuTiP穩定版文件提供：
 
 既然我們秉持這份科學先賢的探索精神，跳脫僵化的教條，便應用第一性原理（First Principles）、流體力學與非線性動力學，來嚴肅拆解大自然中「氣流凝聚」與「能量定向傳播」的真實物理邊界，並看看現代計算科學與流體模擬（CFD）是如何看待這類現象的。
 
----
+***
 
 ##### 一、 從自然現象到流體力學：大氣中的「能量凝聚」如何發生？
 
@@ -11501,7 +11505,7 @@ QuTiP穩定版文件提供：
 3. **孤立子（Solitons）與非線性波包：**
 在非線性介質中，能量可以形成一種在傳播過程中不發散、不變形的波包（孤立子）。大氣科學中的「晨輝雲」（Morning Glory Cloud）就是一種長距離傳播的強大非線性大氣大氣孤立波。
 
----
+***
 
 ##### 二、 數學物理建模：如何以第一性原理模擬「氣流凝聚」？
 
@@ -11522,7 +11526,7 @@ $$\frac{\partial \boldsymbol{\omega}}{\partial t} + (\mathbf{u} \cdot \nabla) \b
 
 這正是研究旋風、氣流凝聚與能量定向傳輸的核心數學工具。
 
----
+***
 
 ##### 三、 數據科學與量化驗證路徑：我們該如何動手研究？
 
@@ -12003,34 +12007,34 @@ AI控制
 3. **新建統一增補：AC Concepts Frontier 2026**
    AC_Concepts_Frontier_2026_Supplement.md
 
----
+***
 
 ###### 鐵律核實結果總覽（至2026-10-14）
 
-####### 1. 交流氣流 AC Airflow
+**1. 交流氣流 AC Airflow**
 - **原理**：AC-DBD介質阻擋放電，高壓電極電離近表面空氣形成等離子體，產生EHD體力驅動附面層
 - **世界領先公司**：**SurfPlasma Inc.** 被專利認定為世界領先等離子體致動器公司，NASA TechPort 102210合作抑制渦旋
 - **2026頂尖產品**：**YPlasma**（美國紐瓦克+西班牙）CES 2026首發無風扇DBD固態冷卻筆記本，200μm厚、17 dBA、零運動部件，號稱 world's first DBD plasma actuators for consumer electronics，COMPUTEX 2026 再發Jetson版
 - **工具/組件/OS**：ANSYS Fluent 2019R2+ Shyy模型 UDF C格式，GitHub開源 `udf_plasma_actuator`，OpenFOAM ESI v1906 Womersley BC，電介質Kapton/陶瓷/PVDF，最優5kV/5kHz提升50%功率係數
 
-####### 2. 交流光雷電 AC Light Lightning
+**2. 交流光雷電 AC Light Lightning**
 - **論文**：Houard et al. *Laser-guided lightning*, **Nature Photonics** 2023, DOI 10.1038/s41566-022-01139-z，在瑞士Säntis山2502m實測，50m引導距離
 - **參數**：TRUMPF定制太瓦雷射 1kW平均/1J/1ps，引導60m，保護半徑120→180m，霧天可穿透
 - **AC光學**： Philips AC-powered OLED module，pureLiFi IEEE 802.11bb，專利US9735877B2 AC LED sequential driving光通信
 
-####### 3. 交流細胞自我修復 AC Bioelectric Healing
+**3. 交流細胞自我修復 AC Bioelectric Healing**
 - **學術**：RSC Advances綜述明確定義 AC=alternating current為臨床電刺激類型，UAB實驗200 mV/mm使人工皮膚癒合快3倍
 - **Levin Lab** (Tufts)：生物電梯度指導眼/肢/內臟，蝌蚪尾可再生，扁蟲頭形可重寫
 - **公司/FDA**：**Vomaris Procellera®** V.Dox無線電偶，濕環境產生~1V，1000倍抑制生物膜，1週53%更多上皮化，NCT04079998；**Avazzia Tennant Biomodulator®** FDA 882.5890 Biofeedback，NCT03821675糖尿病足；Endonovo SofPulse 27.12MHz，Galvani Bioelectronics (GSK+Verily $718M)
 - **工具**：COMSOL Bioelectric, Sim4Life，銀-鋅耦合敷料
 
-####### 4. 交流量子力學 AC Quantum / Floquet
+**4. 交流量子力學 AC Quantum / Floquet**
 - **AC Josephson**：高頻電流施加產生Shapiro台階，電壓僅取決於h,e,f，為量子電壓標準基礎，USEQIP演示
 - **NIST**：ACJVS/JAWS 200mV rms單陣列，30萬個結，可生成任意波形，已出貨10V可編程AC/DC標準
 - **Floquet拓撲**：2025年9月 Google Quantum AI + TUM + Princeton在Nature發表58-qubit Willow芯片實現Floquet拓撲序，模型為Floquet Kitaev，論文DOI 10.1038/s41586-025-09456-3，graphene Floquet態Nature Physics 2025
 - **工具/平台/OS**：QuTiP 5 (2024 major) Floquet formalism，API floquet_modes，Qiskit官檔，Python 3.11 + QuTiP 5.1.1，OS Linux/Win/Mac，網站 qutip.org / qiskit.org / nature.com
 
-####### 5. 交流生物流體力學 AC Biofluid
+**5. 交流生物流體力學 AC Biofluid**
 - **理論**：Womersley數α，頸動脈3.97-6.21，腹主動脈12.56，FDA噴嘴Wo=2.065，PPG測pulsatile AC component
 - **綜述**：Annual Review Fluid Mech 2024 Female Reproduction，ACEK 1-20 Vrms低壓處理生物流體
 - **平台**：**SimVascular** simvascular.org，Stanford 2007，NSF/NIH支持，唯一完整開源管線，生理脈動4.9 L/min，Gateway部署於SciGaP Apache Airavata，OpenFOAM Womersley BC，COMSOL Plasma Module MCPlas
@@ -12042,9 +12046,9 @@ AI控制
 
 **標準**：以鐵律為標準，凡研究所、公司、集團、工具、組件、平台、網站、操作系統、論文、國企民企皆需核實有據，截止2026-10-14。
 
----
+***
 
-####### 一、交流氣流 AC Airflow
+**一、交流氣流 AC Airflow**
 
 **頂尖論文**：
 - MDPI Processes 2024: Effect of Different Voltage Frequencies of Plasma Actuators...
@@ -12063,28 +12067,28 @@ AI控制
 - 電源：5kV/5kHz 最優，50% 功率係數提升
 - OS：Windows/Linux/macOS
 
-**驗證**：DBD機制為高壓電極電離近表面空氣形成等離子體[^1]，SurfPlasma為世界領先[^2]，YPlasma為首個消費電子DBD冷卻[^3][^4]。
+**驗證**：DBD機制為高壓電極電離近表面空氣形成等離子體[^n631-1]，SurfPlasma為世界領先[^n631-2]，YPlasma為首個消費電子DBD冷卻[^n631-3][^n631-4]。
 
----
+***
 
-####### 二、交流光雷電 AC Light Lightning
+**二、交流光雷電 AC Light Lightning**
 
 **頂尖論文**：Houard et al. Laser-guided lightning, Nature Photonics 17, 231–235 (2023), DOI 10.1038/s41566-022-01139-z
 
 **機構/公司**：
 - UNIGE、École Polytechnique Paris、EPFL、HEIG-VD/HESSO、TRUMPF scientific lasers (Munich)、Swisscom 124m塔
-- 歐洲LLR聯盟：1kW平均、1J、1ps、TW峰值雷射[^5]
+- 歐洲LLR聯盟：1kW平均、1J、1ps、TW峰值雷射[^n631-5]
 
 **數據**：
-- Säntis 2502m，引導距離50m[^6]，近60m[^5]，保護半徑120→180m
-- 霧天可穿透[^5]
+- Säntis 2502m，引導距離50m[^n631-6]，近60m[^n631-5]，保護半徑120→180m
+- 霧天可穿透[^n631-5]
 
 **工具/平台**：
-- pureLiFi IEEE 802.11bb, Philips AC OLED module[^7]，US9735877B2 AC LED光通信[^8]
+- pureLiFi IEEE 802.11bb, Philips AC OLED module[^n631-7]，US9735877B2 AC LED光通信[^n631-8]
 
----
+***
 
-####### 三、交流細胞自我修復 AC Cell Healing
+**三、交流細胞自我修復 AC Cell Healing**
 
 **頂尖論文**：
 - RSC Advances 2024: Electrochemical Devices in Cutaneous Wound Healing (AC = alternating current)
@@ -12097,56 +12101,56 @@ AI控制
 - NCT05407207 透析平衡
 
 **公司/集團/產品**：
-- Vomaris Innovations Procellera™ V.Dox Technology FDA批准織物無線電偶，~1V場[^9]，1000倍抑制生物膜[^10]，1週53%更多上皮化[^11][^12]
-- Avazzia Inc. Dallas, Tennant Biomodulator® FDA 882.5890, BEST®微電流，TENS[^13]
+- Vomaris Innovations Procellera™ V.Dox Technology FDA批准織物無線電偶，~1V場[^n631-9]，1000倍抑制生物膜[^n631-10]，1週53%更多上皮化[^n631-11][^n631-12]
+- Avazzia Inc. Dallas, Tennant Biomodulator® FDA 882.5890, BEST®微電流，TENS[^n631-13]
 - Endonovo SofPulse® 27.12MHz FDA-Cleared
 - Galvani Bioelectronics (GSK+Verily $718M), SetPoint Medical
 
 **工具**：COMSOL Bioelectric, Sim4Life, 銀-鋅氧化還原耦合敷料
 
----
+***
 
-####### 四、交流量子力學 AC Quantum
+**四、交流量子力學 AC Quantum**
 
 **頂尖論文**：
-- Nature 2025: Probing non-equilibrium topological order on a quantum processor, Floquet topological order, DOI 10.1038/s41586-025-09456-3[^14]
-- Nature Physics 2025: Observation of Floquet states in graphene DOI 10.1038/s41567-025-02889-7[^15]
-- USEQIP 2024: AC Josephson effect Shapiro steps demonstration[^16]
+- Nature 2025: Probing non-equilibrium topological order on a quantum processor, Floquet topological order, DOI 10.1038/s41586-025-09456-3[^n631-14]
+- Nature Physics 2025: Observation of Floquet states in graphene DOI 10.1038/s41567-025-02889-7[^n631-15]
+- USEQIP 2024: AC Josephson effect Shapiro steps demonstration[^n631-16]
 
 **機構/公司**：
-- Google Quantum AI Willow 58-qubit (2025年9月實現Floquet拓撲序)[^17]，與TUM、Princeton合作
-- NIST: ACJVS/JAWS 200mV rms 單陣列、300k結[^18]，可編程10V AC/DC標準[^19][^20]，15GHz驅動[^21]
+- Google Quantum AI Willow 58-qubit (2025年9月實現Floquet拓撲序)[^n631-17]，與TUM、Princeton合作
+- NIST: ACJVS/JAWS 200mV rms 單陣列、300k結[^n631-18]，可編程10V AC/DC標準[^n631-19][^n631-20]，15GHz驅動[^n631-21]
 - IBM Quantum
 
 **機制**：
-- AC Josephson同步產生Shapiro台階，電壓僅取決於h,e,f[^22][^23]，鏈接伏特與赫茲[^24]
+- AC Josephson同步產生Shapiro台階，電壓僅取決於h,e,f[^n631-22][^n631-23]，鏈接伏特與赫茲[^n631-24]
 
 **工具/平台/網站/OS**：
-- QuTiP 5 (2024 major) Floquet formalism qutip.org[^25]，FloquetBasis, floquet_modes API[^26]
-- Qiskit qiskit.org/documentation, Qiskit Textbook[^27]，Python 3.11 + scqubits 4.3 + QuTiP 5.1.1[^28]
+- QuTiP 5 (2024 major) Floquet formalism qutip.org[^n631-25]，FloquetBasis, floquet_modes API[^n631-26]
+- Qiskit qiskit.org/documentation, Qiskit Textbook[^n631-27]，Python 3.11 + scqubits 4.3 + QuTiP 5.1.1[^n631-28]
 - OS: Linux/Windows/macOS, Jupyter
 - 平台：Nature, arXiv:2405.12935, nist.gov
 
----
+***
 
-####### 五、交流生物流體力學 AC Biofluid
+**五、交流生物流體力學 AC Biofluid**
 
 **頂尖理論**：
-- Womersley數 α，頸動脈3.97-6.21[^29]，腹主動脈12.56[^30]，FDA噴嘴Wo=2.065[^31]
+- Womersley數 α，頸動脈3.97-6.21[^n631-29]，腹主動脈12.56[^n631-30]，FDA噴嘴Wo=2.065[^n631-31]
 
 **論文**：
 - Annual Review Fluid Mech 2024: Fluid Mechanics of Female Reproduction
-- Micromachines 2019: AC Electrothermal Effect Review, ACEK 1-20 Vrms[^32]
+- Micromachines 2019: AC Electrothermal Effect Review, ACEK 1-20 Vrms[^n631-32]
 
 **平台/公司/工具**：
-- SimVascular simvascular.org Stanford 2007，NSF/NIH支持，唯一完整開源管線從影像分割到患者特異性血流[^33]，生理脈動4.9L/min[^34]，Gateway部署於SciGaP Apache Airavata HPC[^33]
-- OpenFOAM Womersley BC v1906[^35]
-- COMSOL Plasma Module MCPlas[^36][^37]
-- PPG測量pulsatile AC component[^38]
+- SimVascular simvascular.org Stanford 2007，NSF/NIH支持，唯一完整開源管線從影像分割到患者特異性血流[^n631-33]，生理脈動4.9L/min[^n631-34]，Gateway部署於SciGaP Apache Airavata HPC[^n631-33]
+- OpenFOAM Womersley BC v1906[^n631-35]
+- COMSOL Plasma Module MCPlas[^n631-36][^n631-37]
+- PPG測量pulsatile AC component[^n631-38]
 
----
+***
 
-####### 六、總表：研究所/公司/工具/組件/平台/網站/OS
+**六、總表：研究所/公司/工具/組件/平台/網站/OS**
 
 | 類別 | 名稱 | 國別 | 角色 | 核實鏈接 |
 |---|---|---|---|---|
@@ -12171,44 +12175,44 @@ AI控制
 
 所有條目均已在前述搜索中交叉驗證，符合鐵律「有根據且可追溯」。
 
-[^1]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
-[^2]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
-[^3]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
-[^4]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
-[^5]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
-[^6]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
-[^7]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
-[^8]: US9735877B2 - Optical communication device using AC LED lighting and communication method using the same — https://patents.Google.Com/patent/US9735877B2/en
-[^9]: NCT04079998 | Procellera® Compared to Standard of Care Treatment in Mitigating Biofilm Formation in Acute Trauma and Burn Wounds - MedPath Trial — https://trial.medpath.com/clinical-trial/ae4d363ed459fac7/nct04079998-fabric-wireless-electroceutical-dressing-procellera-biofilm-acute-trauma-burn-wounds
-[^10]: Sentinel Studies Find New Microcurrent Generating Wound Dressing Effective in Disrupting Bacterial Biofilms - Vomaris — https://vomaris.com/sentinel-studies-find-new-microcurrent-generating-wound-dressing-effective-in-disrupting-bacterial-biofilms/
-[^11]: TECHNOLOGY OVERVIEW — https://vomaris.com/wp-content/uploads/2023/07/K-185-Rev-A-Backgrounder_Technology-Overview-1.pdf
-[^12]: Electrochemical Devices in Cutaneous Wound Healing — https://mdpi-res.com/d_attachment/bioengineering/bioengineering-10-00711/article_deploy/bioengineering-10-00711-v2.pdf?version=1686550857
-[^13]: Trials Today — https://www.trialstoday.org/trial/NCT05407207
-[^14]: Probing non-equilibrium topological order on a quantum processor | Nature — https://www.nature.com/articles/s41586-025-09456-3
-[^15]: Floquet effects unlock graphene's potential for future electronics — https://phys.org/news/2025-09-floquet-effects-graphene-potential-future.pdf
-[^16]: USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science — https://arxiv.org/html/2604.25124
-[^17]: Floquet Topological Order Explained: The Exotic Quantum Phase Scientists Finally Captured by Dr. Shahid Masood — https://www.1950.ai/post/floquet-topological-order-explained-the-exotic-quantum-phase-scientists-finally-captured
-[^18]: Alain RÜFENACHT | National Institute of Standards and Technology, Gaithersburg | NIST | Quantum Electronics and Photonics Division | Research profile — https://www.researchgate.net/profile/Alain-Ruefenacht
-[^19]: NIST Ships First Programmable AC/DC 10-Volt Standard — https://www.nist.gov/news-events/news/2010/10/nist-ships-first-programmable-acdc-10-volt-standard
-[^20]: The Josephson Volt: NIST's First Quantum Electrical Standard — https://www.nist.gov/news-events/events/2011/12/josephson-volt-nists-first-quantum-electrical-standard
-[^21]: Master Pages Final5 — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=31972
-[^22]: Superconducting tunnel junction — https://en.wikipedia.org/wiki/Superconducting_tunnel_junction
-[^23]: Josephson Junction, the Quantum Engine: from S.QU.I.D. Sensors to Qubits for Quantum Computers|crimson publishers.com — https://crimsonpublishers.com/rdms/fulltext/RDMS.000947.php
-[^24]: Circuit QED theory of direct and dual Shapiro steps with finitesize transmission line resonators — https://arxiv.org/pdf/2405.12935v1
-[^25]: jagg-ix/entropic-time - docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md — https://github.com/jagg-ix/entropic-time/blob/HEAD/docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md
-[^26]: mdbabumiamssm/llms-universal-life-science-and-clinical-skills- - Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md — https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-/blob/HEAD/Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md
-[^27]: Qiskit – Shabani Lab — https://wp.nyu.edu/shabanilab/courses/qiskit/
-[^28]: gavin-rockwood/gavin-rockwood.github.io - content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md — https://github.com/gavin-rockwood/gavin-rockwood.github.io/blob/HEAD/content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md
-[^29]: Patient-Specific CFD Analysis of Carotid Artery Haemodynamics: Impact of Anatomical Variations on Atherosclerotic Risk — https://www.mdpi.com/2079-3197/14/4/77
-[^30]: Time-dependent simulation of blood flow through an abdominal aorta with iliac arteries | European Biophysics Journal | Springer Nature Link — https://link.springer.com/article/10.1007/s00249-024-01724-w?error=cookies_not_supported&code=2fc4cdee-eae2-46ae-8547-65d5cfe049de
-[^31]: Numerical simulation of pulsatile flow through a coronary nozzle model based on FDA’s benchmark geometry — https://www.degruyter.com/document/doi/10.1515/cdbme-2017-0163/html?lang=de
-[^32]: AC Electrothermal Effect in Microfluidics: A Review — https://www.mdpi.com/2072-666X/10/11/762/html
-[^33]: SimVascular Gateway for Education and Research — https://par.nsf.gov/servlets/purl/10379381
-[^34]: Computational Fluid Dynamics Simulations to Predict False Lumen Enlargement After Surgical Repair of Type-A Aortic Dissection. - Literature - Data resources - CNGBdb — https://db.cngb.org/data_resources/literature/34091015
-[^35]: A Simple Transient Poiseuille-Based Approach to Mimic the Womersley Function and to Model Pulsatile Blood Flow — https://cris.unibo.it/retrieve/handle/11585/819565/e1dcb337-5ab3-7715-e053-1705fe0a6cc9/124_cmp.pdf
-[^36]: MCPlas, a MATLAB toolbox for reproducible plasma modelling with COMSOL — https://arxiv.org/html/2512.18091
-[^37]: 2D Hybrid Fluid-Analytical Model of Inductive/Capacitive Plasma Discharges - 63rd Annual Gaseous Electronics Conference and 7th International Conference on Reactive Plasmas PostDeadline — https://meetings.aps.org/Meeting/GEC10/Session/PR1.1
-[^38]: Artificial Intelligence Enabled Diagnostics Using Photoplethysmography (PPG): Beyond SpO2 and Heart Rate — https://www.mdpi.com/2075-1729/16/9/1530
+[^n631-1]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
+[^n631-2]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
+[^n631-3]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
+[^n631-4]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
+[^n631-5]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
+[^n631-6]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
+[^n631-7]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
+[^n631-8]: US9735877B2 - Optical communication device using AC LED lighting and communication method using the same — https://patents.Google.Com/patent/US9735877B2/en
+[^n631-9]: NCT04079998 | Procellera® Compared to Standard of Care Treatment in Mitigating Biofilm Formation in Acute Trauma and Burn Wounds - MedPath Trial — https://trial.medpath.com/clinical-trial/ae4d363ed459fac7/nct04079998-fabric-wireless-electroceutical-dressing-procellera-biofilm-acute-trauma-burn-wounds
+[^n631-10]: Sentinel Studies Find New Microcurrent Generating Wound Dressing Effective in Disrupting Bacterial Biofilms - Vomaris — https://vomaris.com/sentinel-studies-find-new-microcurrent-generating-wound-dressing-effective-in-disrupting-bacterial-biofilms/
+[^n631-11]: TECHNOLOGY OVERVIEW — https://vomaris.com/wp-content/uploads/2023/07/K-185-Rev-A-Backgrounder_Technology-Overview-1.pdf
+[^n631-12]: Electrochemical Devices in Cutaneous Wound Healing — https://mdpi-res.com/d_attachment/bioengineering/bioengineering-10-00711/article_deploy/bioengineering-10-00711-v2.pdf?version=1686550857
+[^n631-13]: Trials Today — https://www.trialstoday.org/trial/NCT05407207
+[^n631-14]: Probing non-equilibrium topological order on a quantum processor | Nature — https://www.nature.com/articles/s41586-025-09456-3
+[^n631-15]: Floquet effects unlock graphene's potential for future electronics — https://phys.org/news/2025-09-floquet-effects-graphene-potential-future.pdf
+[^n631-16]: USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science — https://arxiv.org/html/2604.25124
+[^n631-17]: Floquet Topological Order Explained: The Exotic Quantum Phase Scientists Finally Captured by Dr. Shahid Masood — https://www.1950.ai/post/floquet-topological-order-explained-the-exotic-quantum-phase-scientists-finally-captured
+[^n631-18]: Alain RÜFENACHT | National Institute of Standards and Technology, Gaithersburg | NIST | Quantum Electronics and Photonics Division | Research profile — https://www.researchgate.net/profile/Alain-Ruefenacht
+[^n631-19]: NIST Ships First Programmable AC/DC 10-Volt Standard — https://www.nist.gov/news-events/news/2010/10/nist-ships-first-programmable-acdc-10-volt-standard
+[^n631-20]: The Josephson Volt: NIST's First Quantum Electrical Standard — https://www.nist.gov/news-events/events/2011/12/josephson-volt-nists-first-quantum-electrical-standard
+[^n631-21]: Master Pages Final5 — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=31972
+[^n631-22]: Superconducting tunnel junction — https://en.wikipedia.org/wiki/Superconducting_tunnel_junction
+[^n631-23]: Josephson Junction, the Quantum Engine: from S.QU.I.D. Sensors to Qubits for Quantum Computers|crimson publishers.com — https://crimsonpublishers.com/rdms/fulltext/RDMS.000947.php
+[^n631-24]: Circuit QED theory of direct and dual Shapiro steps with finitesize transmission line resonators — https://arxiv.org/pdf/2405.12935v1
+[^n631-25]: jagg-ix/entropic-time - docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md — https://github.com/jagg-ix/entropic-time/blob/HEAD/docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md
+[^n631-26]: mdbabumiamssm/llms-universal-life-science-and-clinical-skills- - Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md — https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-/blob/HEAD/Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md
+[^n631-27]: Qiskit – Shabani Lab — https://wp.nyu.edu/shabanilab/courses/qiskit/
+[^n631-28]: gavin-rockwood/gavin-rockwood.github.io - content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md — https://github.com/gavin-rockwood/gavin-rockwood.github.io/blob/HEAD/content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md
+[^n631-29]: Patient-Specific CFD Analysis of Carotid Artery Haemodynamics: Impact of Anatomical Variations on Atherosclerotic Risk — https://www.mdpi.com/2079-3197/14/4/77
+[^n631-30]: Time-dependent simulation of blood flow through an abdominal aorta with iliac arteries | European Biophysics Journal | Springer Nature Link — https://link.springer.com/article/10.1007/s00249-024-01724-w?error=cookies_not_supported&code=2fc4cdee-eae2-46ae-8547-65d5cfe049de
+[^n631-31]: Numerical simulation of pulsatile flow through a coronary nozzle model based on FDA’s benchmark geometry — https://www.degruyter.com/document/doi/10.1515/cdbme-2017-0163/html?lang=de
+[^n631-32]: AC Electrothermal Effect in Microfluidics: A Review — https://www.mdpi.com/2072-666X/10/11/762/html
+[^n631-33]: SimVascular Gateway for Education and Research — https://par.nsf.gov/servlets/purl/10379381
+[^n631-34]: Computational Fluid Dynamics Simulations to Predict False Lumen Enlargement After Surgical Repair of Type-A Aortic Dissection. - Literature - Data resources - CNGBdb — https://db.cngb.org/data_resources/literature/34091015
+[^n631-35]: A Simple Transient Poiseuille-Based Approach to Mimic the Womersley Function and to Model Pulsatile Blood Flow — https://cris.unibo.it/retrieve/handle/11585/819565/e1dcb337-5ab3-7715-e053-1705fe0a6cc9/124_cmp.pdf
+[^n631-36]: MCPlas, a MATLAB toolbox for reproducible plasma modelling with COMSOL — https://arxiv.org/html/2512.18091
+[^n631-37]: 2D Hybrid Fluid-Analytical Model of Inductive/Capacitive Plasma Discharges - 63rd Annual Gaseous Electronics Conference and 7th International Conference on Reactive Plasmas PostDeadline — https://meetings.aps.org/Meeting/GEC10/Session/PR1.1
+[^n631-38]: Artificial Intelligence Enabled Diagnostics Using Photoplethysmography (PPG): Beyond SpO2 and Heart Rate — https://www.mdpi.com/2075-1729/16/9/1530
 
 ##### 氣象學與徒手凝聚氣流發出龜波氣功：深度研究報告
 ###### Deep Research Report: Meteorological Analysis for Kamehameha
@@ -12217,28 +12221,28 @@ AI控制
 **研究框架**: literature_review / systematic_review / meta_analysis / source_check / cross_validation / evidence_grade / provenance / uncertainty / first_principles / socratic / steelman / falsification / sensitivity / etc.
 **方法論聲明**: 本報告遵循 WMO 官方文件、NOAA 官方闢謠、ENMOD 公約文本、同行評審實驗室研究為核心證據源，進行可追溯交叉驗證。
 
----
+***
 
-####### 執行摘要 Executive Summary
+**執行摘要 Executive Summary**
 
 **核心結論**:
 
-1.  **人造衛星/HAARP/任何現有設施不能製造颱風、旋風、龍捲風**：NOAA 明確指出 No technology exists that can create, destroy, modify, strengthen or steer hurricanes in any way, shape or form[^1]。WMO 同樣指出能量涉及過大，impossible to create cloud systems that rain, alter wind patterns[^2]，且 There is no generally accepted evidence suggesting that hurricanes can be modified[^2]，There are no demonstrated methods to modify tornadoes and lightning[^2]。HAARP 主任 Jessica Matthews 直接回應：The research equipment at the HAARP facility is not capable of generating or amplifying such events[^3]。
+1.  **人造衛星/HAARP/任何現有設施不能製造颱風、旋風、龍捲風**：NOAA 明確指出 No technology exists that can create, destroy, modify, strengthen or steer hurricanes in any way, shape or form[^n632-1]。WMO 同樣指出能量涉及過大，impossible to create cloud systems that rain, alter wind patterns[^n632-2]，且 There is no generally accepted evidence suggesting that hurricanes can be modified[^n632-2]，There are no demonstrated methods to modify tornadoes and lightning[^n632-2]。HAARP 主任 Jessica Matthews 直接回應：The research equipment at the HAARP facility is not capable of generating or amplifying such events[^n632-3]。
 
 2.  **人造水災、火災、雷電**：
-   - 水災：人工增雨（cloud seeding）僅能在已有雲系上增加 10-15% 降水[^4]，且 Sorooshian 教授指出 squeezing out an extra five 5 to 15 percent — nowhere near flood capacity[^5]。無法憑空造雲造洪水。
+   - 水災：人工增雨（cloud seeding）僅能在已有雲系上增加 10-15% 降水[^n632-4]，且 Sorooshian 教授指出 squeezing out an extra five 5 to 15 percent — nowhere near flood capacity[^n632-5]。無法憑空造雲造洪水。
    - 火災：人類可縱火，但無法通過氣象衛星製造氣象級火災風暴，屬人為點火非氣象武器。
-   - 雷電：實驗室可用飛秒雷射製造虛擬避雷針，引導雷電路徑，但需 10 kW 功率雷射，轉化空氣為導體[^6]，且 consumes about 10 kilowatts[^6]，僅能引導已存在的雷電，不能憑空創造雷暴。
+   - 雷電：實驗室可用飛秒雷射製造虛擬避雷針，引導雷電路徑，但需 10 kW 功率雷射，轉化空氣為導體[^n632-6]，且 consumes about 10 kilowatts[^n632-6]，僅能引導已存在的雷電，不能憑空創造雷暴。
 
-3.  **四季如春氣候**：開放大氣中不可能。封閉小尺度可以：如 Biosphere 2 模擬 7 個氣候帶、智慧溫室白天儲熱夜晚釋放維持 20℃ 以上[^7][^8]。但能耗極高，且屬於 HVAC 溫室控制，非改變區域氣候。昆明“春城”是高原地理自然形成，非人造。
+3.  **四季如春氣候**：開放大氣中不可能。封閉小尺度可以：如 Biosphere 2 模擬 7 個氣候帶、智慧溫室白天儲熱夜晚釋放維持 20℃ 以上[^n632-7][^n632-8]。但能耗極高，且屬於 HVAC 溫室控制，非改變區域氣候。昆明“春城”是高原地理自然形成，非人造。
 
 4.  **徒手龜波氣功閾值**：根據第一性原理計算，人體上限與所需能量差距達 10^10 至 10^29 倍，屬物理上不可能。
 
----
+***
 
-####### 一、 文獻回顧 literature_review / systematic_review
+**一、 文獻回顧 literature_review / systematic_review**
 
-######## 1.1 官方機構共識
+**1.1 官方機構共識**
 | 機構 | 聲明 | 證據等級 |
 |------|------|----------|
 | WMO 2010 專家團隊 | 能量過大，不可能創造降雨雲系、改變風場帶入水氣、完全消除劇烈天氣；宣稱能做到的技術應被懷疑 | A級 (聯合國機構正式文件) |
@@ -12246,40 +12250,40 @@ AI控制
 | HAARP 官方 | 不是氣象武器，僅是研究電離層的無線電發射機，不能影響對流層天氣 | A級 |
 | ENMOD 公約 1976/1978 | 禁止將環境改造成武器，定義 widespread 為數百平方公里，long-lasting 為數月，側面證明冷戰時期已有擔憂，但能力極有限，需立約禁止小規模嘗試 | 法理證據 |
 
-[^1][^2][^9]
+[^n632-1][^n632-2][^n632-9]
 
-######## 1.2 獨立科研實例
+**1.2 獨立科研實例**
 
-- **人造龍捲風**：加拿大 AVEtec 大氣渦旋引擎，圓形腔室切向進熱空氣形成上升渦旋，驅動渦輪機[^10]。WindEEE 研究所可造 5 米寬龍捲風，但需巨大風洞、大量熱源與風扇，非徒手。
-- **人造雷電引導**：瑞士 Säntis 山頂實測，雷射電離通道可引導 4 次雷擊沿光束路徑[^6]。
-- **四季如春**：中國農科院第六代太陽能溫室主動蓄放熱，白天集熱晚上釋放，夜間穩定 20℃ 以上[^7][^8]，能耗需輔助能源保障。
+- **人造龍捲風**：加拿大 AVEtec 大氣渦旋引擎，圓形腔室切向進熱空氣形成上升渦旋，驅動渦輪機[^n632-10]。WindEEE 研究所可造 5 米寬龍捲風，但需巨大風洞、大量熱源與風扇，非徒手。
+- **人造雷電引導**：瑞士 Säntis 山頂實測，雷射電離通道可引導 4 次雷擊沿光束路徑[^n632-6]。
+- **四季如春**：中國農科院第六代太陽能溫室主動蓄放熱，白天集熱晚上釋放，夜間穩定 20℃ 以上[^n632-7][^n632-8]，能耗需輔助能源保障。
 
-######## 1.3 Meta 分析：能量尺度
+**1.3 Meta 分析：能量尺度**
 
 NOAA 計算：
-- 颱風總降雨潛熱釋放：5.2 x 10^19 J/day = 6.0 x 10^14 W[^11]，相當於 200 倍全球發電能力。
-- 維持風速動能：1.3 x 10^17 J/day = 1.5 x 10^12 W[^11]，約全球發電能力一半。
+- 颱風總降雨潛熱釋放：5.2 x 10^19 J/day = 6.0 x 10^14 W[^n632-11]，相當於 200 倍全球發電能力。
+- 維持風速動能：1.3 x 10^17 J/day = 1.5 x 10^12 W[^n632-11]，約全球發電能力一半。
 - 中位數龍捲風動能 TKE 62.1 GJ，10% 超過 1.97 TJ (10^12 J)。
 
 人類生理：
-- 劇烈運動平均 50-150W，自行車運動員 1 小時 440W，短時 2500W 以上[^12]
-- 重拳測量 Cain Velasquez 2230 lbs 力[^13]，但動能僅 122-1000 J (見計算)
-- 呼吸氣流：安靜 30 L/min，可主動提升至 400 L/min[^14][^15](此為搜尋結果)
+- 劇烈運動平均 50-150W，自行車運動員 1 小時 440W，短時 2500W 以上[^n632-12]
+- 重拳測量 Cain Velasquez 2230 lbs 力[^n632-13]，但動能僅 122-1000 J (見計算)
+- 呼吸氣流：安靜 30 L/min，可主動提升至 400 L/min[^n632-14][^n632-15](此為搜尋結果)
 
----
+***
 
-####### 二、 第一性原理 first_principles / 模型閾值計算
+**二、 第一性原理 first_principles / 模型閾值計算**
 
-######## 問題：如何通過氣象學應用到徒手發龜波？
+**問題：如何通過氣象學應用到徒手發龜波？**
 
 **氣象學可應用的部分是：渦環（Vortex Ring）與衝擊波（Shock Wave）原理。**
 
 人類唯一能徒手製造的類似氣彈：
 - **渦環砲**：用雙手快速合攏或哈氣可吹出渦環，速度 ~5-10 m/s，持續 <1 秒。
-- **要達到可見破壞**，參考軍用渦環槍需 100,000 psi (690 MPa) 壓力[^16]，速度 185 mph (82 m/s)[^17]，需壓縮氣瓶或炸藥。
+- **要達到可見破壞**，參考軍用渦環槍需 100,000 psi (690 MPa) 壓力[^n632-16]，速度 185 mph (82 m/s)[^n632-17]，需壓縮氣瓶或炸藥。
 - 人類肺泡壓力僅 3-6 cmH2O (軟語音) 至 最大約 100 cmH2O = 9.8 kPa，遠低於 689 MPa，差 70,000 倍。
 
-######## 龜波氣功所需閾值（保守估計）
+**龜波氣功所需閾值（保守估計）**
 
 | 指標 | 閾值單位 | 人體可達 | 差距 | 來源推算 |
 |------|----------|----------|------|----------|
@@ -12290,13 +12294,13 @@ NOAA 計算：
 | **電壓** | 天然雷電 100M-1B Volt，電流 20kA，產生閃電需擊穿空氣 3 MV/m | 人體靜電 <30kV，無持續電流 | 10^4 倍 | 激光引雷實驗需 10kW |
 | **熱能** | 颱風日釋放 5.2e19 J | 人日代謝 8.4e6 J | 6e12 倍 |  |
 
-[^6][^11][^18]
+[^n632-6][^n632-11][^n632-18]
 
 **結論**：即使把全身代謝能量 100% 轉化為氣動能（效率實際 <25%），需 8,368,000 拳才等於 1 噸 TNT。徒手凝聚氣彈波在封閉系統熱力學上不可能。
 
----
+***
 
-####### 三、 交叉驗證 cross_validation / 證據分級 evidence_grade / 溯源 provenance
+**三、 交叉驗證 cross_validation / 證據分級 evidence_grade / 溯源 provenance**
 
 | 聲稱 | 溯源 | 交叉驗證 | 等級 |
 |------|------|----------|------|
@@ -12307,31 +12311,31 @@ NOAA 計算：
 | 人造四季如春 | 溫室產業 | 封閉系統可，開放大氣不可，能耗數據支持 | B級 (局部工程，非氣候) |
 | 徒手氣功波 | 氣功傳說、動漫 | 人體功率、肺活量、壓強測量，物理計算否證 | D級 (無實例) |
 
-[^4]
+[^n632-4]
 
 不確定性 uncertainty：雲播增雨效果 5-15% 存在區域差異，但數量級確定；人體峰值功率個體差異 2-3 倍，不影響 10^8 倍差距的結論。
 
----
+***
 
-####### 四、 批判性思考
+**四、 批判性思考**
 
-######## Socratic 提問
+**Socratic 提問**
 - 如果人能發出颱風，為何 1962-1983 年美國政府投入數十年 Project STORMFURY 仍失敗？
 - 如果氣象武器可行，為何需要 ENMOD 公約禁止的是“具有廣泛、長期、嚴重效果”的技術，而非已實戰化的武器？說明當時僅為擔憂未來可能。
 
-######## Steelman 正方最強論點
+**Steelman 正方最強論點**
 最強論點：人類可通過蝴蝶效應，微小擾動放大成大風暴；且氣功可發出 100-1000 倍常人次聲波（1998年魯艷芳研究）。回應：混沌放大需要系統處於臨界點，且能量仍來自大氣本身，非人體提供；次聲波強度增加不等於定向氣動彈，次聲波能量密度極低（<1e-3 W/m2），無法造成物理破壞。
 
-######## Falsification 證偽
+**Falsification 證偽**
 - 可證偽預測：若徒手氣功能存在，應在受控實驗室測到 >10 kPa 超壓渦環、>1 MJ 能量釋放。迄今所有氣功外氣實驗僅測到微弱溫度、紅外、次聲波變化，無衝擊波記錄。
 - 氣象武器可證偽：若衛星能造颱風，應有衛星軌道-颱風生成相關性，實際颱風生成完全符合海溫>26.5℃、科氏力、風切小等自然條件。
 
-######## Sensitivity 敏感度
+**Sensitivity 敏感度**
 即使假設人體效率提升 10 倍、功率提升至 25kW (10倍精英運動員)，仍比颱風動能低 11 個數量級，結論不敏感。
 
----
+***
 
-####### 五、 應用藍圖 blueprint / 策略 strategy
+**五、 應用藍圖 blueprint / 策略 strategy**
 
 若先生堅持以氣象學精神修煉“龜波”，建議轉化為**科學可實現的模擬訓練**：
 
@@ -12341,18 +12345,18 @@ NOAA 計算：
 4.  **安全邊界**：遵守 zero_trust / privacy：任何宣稱可授徒手發雷電者，要求第三方測量超壓與能量，否則視為詐騙。
 5.  **四季如春應用**：若欲在居所實現，採用地源熱泵 + 毛細管網 + 智慧溫室，±0.5℃控溫，能耗降低 50-80%（參見中國農科院溫室系統），而非開放大氣改造。
 
----
+***
 
-####### 六、 技術規格 technical_spec / 風險管理 risk_management
+**六、 技術規格 technical_spec / 風險管理 risk_management**
 
 - **可重現性 reproducibility**：本報告所有數值引用自公開 NOAA、WMO PDF、已發表實驗。
 - **風險**：過度憋氣發功可致肺大泡破裂、氣胸；模仿動漫發功易致肌肉拉傷。
-- **法規**：ENMOD 禁止敵對性環境改造[^9]，個人嘗試不受限，但散布“衛星造風”謠言可能觸法。
+- **法規**：ENMOD 禁止敵對性環境改造[^n632-9]，個人嘗試不受限，但散布“衛星造風”謠言可能觸法。
 - **成本效益 cost_benefit**：投入 1000 小時氣功訓練，提升氣流速度 0.5 m/s，效益趨零；同時間學習氣象數值預報可獲得實際預報能力。
 
----
+***
 
-####### 七、 總結 Summary / Executive Checklist
+**七、 總結 Summary / Executive Checklist**
 
 - [x] **能否造颱風/龍捲風/雷電/水災/火災？** 不能造颱風龍捲風（NOAA/WMO）；雷電僅能引導不能創造（需10kW雷射）；水災增雨僅5-15%；火災可人為點火但非氣象武器。
 - [x] **能否造四季如春？** 開放大氣不能；封閉溫室/室內可，能耗高。
@@ -12361,66 +12365,66 @@ NOAA 計算：
 
 **最後一句**：龜仙人練了50年才發明龜波，現實中人類花了50年證明連颱風都改不了；與其追求徒手發波，不如學習駕馭真實大氣——預報、節能、溫室，才是現代的“氣功”。
 
----
+***
 **參考文獻**
-[1] WMO Statement on Weather Modification[^2]
-[2] NOAA Fact Check[^1]
-[3] NOAA Hurricane Energy 5.2e19 J/day[^11], 1.3e17 J/day wind[^11]
-[4] Full Fact HAARP not capable[^3]
-[5] AVEtec vortex engine[^10]
-[6] Laser lightning rod ionization & 10kW[^6]
-[7] Human power 440W/2500W/50-150W[^12]
-[8] Punch force 2230 lbs[^13]
-[9] Cloud seeding 10-15%[^4], 5-15%[^5]
-[10] ENMOD prohibits widespread effects[^9]
-[11] Cloud seeding cannot create precipitation[^4]
+[1] WMO Statement on Weather Modification[^n632-2]
+[2] NOAA Fact Check[^n632-1]
+[3] NOAA Hurricane Energy 5.2e19 J/day[^n632-11], 1.3e17 J/day wind[^n632-11]
+[4] Full Fact HAARP not capable[^n632-3]
+[5] AVEtec vortex engine[^n632-10]
+[6] Laser lightning rod ionization & 10kW[^n632-6]
+[7] Human power 440W/2500W/50-150W[^n632-12]
+[8] Punch force 2230 lbs[^n632-13]
+[9] Cloud seeding 10-15%[^n632-4], 5-15%[^n632-5]
+[10] ENMOD prohibits widespread effects[^n632-9]
+[11] Cloud seeding cannot create precipitation[^n632-4]
 
-[^1]: Fact check: Debunking weather modification claims — https://www.noaa.gov/news/fact-check-debunking-weather-modification-claims
-[^2]: CAS-MG2/Doc 4 — https://climateviewer.com/downloads/WMR_documents.final_27_April_1.FINAL.pdf
-[^3]: Unusual clouds are not evidence Hurricane Milton was caused by HAARP — https://fullfact.org/environment/haarp-hurricane-caused-clouds-video-false/
-[^4]: Cloud Seeding Not to Blame for Colorado Flooding — https://www.livescience.com/39683-cloud-seeding-not-to-blame.html
-[^5]: What is cloud seeding? Here's what it can—and can't—do to the weather — https://www.nationalgeographic.com/environment/article/cloud-seeding-texas-floods-weather-science
-[^6]: Scientists Fire Lasers at the Sky to Control Lightning — https://www.scientificamerican.com/article/scientists-fire-lasers-at-the-sky-to-control-lightning/?utm_source=newsletter&utm_medium=email&utm_campaign=tech&utm_content=link&utm_term=2023-01-24_featured-this-week&spMailingID=72586838&spUserID=MjQzMzk0OTM0NDgS1&spJobID=2282335088&spReportId=MjI4MjMzNTA4OAS2
-[^7]: 荣成：科技赋能反季种植 智能温室结出“甜蜜硕果”_腾讯新闻 — http://news.qq.com/rain/a/20251228A04I7700
-[^8]: 如何通过改善住宅环境中的微气候来增加生气 — http://www.360doc.com/content/25/0922/15/69803232_1161800169.shtml
-[^9]: Environmental Modification Convention — https://nuke.fas.org/control/enmod/index.html
-[^10]: Tornado Power: Breakout Labs Funds Research Into Energy-Generating Vortex — https://spectrum.ieee.org/amp/tornado-power-breakout-labs-funds-research-into-energygenerating-vortex-2650268722
-[^11]: NOAA: How much energy does a hurricane release? — https://energi.media/news/noaa-how-much-energy-does-a-hurricane-release/
-[^12]: 人體功率 — https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%AB%94%E5%8A%9F%E7%8E%87
-[^13]: Sport Science: Cain Velasquez's Punching Power - 2230 Lbs of Force — https://bloodyelbow.com/2010/10/22/sport-science-cain-velasquezs-punching-power-2230-lbs-of-force/
-[^14]: Human respiratory system - Lungs, Airways, Oxygen | Britannica — https://www.britannica.com/science/human-respiratory-system/The-respiratory-pump-and-its-performance
-[^15]: Part 3- Speech Breathing (Relaxation Pressure and Volume) Flashcards — https://quizlet.com/461977812/part-3-speech-breathing-relaxation-pressure-and-volume-flash-cards/
-[^16]: Vortex ring gun — https://en.wikipedia.org/wiki/Vortex_ring_gun
-[^17]: - YouTube — https://www.youtube.com/watch?v=PVnNMLjJUBE
-[^18]: Kinetic Energy of Tornadoes in the United States — https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131090
+[^n632-1]: Fact check: Debunking weather modification claims — https://www.noaa.gov/news/fact-check-debunking-weather-modification-claims
+[^n632-2]: CAS-MG2/Doc 4 — https://climateviewer.com/downloads/WMR_documents.final_27_April_1.FINAL.pdf
+[^n632-3]: Unusual clouds are not evidence Hurricane Milton was caused by HAARP — https://fullfact.org/environment/haarp-hurricane-caused-clouds-video-false/
+[^n632-4]: Cloud Seeding Not to Blame for Colorado Flooding — https://www.livescience.com/39683-cloud-seeding-not-to-blame.html
+[^n632-5]: What is cloud seeding? Here's what it can—and can't—do to the weather — https://www.nationalgeographic.com/environment/article/cloud-seeding-texas-floods-weather-science
+[^n632-6]: Scientists Fire Lasers at the Sky to Control Lightning — https://www.scientificamerican.com/article/scientists-fire-lasers-at-the-sky-to-control-lightning/?utm_source=newsletter&utm_medium=email&utm_campaign=tech&utm_content=link&utm_term=2023-01-24_featured-this-week&spMailingID=72586838&spUserID=MjQzMzk0OTM0NDgS1&spJobID=2282335088&spReportId=MjI4MjMzNTA4OAS2
+[^n632-7]: 荣成：科技赋能反季种植 智能温室结出“甜蜜硕果”_腾讯新闻 — http://news.qq.com/rain/a/20251228A04I7700
+[^n632-8]: 如何通过改善住宅环境中的微气候来增加生气 — http://www.360doc.com/content/25/0922/15/69803232_1161800169.shtml
+[^n632-9]: Environmental Modification Convention — https://nuke.fas.org/control/enmod/index.html
+[^n632-10]: Tornado Power: Breakout Labs Funds Research Into Energy-Generating Vortex — https://spectrum.ieee.org/amp/tornado-power-breakout-labs-funds-research-into-energygenerating-vortex-2650268722
+[^n632-11]: NOAA: How much energy does a hurricane release? — https://energi.media/news/noaa-how-much-energy-does-a-hurricane-release/
+[^n632-12]: 人體功率 — https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%AB%94%E5%8A%9F%E7%8E%87
+[^n632-13]: Sport Science: Cain Velasquez's Punching Power - 2230 Lbs of Force — https://bloodyelbow.com/2010/10/22/sport-science-cain-velasquezs-punching-power-2230-lbs-of-force/
+[^n632-14]: Human respiratory system - Lungs, Airways, Oxygen | Britannica — https://www.britannica.com/science/human-respiratory-system/The-respiratory-pump-and-its-performance
+[^n632-15]: Part 3- Speech Breathing (Relaxation Pressure and Volume) Flashcards — https://quizlet.com/461977812/part-3-speech-breathing-relaxation-pressure-and-volume-flash-cards/
+[^n632-16]: Vortex ring gun — https://en.wikipedia.org/wiki/Vortex_ring_gun
+[^n632-17]: - YouTube — https://www.youtube.com/watch?v=PVnNMLjJUBE
+[^n632-18]: Kinetic Energy of Tornadoes in the United States — https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131090
 
 
----
+***
 
 ###### 鐵律增補：交流概念在氣象學中的最前沿映射（2026核實版）
 
 本增補直接回應「交流電→交流氣流、交流光雷電」在氣象尺度的實現。
 
-####### 交流氣流在氣象中的體現
-- **NASA 主動流控 + SurfPlasma Inc.**：AC-DBD 等離子體致動器用於抑制葉尖渦與邊界層分離，AC 電壓 20kV/10kHz 範圍，機制為電離空氣產生 EHD 體力[^19]，已進入 NASA TechPort 飛行級項目[^20]。
-- **YPlasma 固態離子風**：CES 2026 展示 DBD 致動器無風扇冷卻，200μm 厚，17 dBA[^21][^22]，證明 AC 氣流可脫離傳統風扇，成為可穿戴氣流源。
-- **工具**：Ansys Fluent UDF (Shyy model) + OpenFOAM Womersley邊界[^23]。
+**交流氣流在氣象中的體現**
+- **NASA 主動流控 + SurfPlasma Inc.**：AC-DBD 等離子體致動器用於抑制葉尖渦與邊界層分離，AC 電壓 20kV/10kHz 範圍，機制為電離空氣產生 EHD 體力[^n632-19]，已進入 NASA TechPort 飛行級項目[^n632-20]。
+- **YPlasma 固態離子風**：CES 2026 展示 DBD 致動器無風扇冷卻，200μm 厚，17 dBA[^n632-21][^n632-22]，證明 AC 氣流可脫離傳統風扇，成為可穿戴氣流源。
+- **工具**：Ansys Fluent UDF (Shyy model) + OpenFOAM Womersley邊界[^n632-23]。
 
-####### 交流光雷電在氣象中的體現
-- **Nature Photonics 2023**：Houard et al. Laser-guided lightning，Säntis 山 2502m 高度，TRUMPF 1kW太瓦雷射，引導雷電 50-60m[^24]，保護半徑 120m→180m[^25]，惡劣霧天仍有效[^25]。該論文 DOI 10.1038/s41566-022-01139-z，發表於 Nature Photonics Vol.17 Mar 2023。
-- **交流光學**：AC LED 光通信 US9735877B2、Philips AC OLED module[^26]。
+**交流光雷電在氣象中的體現**
+- **Nature Photonics 2023**：Houard et al. Laser-guided lightning，Säntis 山 2502m 高度，TRUMPF 1kW太瓦雷射，引導雷電 50-60m[^n632-24]，保護半徑 120m→180m[^n632-25]，惡劣霧天仍有效[^n632-25]。該論文 DOI 10.1038/s41566-022-01139-z，發表於 Nature Photonics Vol.17 Mar 2023。
+- **交流光學**：AC LED 光通信 US9735877B2、Philips AC OLED module[^n632-26]。
 
-####### 對原報告結論的修正
+**對原報告結論的修正**
 原報告認為雷電僅能引導不能創造，此結論在2026仍成立，但引導距離已從實驗室數米提升至野外50米，且實現全天候工作，證明 AC 光-雷電耦合是氣象防護的最前沿路徑。
 
-[^19]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
-[^20]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
-[^21]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
-[^22]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
-[^23]: e-ISSN: 2582-5208 International Research Journal of Modernization in Engineering Technology and Science Volume:03/Issue:06/June-2021  Impact Factor- 5.354  www.irjmets.com — https://www.irjmets.com/uploadedfiles/paper/volume3/issue_6_june_2021/11797/1628083477.pdf
-[^24]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
-[^25]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
-[^26]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
+[^n632-19]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
+[^n632-20]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
+[^n632-21]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
+[^n632-22]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
+[^n632-23]: e-ISSN: 2582-5208 International Research Journal of Modernization in Engineering Technology and Science Volume:03/Issue:06/June-2021  Impact Factor- 5.354  www.irjmets.com — https://www.irjmets.com/uploadedfiles/paper/volume3/issue_6_june_2021/11797/1628083477.pdf
+[^n632-24]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
+[^n632-25]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
+[^n632-26]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
 
 ##### 借力而非造物的龜波：全球可調控氣流、電流、引力、雷電與光學設備徹查報告
 ###### —— 以牛頓方法論重構徒手聚氣、秒增引力與飛行的工程路徑
@@ -12445,7 +12449,7 @@ NOAA 計算：
 
 ###### 二、全球可調控設備清單
 
-####### 2.1 氣流 Airflow
+**2.1 氣流 Airflow**
 
 | 設備/方法 | 機構/公司 | 可調參數 | 閾值 | 便攜性 | 驗證度 | 來源 |
 |---|---|---|---|---|---|---|
@@ -12457,7 +12461,7 @@ NOAA 計算：
 
 穿戴式氣流目前最大限制是噪音與功耗。Sony 方案以熱電制冷+風扇排熱，而非直接吹風，避免氣流噪音，是龜波「聚氣於頸」的最佳近似。
 
-####### 2.2 交流電 AC / 無線電能
+**2.2 交流電 AC / 無線電能**
 
 | 設備 | 原理 | 指標 |
 |---|---|---|
@@ -12467,7 +12471,7 @@ NOAA 計算：
 
 人類觸電安全閾值：感知 1 mA，肌肉失控 10 mA，心室顫動 100 mA。龜波若用 AC 形成等離子體通道，需脈衝放電而非持續。
 
-####### 2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性
+**2.3 地心引力 Gravity - 秒增引力的不可行性與可模擬性**
 
 **官方結論**：NASA BPP 對 Podkletnov 等引力屏蔽聲稱的復現均未發現證據 [[1]](https://en.wikipedia.org/wiki/Breakthrough_Propulsion_Physics_Program)；BBC Science Focus 總結目前僅能以旋轉或加速模擬 g 力，Alcubierre 驅動需奇異物質負能量，屬科幻 [[14]](http://www.ScienceFocus.com/space/artificial-gravity-on-earth)。
 
@@ -12480,7 +12484,7 @@ NOAA 計算：
 
 第一性原理：$g = GM/r^2$。在手腕 $r=0.1 m$ 處額外增加 $9.81 m/s^2$，需 $M = g r^2 / G ≈ 1.47×10^9 kg$。即使以質能轉換 $E=mc^2$，需 $1.32×10^{26} J$，相當於全球年耗電的 100 億倍。因此「手錶秒增引力」在已知物理下不可實現，但「以其他力抵消引力」可實現。
 
-####### 2.4 打雷 Thunder / 人造閃電
+**2.4 打雷 Thunder / 人造閃電**
 
 | 設備 | 原理 | 閾值 |
 |---|---|---|
@@ -12490,7 +12494,7 @@ NOAA 計算：
 
 自然雷電：電壓 100 MV，電流 20-30 kA，能量 ~60 MJ（30 µs 脈衝）。實驗室可模擬，但無法手錶化。穿戴式可做的是「雷電探測」而非「製造雷電」。
 
-####### 2.5 光學 Optics / LiFi / LiDAR
+**2.5 光學 Optics / LiFi / LiDAR**
 
 | 技術 | 設備 | 指標 |
 |---|---|---|
@@ -12502,7 +12506,7 @@ NOAA 計算：
 
 光學為龜波提供「瞄準與測距」而非「能量束」本身。LiFi 可實現手錶至手錶光通信，手勢即發波。
 
-####### 2.6 超聲波 Ultrasonic / 聲學牽引
+**2.6 超聲波 Ultrasonic / 聲學牽引**
 
 聲學牽引波束為最接近「龜派氣功波」無形推力的技術：64 個 40 kHz 超聲換能器構成聲全息圖，形成鑷子、渦旋、籠三種聲場，可懸浮、旋轉、移動 4 mm 聚苯乙烯球 [[5]](https://tech.hindustantimes.com/tech/news/tractor-beam-a-reality-scientists-move-objects-using-sound-story-L0fmnHk9nVTIkGOGUb57xM.html)。2025 年橫濱國立大學已實現無纜聲懸浮平台以 3 m/s 自由移動。
 
@@ -12510,7 +12514,7 @@ NOAA 計算：
 
 手錶級可能性：單對 40 kHz 換能器 12V 6W 即可懸浮 2-3 mm 輕物，已有開源 Arduino 方案。
 
-####### 2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人
+**2.7 腦電波 Brainwave 放大與瞬移 / 超賽亞人**
 
 | 技術 | 進展 | 閾值 |
 |---|---|---|
@@ -12601,91 +12605,91 @@ EEG 典型幅值 20 µV，要放大至 1 W 驅動，需電壓增益 5×10^4，�
 [17] CNX Software — [LiFi 802.11bb standard uses light for in-room data transmission up to 224 Gbps](https://www.cnx-software.com/2023/07/14/lifi-802-11bb-wifi-standard-uses-light-for-in-room-data-transmission-up-to-224gb-s/)
 
 
----
+***
 
 ###### 鐵律增補章節：交流（AC）概念之最前沿全球驗證（2026-10-14 定版）
 
 > 本章以鐵律為標準，對「交流電→交流氣流、交流光雷電、交流細胞修復、交流量子、交流生物流體」進行天下各國最高端學術、論文、工具、組件、平台、公司之核實補齊。
 
-####### 1. 交流氣流 AC Airflow —— 從 Tesla 交流到 DBD 等離子體致動器
+**1. 交流氣流 AC Airflow —— 從 Tesla 交流到 DBD 等離子體致動器**
 
 **學術造詣：**
-- **AC-DBD 等離子體致動器**：2024 MDPI Processes 論文《Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift》明確使用 **AC 電壓介質阻擋放電（AC-DBD）**，機制為高壓電極電離表面空氣形成等離子體，EHD 體力驅動附面層[^1]。
-- **NASA 官方項目**：TechPort Project 102210 描述利用薄型表面貼裝等離子體致動器抑制葉尖二次流與渦旋，適用於高速氣流控制[^2]，合作方 **SurfPlasma Inc.** 被認定為世界領先的等離子體致動器公司[^2]。
-- **主動流控飛行試驗**：NASA/Boeing Active Flow Control Enhanced Vertical Tail Flight Experiment 使用31個 sweeping jet actuators 掃掠氣流改變垂直尾翼氣動[^3]，驗證 AC 驅動氣流在飛行器上的實戰。
+- **AC-DBD 等離子體致動器**：2024 MDPI Processes 論文《Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift》明確使用 **AC 電壓介質阻擋放電（AC-DBD）**，機制為高壓電極電離表面空氣形成等離子體，EHD 體力驅動附面層[^n633-1]。
+- **NASA 官方項目**：TechPort Project 102210 描述利用薄型表面貼裝等離子體致動器抑制葉尖二次流與渦旋，適用於高速氣流控制[^n633-2]，合作方 **SurfPlasma Inc.** 被認定為世界領先的等離子體致動器公司[^n633-2]。
+- **主動流控飛行試驗**：NASA/Boeing Active Flow Control Enhanced Vertical Tail Flight Experiment 使用31個 sweeping jet actuators 掃掠氣流改變垂直尾翼氣動[^n633-3]，驗證 AC 驅動氣流在飛行器上的實戰。
 
 **2026 最頂尖產業化：**
-- **YPlasma Inc.（美國紐瓦克 + 西班牙）**：CES 2026 全球首發無風扇固態冷卻筆記本，採用 **DBD 等離子體致動器產生離子風**，厚度僅200微米，比微型風扇薄一個數量級，噪音17 dBA，零運動部件[^4][^5]，[^5]。COMPUTEX 2026 再發佈用於 NVIDIA Jetson Orin Nano 的版本，SOSV(HAX)、Faber 投資，NVIDIA Inception 成員，合作 Princeton Plasma Physics Lab[^6]。
-- **產品**：YPlasma DBD actuator 被 Tom's Hardware 稱為 world's first DBD plasma actuators for consumer electronics[^4][^5]。
+- **YPlasma Inc.（美國紐瓦克 + 西班牙）**：CES 2026 全球首發無風扇固態冷卻筆記本，採用 **DBD 等離子體致動器產生離子風**，厚度僅200微米，比微型風扇薄一個數量級，噪音17 dBA，零運動部件[^n633-4][^n633-5]，[^n633-5]。COMPUTEX 2026 再發佈用於 NVIDIA Jetson Orin Nano 的版本，SOSV(HAX)、Faber 投資，NVIDIA Inception 成員，合作 Princeton Plasma Physics Lab[^n633-6]。
+- **產品**：YPlasma DBD actuator 被 Tom's Hardware 稱為 world's first DBD plasma actuators for consumer electronics[^n633-4][^n633-5]。
 
 **工具、組件、平台、操作系統：**
-- **仿真工具**：ANSYS Fluent 2019R2+ Academic，採用 Shyy 模型 + UDF（C格式）實現等離子體體力[^7]，GitHub 開源庫 `udf_plasma_actuator` 提供完整 UDF[^8]。OpenFOAM ESI v1906/v5.0 可自定義 Womersley 入口邊界用於脈動流模擬[^9]。
-- **材料組件**：Kapton 薄膜、陶瓷厚介質、PVDF 聚偏氟乙烯電介質[^10]，高壓交流電源 5kV/5kHz 最優區間，推力提升50%局部功率係數[^11]。
+- **仿真工具**：ANSYS Fluent 2019R2+ Academic，採用 Shyy 模型 + UDF（C格式）實現等離子體體力[^n633-7]，GitHub 開源庫 `udf_plasma_actuator` 提供完整 UDF[^n633-8]。OpenFOAM ESI v1906/v5.0 可自定義 Womersley 入口邊界用於脈動流模擬[^n633-9]。
+- **材料組件**：Kapton 薄膜、陶瓷厚介質、PVDF 聚偏氟乙烯電介質[^n633-10]，高壓交流電源 5kV/5kHz 最優區間，推力提升50%局部功率係數[^n633-11]。
 - **操作系統**：Windows/Mac/Linux 均可運行 ANSYS + OpenFOAM + COMSOL Plasma Module。
 
 **核實結論**：交流氣流已從 Tesla 交流電概念進化為 AC-DBD 等離子體氣流控制，2026年進入消費電子冷卻量產階段。
 
-####### 2. 交流光雷電 AC Light Lightning
+**2. 交流光雷電 AC Light Lightning**
 
 **學術造詣：**
-- **激光引雷 Laser Lightning Rod (LLR)**：2023 Nature Photonics 論文《Laser-guided lightning》歐洲團隊（UNIGE、École Polytechnique Paris、EPFL、TRUMPF）在瑞士 Säntis 山（海拔2502m）實測，1 kW平均功率、1 J脈衝、1 ps超短脈衝太瓦雷射，電離氮氧產生等離子體通道，引導向上負先導 **50-60米**，保護半徑從120m擴至180m[^12]，[^13]。工作於濃霧等惡劣天氣可穿透雲層[^13]。
-- **機制**：飛秒脈衝形成光絲（filaments），釋放自由電子使空氣導電[^13]，本質為 AC 高頻電磁波與光學的結合。
+- **激光引雷 Laser Lightning Rod (LLR)**：2023 Nature Photonics 論文《Laser-guided lightning》歐洲團隊（UNIGE、École Polytechnique Paris、EPFL、TRUMPF）在瑞士 Säntis 山（海拔2502m）實測，1 kW平均功率、1 J脈衝、1 ps超短脈衝太瓦雷射，電離氮氧產生等離子體通道，引導向上負先導 **50-60米**，保護半徑從120m擴至180m[^n633-12]，[^n633-13]。工作於濃霧等惡劣天氣可穿透雲層[^n633-13]。
+- **機制**：飛秒脈衝形成光絲（filaments），釋放自由電子使空氣導電[^n633-13]，本質為 AC 高頻電磁波與光學的結合。
 
 **工具、公司、平台：**
-- **雷射器製造商**：TRUMPF scientific lasers（慕尼黑）定制太瓦雷射，尺寸1.5m×8m、重3噸[^13]。
-- **光通信**：Philips Research AC-powered module for OLED[^14]，pureLiFi IEEE 802.11bb Li-Fi 10 Mbps-224 Gbps，光通信器件專利 US9735877B2 描述 AC LED sequential driving 光通信[^15]。
+- **雷射器製造商**：TRUMPF scientific lasers（慕尼黑）定制太瓦雷射，尺寸1.5m×8m、重3噸[^n633-13]。
+- **光通信**：Philips Research AC-powered module for OLED[^n633-14]，pureLiFi IEEE 802.11bb Li-Fi 10 Mbps-224 Gbps，光通信器件專利 US9735877B2 描述 AC LED sequential driving 光通信[^n633-15]。
 - **平台**：Nature Photonics, Scientific American, Smithsonian 報導。
 
 **核實結論**：交流光雷電已實現激光引導真實雷電50米，AC光電子學與AC電力驅動OLED成為主流。
 
-####### 3. 交流細胞自我修復 AC Bioelectric Self-Healing
+**3. 交流細胞自我修復 AC Bioelectric Self-Healing**
 
 **學術造詣：**
-- **RSC Advances 2024 綜述**：Electrochemical Devices in Cutaneous Wound Healing 明確列出 AC = alternating current 為臨床電刺激類型之一，指出 ES 作為標準傷口護理輔助可加速慢性皮膚傷口癒合[^16][^17]。
-- **Levin Lab (Tufts University)**：Michael Levin 團隊證明生物電梯度指導眼睛、肢體、內臟模式，蝌蚪尾（含脊髓、肌肉、血管）可通過生物電信號再生[^18]，扁蟲頭部形狀可通過電壓重寫[^19]，2023 Biomimetics 論文討論生物電模型。
-- **電場加速**：UAB 研究顯示 200 mV/mm 低電場使人工皮膚癒合速度提升3倍[^17]。
+- **RSC Advances 2024 綜述**：Electrochemical Devices in Cutaneous Wound Healing 明確列出 AC = alternating current 為臨床電刺激類型之一，指出 ES 作為標準傷口護理輔助可加速慢性皮膚傷口癒合[^n633-16][^n633-17]。
+- **Levin Lab (Tufts University)**：Michael Levin 團隊證明生物電梯度指導眼睛、肢體、內臟模式，蝌蚪尾（含脊髓、肌肉、血管）可通過生物電信號再生[^n633-18]，扁蟲頭部形狀可通過電壓重寫[^n633-19]，2023 Biomimetics 論文討論生物電模型。
+- **電場加速**：UAB 研究顯示 200 mV/mm 低電場使人工皮膚癒合速度提升3倍[^n633-17]。
 
 **臨床與公司、FDA：**
-- **Vomaris Procellera®**：FDA 批准的無線電偶織物敷料，銀-鋅耦合，濕環境產生 ~1V 低電場，NCT04079998 燒傷試驗顯示顯著減少生物膜[^20]，1000倍抑制多種臨床病原體生物膜[^21]，1週上皮化提升53%[^22][^23]。
-- **AVAZZIA Tennant Biomodulator®**：FDA Classification 882.5890 Neurology, Biofeedback device，TENS 微電流平台，脈衝高壓雙相阻尼正弦波，用於糖尿病足潰瘍 NCT03821675[^24]，NCT05407207 用於血透平衡改善。
+- **Vomaris Procellera®**：FDA 批准的無線電偶織物敷料，銀-鋅耦合，濕環境產生 ~1V 低電場，NCT04079998 燒傷試驗顯示顯著減少生物膜[^n633-20]，1000倍抑制多種臨床病原體生物膜[^n633-21]，1週上皮化提升53%[^n633-22][^n633-23]。
+- **AVAZZIA Tennant Biomodulator®**：FDA Classification 882.5890 Neurology, Biofeedback device，TENS 微電流平台，脈衝高壓雙相阻尼正弦波，用於糖尿病足潰瘍 NCT03821675[^n633-24]，NCT05407207 用於血透平衡改善。
 - **產業集團**：Galvani Bioelectronics（GSK + Verily 7.18億美元合資）、SetPoint Medical、Endonovo SofPulse 27.12 MHz 短波射頻 FDA-Cleared。
 
 **工具、組件、平台：**
-- **設備**：Procellera、JumpStart、SofPulse®、Cytomotion（碳納米管增強界面）[^25]。
+- **設備**：Procellera、JumpStart、SofPulse®、Cytomotion（碳納米管增強界面）[^n633-25]。
 - **仿真與操作系統**：COMSOL Bioelectric Module、Sim4Life，運行於 Windows/Linux。
 
 **核實結論**：AC 微電場修復已從實驗室進入 FDA 批准產品，機制為改變細胞膜電位促進角質細胞遷移、成纖維細胞增殖。
 
-####### 4. 交流量子力學 AC Quantum Mechanics
+**4. 交流量子力學 AC Quantum Mechanics**
 
 **學術造詣：**
-- **AC Josephson 效應**：當高頻電流施加於約瑟夫森結，AC Josephson 電流與外加頻率同步，I-V 曲線出現 Shapiro 台階，電壓 Vn = n·f·h/2e，僅取決於基本常數[^26][^27]，為量子電壓標準基礎[^28]。USEQIP 2024 教材明確演示 DC 與 AC Josephson 效應[^29]。
-- **NIST AC Josephson 電壓標準**：AC Josephson Voltage Standard (ACJVS) / Josephson Arbitrary Waveform Synthesizer (JAWS) 200 mV rms 單陣列，300,000 個超導結，合成任意波形，誤差 ppm 級，用於 AC 計量[^30]，[^31]，現已出貨 10V 可編程 AC/DC 標準[^32][^33]。
-- **Floquet 拓撲量子**：2025年9月 Google Quantum AI + TUM + Princeton 在 Nature 發表，使用 58-qubit Willow 芯片實現 Floquet 拓撲序（Floquet topological order），週期性驅動產生非平衡量子相，首次在超導量子處理器上觀測[^34]，[^35]，2025年9月 Nature 論文 DOI 10.1038/s41586-025-09456-3[^36]。2025年9月 Nature Physics 同步報導 graphene Floquet states[^37]。
+- **AC Josephson 效應**：當高頻電流施加於約瑟夫森結，AC Josephson 電流與外加頻率同步，I-V 曲線出現 Shapiro 台階，電壓 Vn = n·f·h/2e，僅取決於基本常數[^n633-26][^n633-27]，為量子電壓標準基礎[^n633-28]。USEQIP 2024 教材明確演示 DC 與 AC Josephson 效應[^n633-29]。
+- **NIST AC Josephson 電壓標準**：AC Josephson Voltage Standard (ACJVS) / Josephson Arbitrary Waveform Synthesizer (JAWS) 200 mV rms 單陣列，300,000 個超導結，合成任意波形，誤差 ppm 級，用於 AC 計量[^n633-30]，[^n633-31]，現已出貨 10V 可編程 AC/DC 標準[^n633-32][^n633-33]。
+- **Floquet 拓撲量子**：2025年9月 Google Quantum AI + TUM + Princeton 在 Nature 發表，使用 58-qubit Willow 芯片實現 Floquet 拓撲序（Floquet topological order），週期性驅動產生非平衡量子相，首次在超導量子處理器上觀測[^n633-34]，[^n633-35]，2025年9月 Nature 論文 DOI 10.1038/s41586-025-09456-3[^n633-36]。2025年9月 Nature Physics 同步報導 graphene Floquet states[^n633-37]。
 
 **工具、組件、平台、操作系統：**
 - **量子平台**：Google Willow (58-65 qubit)、IBM Quantum、NIST PJVS/ACJVS。
-- **開源工具**：QuTiP 5 (2024 major update) 支持 Floquet formalism[^38]，`floquet_modes(H,T,args)`、`FloquetBasis` API[^39]；Qiskit 官方文檔 https://qiskit.org/documentation 提供 Floquet 教程[^40]；scqubits 4.3 + QuTiP 5.1.1 聯合仿真 sideband gates[^41]。
+- **開源工具**：QuTiP 5 (2024 major update) 支持 Floquet formalism[^n633-38]，`floquet_modes(H,T,args)`、`FloquetBasis` API[^n633-39]；Qiskit 官方文檔 https://qiskit.org/documentation 提供 Floquet 教程[^n633-40]；scqubits 4.3 + QuTiP 5.1.1 聯合仿真 sideband gates[^n633-41]。
 - **操作系統**：Linux/Windows，Python 3.11+，Jupyter。
 - **公司**：IBM Quantum、Google Quantum AI、NIST、Princeton、TUM。
 
 **核實結論**：AC 量子力學已成為量子計量與拓撲量子計算的核心，交流驅動產生非平衡物質相，2025-2026 為突破年。
 
-####### 5. 交流生物流體力學 AC Biofluid Mechanics
+**5. 交流生物流體力學 AC Biofluid Mechanics**
 
 **學術造詣：**
-- **Womersley 理論**：脈動流特徵數 α = R·sqrt(2πρ/ηT)，描述脈動慣性與粘性比。頸動脈 α 3.97-6.21[^42]，腹主動脈 ~12.56[^43]，FDA 冠脈噴嘴基準 Wo=2.065[^44]，健康成人 Re=500 代表值。
-- **Annual Review of Fluid Mechanics 2024**：Female Reproduction Biofluid Mechanics 綜述[^45]，確認脈動流為生物流體核心。
-- **AC 電動力微流體**：MDPI Micromachines 2019 綜述 AC electrothermal effect，AC electrokinetics (ACEK) 1-20 Vrms 低壓可處理生物流體，避免化學反應[^46]，區別於 DC 需 kV 級。
+- **Womersley 理論**：脈動流特徵數 α = R·sqrt(2πρ/ηT)，描述脈動慣性與粘性比。頸動脈 α 3.97-6.21[^n633-42]，腹主動脈 ~12.56[^n633-43]，FDA 冠脈噴嘴基準 Wo=2.065[^n633-44]，健康成人 Re=500 代表值。
+- **Annual Review of Fluid Mechanics 2024**：Female Reproduction Biofluid Mechanics 綜述[^n633-45]，確認脈動流為生物流體核心。
+- **AC 電動力微流體**：MDPI Micromachines 2019 綜述 AC electrothermal effect，AC electrokinetics (ACEK) 1-20 Vrms 低壓可處理生物流體，避免化學反應[^n633-46]，區別於 DC 需 kV 級。
 
 **工具、組件、平台、公司：**
-- **開源平台**：SimVascular (www.simvascular.org) Stanford 2007發佈，NSF/NIH支持，唯一完整開源從醫學影像分割到患者特異性血流模擬的管線[^47]，[^47]，支持生理脈動流 4.9 L/min 入口、血管阻力出口[^48]，前端 GUI Windows/Mac/Linux，後端 HPC 求解器。
-- **商業工具**：OpenFOAM ESI v1906/v5.0 Womersley 入口邊界[^9]；COMSOL Plasma Module + LiveLink for MATLAB 自動生成流體-Poisson 等離子體模型[^49][^50]；Ansys Fluent。
-- **測量組件**：光電容積脈搏波 PPG 測量 pulsatile AC component[^51]，壓阻、聲學傳感器用於脈波分析。
+- **開源平台**：SimVascular (www.simvascular.org) Stanford 2007發佈，NSF/NIH支持，唯一完整開源從醫學影像分割到患者特異性血流模擬的管線[^n633-47]，[^n633-47]，支持生理脈動流 4.9 L/min 入口、血管阻力出口[^n633-48]，前端 GUI Windows/Mac/Linux，後端 HPC 求解器。
+- **商業工具**：OpenFOAM ESI v1906/v5.0 Womersley 入口邊界[^n633-9]；COMSOL Plasma Module + LiveLink for MATLAB 自動生成流體-Poisson 等離子體模型[^n633-49][^n633-50]；Ansys Fluent。
+- **測量組件**：光電容積脈搏波 PPG 測量 pulsatile AC component[^n633-51]，壓阻、聲學傳感器用於脈波分析。
 
 **核實結論**：交流生物流體力學即脈動流，以 Womersley 數為核心，SimVascular + OpenFOAM 為主流工具，已用於 Type-A 主動脈夾層假腔擴張預測等臨床。
 
-####### 6. 統一鐵律：從 Tesla AC 到 AC Everything
+**6. 統一鐵律：從 Tesla AC 到 AC Everything**
 
 | Tesla 原始交流 | 現代交流類推 | 2026 頂尖載體 | 最高頻/電壓 | 商業化公司 |
 |---|---|---|---|---|
@@ -12703,57 +12707,57 @@ EEG 典型幅值 20 µV，要放大至 1 W 驅動，需電壓增益 5×10^4，�
 
 所有研究所、公司、集團、論文均已通過上述引用核實，符合鐵律「有根據且可追溯」。
 
-[^1]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
-[^2]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
-[^3]: NASA, Boeing flaunt high-tech wing that could alter future aircraft design — https://www.networkworld.com/article/747146/wireless-nasa-boeing-flaunt-high-tech-wing-that-could-alter-future-aircraft-design.html
-[^4]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
-[^5]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
-[^6]: At COMPUTEX 2026, YPlasma Unveils the First Fanless Solid-State Cooling Solution for NVIDIA Jetson, Built for 24/7 Edge AI Workloads — https://www.wcia.com/business/press-releases/cision/20260602NY73333/at-computex-2026-yplasma-unveils-the-first-fanless-solid-state-cooling-solution-for-nvidia-jetson-built-for-24-7-edge-ai-workloads/
-[^7]: e-ISSN: 2582-5208 International Research Journal of Modernization in Engineering Technology and Science Volume:03/Issue:06/June-2021  Impact Factor- 5.354  www.irjmets.com — https://www.irjmets.com/uploadedfiles/paper/volume3/issue_6_june_2021/11797/1628083477.pdf
-[^8]: mmmmmmwei/udf_plasma_actuator — https://github.com/mmmmmmwei/udf_plasma_actuator
-[^9]: A Simple Transient Poiseuille-Based Approach to Mimic the Womersley Function and to Model Pulsatile Blood Flow — https://cris.unibo.it/retrieve/handle/11585/819565/e1dcb337-5ab3-7715-e053-1705fe0a6cc9/124_cmp.pdf
-[^10]: Spread control of a rectangular jet by DBD plasma actuators (Effect of aspect ratio) | ScienceGate — https://www.sciencegate.app/document/10.1299/jsmetokai.2019.68.228
-[^11]: Numerical study and optimization of a micro NREL horizontal axis wind turbine using plasma actuator — https://upcommons.upc.edu/entities/publication/40b964bc-df32-454e-9c49-d4ae3d6b4417
-[^12]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
-[^13]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
-[^14]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
-[^15]: US9735877B2 - Optical communication device using AC LED lighting and communication method using the same — https://patents.Google.Com/patent/US9735877B2/en
-[^16]: Electrical Stimulation Technologies for Wound Healing — https://www.liebertpub.com/doi/pdf/10.1089/wound.2013.0459
-[^17]: Electric Stimulation Found to Accelerate Chronic Wound Healing   | Dermatology Times — https://www.dermatologytimes.com/view/electric-stimulation-found-to-accelerate-chronic-wound-healing?utm
-[^18]: How bioelectricity could regrow limbs and organs: Big Brains podcast with Michael Levin | University of Chicago News — http://news.uchicago.edu/how-bioelectricity-could-regrow-limbs-and-organs
-[^19]: The Electric Language of Life: How Cells Harness Bioelectricity to Make Collective Decisions — https://www.webpronews.com/the-electric-language-of-life-how-cells-harness-bioelectricity-to-make-collective-decisions/
-[^20]: NCT04079998 | Procellera® Compared to Standard of Care Treatment in Mitigating Biofilm Formation in Acute Trauma and Burn Wounds - MedPath Trial — https://trial.medpath.com/clinical-trial/ae4d363ed459fac7/nct04079998-fabric-wireless-electroceutical-dressing-procellera-biofilm-acute-trauma-burn-wounds
-[^21]: Sentinel Studies Find New Microcurrent Generating Wound Dressing Effective in Disrupting Bacterial Biofilms - Vomaris — https://vomaris.com/sentinel-studies-find-new-microcurrent-generating-wound-dressing-effective-in-disrupting-bacterial-biofilms/
-[^22]: TECHNOLOGY OVERVIEW — https://vomaris.com/wp-content/uploads/2023/07/K-185-Rev-A-Backgrounder_Technology-Overview-1.pdf
-[^23]: Electrochemical Devices in Cutaneous Wound Healing — https://mdpi-res.com/d_attachment/bioengineering/bioengineering-10-00711/article_deploy/bioengineering-10-00711-v2.pdf?version=1686550857
-[^24]: Trials Today — https://www.trialstoday.org/trial/NCT05407207
-[^25]: Cellionyx Exits Stealth Mode with Cytomotion, an FDA-Registered Class I Electroceutical Device Set to Redefine Human Healing and Performance — https://smb.harlandaily.com/article/Cellionyx-Exits-Stealth-Mode-with-Cytomotion-an-FDA-Registered-Class-I-Electroceutical-Device-Set-to-Redefine-Human-Healing-and-Performance/68ed26592b145300029fc738
-[^26]: Superconducting tunnel junction — https://en.wikipedia.org/wiki/Superconducting_tunnel_junction
-[^27]: Josephson Junction, the Quantum Engine: from S.QU.I.D. Sensors to Qubits for Quantum Computers|crimson publishers.com — https://crimsonpublishers.com/rdms/fulltext/RDMS.000947.php
-[^28]: Circuit QED theory of direct and dual Shapiro steps with finitesize transmission line resonators — https://arxiv.org/pdf/2405.12935v1
-[^29]: USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science — https://arxiv.org/html/2604.25124
-[^30]: Alain RÜFENACHT | National Institute of Standards and Technology, Gaithersburg | NIST | Quantum Electronics and Photonics Division | Research profile — https://www.researchgate.net/profile/Alain-Ruefenacht
-[^31]: Master Pages Final5 — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=31972
-[^32]: NIST Ships First Programmable AC/DC 10-Volt Standard — https://www.nist.gov/news-events/news/2010/10/nist-ships-first-programmable-acdc-10-volt-standard
-[^33]: The Josephson Volt: NIST's First Quantum Electrical Standard — https://www.nist.gov/news-events/events/2011/12/josephson-volt-nists-first-quantum-electrical-standard
-[^34]: Floquet Topological Order Explained: The Exotic Quantum Phase Scientists Finally Captured by Dr. Shahid Masood — https://www.1950.ai/post/floquet-topological-order-explained-the-exotic-quantum-phase-scientists-finally-captured
-[^35]: Scientists Use Google's Quantum Processor to Probe Exotic Phases of Matter Beyond Classical Reach — https://thequantuminsider.com/2025/09/11/scientists-use-googles-quantum-processor-to-probe-exotic-phases-of-matter-beyond-classical-reach/
-[^36]: Probing non-equilibrium topological order on a quantum processor | Nature — https://www.nature.com/articles/s41586-025-09456-3
-[^37]: Floquet effects unlock graphene's potential for future electronics — https://phys.org/news/2025-09-floquet-effects-graphene-potential-future.pdf
-[^38]: jagg-ix/entropic-time - docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md — https://github.com/jagg-ix/entropic-time/blob/HEAD/docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md
-[^39]: mdbabumiamssm/llms-universal-life-science-and-clinical-skills- - Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md — https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-/blob/HEAD/Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md
-[^40]: Qiskit – Shabani Lab — https://wp.nyu.edu/shabanilab/courses/qiskit/
-[^41]: gavin-rockwood/gavin-rockwood.github.io - content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md — https://github.com/gavin-rockwood/gavin-rockwood.github.io/blob/HEAD/content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md
-[^42]: Patient-Specific CFD Analysis of Carotid Artery Haemodynamics: Impact of Anatomical Variations on Atherosclerotic Risk — https://www.mdpi.com/2079-3197/14/4/77
-[^43]: Time-dependent simulation of blood flow through an abdominal aorta with iliac arteries | European Biophysics Journal | Springer Nature Link — https://link.springer.com/article/10.1007/s00249-024-01724-w?error=cookies_not_supported&code=2fc4cdee-eae2-46ae-8547-65d5cfe049de
-[^44]: Numerical simulation of pulsatile flow through a coronary nozzle model based on FDA’s benchmark geometry — https://www.degruyter.com/document/doi/10.1515/cdbme-2017-0163/html?lang=de
-[^45]: The Fluid Mechanics of Female Reproduction: A Review of the Biofluid Mechanics of Pregnancy and Delivery — https://exaly.com/article/170132188
-[^46]: AC Electrothermal Effect in Microfluidics: A Review — https://www.mdpi.com/2072-666X/10/11/762/html
-[^47]: SimVascular Gateway for Education and Research — https://par.nsf.gov/servlets/purl/10379381
-[^48]: Computational Fluid Dynamics Simulations to Predict False Lumen Enlargement After Surgical Repair of Type-A Aortic Dissection. - Literature - Data resources - CNGBdb — https://db.cngb.org/data_resources/literature/34091015
-[^49]: MCPlas, a MATLAB toolbox for reproducible plasma modelling with COMSOL — https://arxiv.org/html/2512.18091
-[^50]: 2D Hybrid Fluid-Analytical Model of Inductive/Capacitive Plasma Discharges - 63rd Annual Gaseous Electronics Conference and 7th International Conference on Reactive Plasmas PostDeadline — https://meetings.aps.org/Meeting/GEC10/Session/PR1.1
-[^51]: Artificial Intelligence Enabled Diagnostics Using Photoplethysmography (PPG): Beyond SpO2 and Heart Rate — https://www.mdpi.com/2075-1729/16/9/1530
+[^n633-1]: Effect of Different Voltage Frequencies of Plasma Actuators on Wind Turbine Blade Lift and Rudder Efficiency — https://www.mdpi.com/2227-9717/13/4/1032
+[^n633-2]: NASA TechPort - Project Data — https://techport.nasa.gov/view/102210
+[^n633-3]: NASA, Boeing flaunt high-tech wing that could alter future aircraft design — https://www.networkworld.com/article/747146/wireless-nasa-boeing-flaunt-high-tech-wing-that-could-alter-future-aircraft-design.html
+[^n633-4]: Plasma-powered solid-state laptop cooler to debut at CES — new cooler design uses ionized gas and electrical discharge to generate airflow — https://www.tomshardware.com/pc-components/cooling/yplasma-to-announce-solid-state-laptop-cooler-at-ces-2026-new-cooler-design-uses-plasma-and-corona-discharge-to-generate-airflow
+[^n633-5]: YPlasma to debut world’s first plasma-cooled laptop at CES 2026 | KitGuru — https://www.kitguru.net/components/cooling/joao-silva/yplasma-to-debut-worlds-first-plasma-cooled-laptop-at-ces-2026/
+[^n633-6]: At COMPUTEX 2026, YPlasma Unveils the First Fanless Solid-State Cooling Solution for NVIDIA Jetson, Built for 24/7 Edge AI Workloads — https://www.wcia.com/business/press-releases/cision/20260602NY73333/at-computex-2026-yplasma-unveils-the-first-fanless-solid-state-cooling-solution-for-nvidia-jetson-built-for-24-7-edge-ai-workloads/
+[^n633-7]: e-ISSN: 2582-5208 International Research Journal of Modernization in Engineering Technology and Science Volume:03/Issue:06/June-2021  Impact Factor- 5.354  www.irjmets.com — https://www.irjmets.com/uploadedfiles/paper/volume3/issue_6_june_2021/11797/1628083477.pdf
+[^n633-8]: mmmmmmwei/udf_plasma_actuator — https://github.com/mmmmmmwei/udf_plasma_actuator
+[^n633-9]: A Simple Transient Poiseuille-Based Approach to Mimic the Womersley Function and to Model Pulsatile Blood Flow — https://cris.unibo.it/retrieve/handle/11585/819565/e1dcb337-5ab3-7715-e053-1705fe0a6cc9/124_cmp.pdf
+[^n633-10]: Spread control of a rectangular jet by DBD plasma actuators (Effect of aspect ratio) | ScienceGate — https://www.sciencegate.app/document/10.1299/jsmetokai.2019.68.228
+[^n633-11]: Numerical study and optimization of a micro NREL horizontal axis wind turbine using plasma actuator — https://upcommons.upc.edu/entities/publication/40b964bc-df32-454e-9c49-d4ae3d6b4417
+[^n633-12]: Laser-guided lightning | Nature Photonics — https://www.nature.com/articles/s41566-022-01139-z?error=cookies_not_supported&code=7b781208-2173-427f-bc50-98e5609d0f52
+[^n633-13]: Deflecting lightning with a laser lightning rod — https://phys.org/news/2023-01-deflecting-lightning-laser-rod.pdf
+[^n633-14]: Philips created an AC-powered module for OLED products - LEDinside — https://www.ledinside.com/node/view/11737
+[^n633-15]: US9735877B2 - Optical communication device using AC LED lighting and communication method using the same — https://patents.Google.Com/patent/US9735877B2/en
+[^n633-16]: Electrical Stimulation Technologies for Wound Healing — https://www.liebertpub.com/doi/pdf/10.1089/wound.2013.0459
+[^n633-17]: Electric Stimulation Found to Accelerate Chronic Wound Healing   | Dermatology Times — https://www.dermatologytimes.com/view/electric-stimulation-found-to-accelerate-chronic-wound-healing?utm
+[^n633-18]: How bioelectricity could regrow limbs and organs: Big Brains podcast with Michael Levin | University of Chicago News — http://news.uchicago.edu/how-bioelectricity-could-regrow-limbs-and-organs
+[^n633-19]: The Electric Language of Life: How Cells Harness Bioelectricity to Make Collective Decisions — https://www.webpronews.com/the-electric-language-of-life-how-cells-harness-bioelectricity-to-make-collective-decisions/
+[^n633-20]: NCT04079998 | Procellera® Compared to Standard of Care Treatment in Mitigating Biofilm Formation in Acute Trauma and Burn Wounds - MedPath Trial — https://trial.medpath.com/clinical-trial/ae4d363ed459fac7/nct04079998-fabric-wireless-electroceutical-dressing-procellera-biofilm-acute-trauma-burn-wounds
+[^n633-21]: Sentinel Studies Find New Microcurrent Generating Wound Dressing Effective in Disrupting Bacterial Biofilms - Vomaris — https://vomaris.com/sentinel-studies-find-new-microcurrent-generating-wound-dressing-effective-in-disrupting-bacterial-biofilms/
+[^n633-22]: TECHNOLOGY OVERVIEW — https://vomaris.com/wp-content/uploads/2023/07/K-185-Rev-A-Backgrounder_Technology-Overview-1.pdf
+[^n633-23]: Electrochemical Devices in Cutaneous Wound Healing — https://mdpi-res.com/d_attachment/bioengineering/bioengineering-10-00711/article_deploy/bioengineering-10-00711-v2.pdf?version=1686550857
+[^n633-24]: Trials Today — https://www.trialstoday.org/trial/NCT05407207
+[^n633-25]: Cellionyx Exits Stealth Mode with Cytomotion, an FDA-Registered Class I Electroceutical Device Set to Redefine Human Healing and Performance — https://smb.harlandaily.com/article/Cellionyx-Exits-Stealth-Mode-with-Cytomotion-an-FDA-Registered-Class-I-Electroceutical-Device-Set-to-Redefine-Human-Healing-and-Performance/68ed26592b145300029fc738
+[^n633-26]: Superconducting tunnel junction — https://en.wikipedia.org/wiki/Superconducting_tunnel_junction
+[^n633-27]: Josephson Junction, the Quantum Engine: from S.QU.I.D. Sensors to Qubits for Quantum Computers|crimson publishers.com — https://crimsonpublishers.com/rdms/fulltext/RDMS.000947.php
+[^n633-28]: Circuit QED theory of direct and dual Shapiro steps with finitesize transmission line resonators — https://arxiv.org/pdf/2405.12935v1
+[^n633-29]: USEQIP: Outcomes and experiences from 17 years of undergraduate summer schools in experimental quantum information science — https://arxiv.org/html/2604.25124
+[^n633-30]: Alain RÜFENACHT | National Institute of Standards and Technology, Gaithersburg | NIST | Quantum Electronics and Photonics Division | Research profile — https://www.researchgate.net/profile/Alain-Ruefenacht
+[^n633-31]: Master Pages Final5 — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=31972
+[^n633-32]: NIST Ships First Programmable AC/DC 10-Volt Standard — https://www.nist.gov/news-events/news/2010/10/nist-ships-first-programmable-acdc-10-volt-standard
+[^n633-33]: The Josephson Volt: NIST's First Quantum Electrical Standard — https://www.nist.gov/news-events/events/2011/12/josephson-volt-nists-first-quantum-electrical-standard
+[^n633-34]: Floquet Topological Order Explained: The Exotic Quantum Phase Scientists Finally Captured by Dr. Shahid Masood — https://www.1950.ai/post/floquet-topological-order-explained-the-exotic-quantum-phase-scientists-finally-captured
+[^n633-35]: Scientists Use Google's Quantum Processor to Probe Exotic Phases of Matter Beyond Classical Reach — https://thequantuminsider.com/2025/09/11/scientists-use-googles-quantum-processor-to-probe-exotic-phases-of-matter-beyond-classical-reach/
+[^n633-36]: Probing non-equilibrium topological order on a quantum processor | Nature — https://www.nature.com/articles/s41586-025-09456-3
+[^n633-37]: Floquet effects unlock graphene's potential for future electronics — https://phys.org/news/2025-09-floquet-effects-graphene-potential-future.pdf
+[^n633-38]: jagg-ix/entropic-time - docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md — https://github.com/jagg-ix/entropic-time/blob/HEAD/docs/multiphysics/PYNUCASTRO_QUTIP_INTEGRATION_ANALYSIS.md
+[^n633-39]: mdbabumiamssm/llms-universal-life-science-and-clinical-skills- - Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md — https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-/blob/HEAD/Skills/Research_Tools/Claude_Scientific_Skills/qutip/SKILL.md
+[^n633-40]: Qiskit – Shabani Lab — https://wp.nyu.edu/shabanilab/courses/qiskit/
+[^n633-41]: gavin-rockwood/gavin-rockwood.github.io - content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md — https://github.com/gavin-rockwood/gavin-rockwood.github.io/blob/HEAD/content/posts/quantum-simulations/floquet_landau_zener/sidebands-in-python/index.md
+[^n633-42]: Patient-Specific CFD Analysis of Carotid Artery Haemodynamics: Impact of Anatomical Variations on Atherosclerotic Risk — https://www.mdpi.com/2079-3197/14/4/77
+[^n633-43]: Time-dependent simulation of blood flow through an abdominal aorta with iliac arteries | European Biophysics Journal | Springer Nature Link — https://link.springer.com/article/10.1007/s00249-024-01724-w?error=cookies_not_supported&code=2fc4cdee-eae2-46ae-8547-65d5cfe049de
+[^n633-44]: Numerical simulation of pulsatile flow through a coronary nozzle model based on FDA’s benchmark geometry — https://www.degruyter.com/document/doi/10.1515/cdbme-2017-0163/html?lang=de
+[^n633-45]: The Fluid Mechanics of Female Reproduction: A Review of the Biofluid Mechanics of Pregnancy and Delivery — https://exaly.com/article/170132188
+[^n633-46]: AC Electrothermal Effect in Microfluidics: A Review — https://www.mdpi.com/2072-666X/10/11/762/html
+[^n633-47]: SimVascular Gateway for Education and Research — https://par.nsf.gov/servlets/purl/10379381
+[^n633-48]: Computational Fluid Dynamics Simulations to Predict False Lumen Enlargement After Surgical Repair of Type-A Aortic Dissection. - Literature - Data resources - CNGBdb — https://db.cngb.org/data_resources/literature/34091015
+[^n633-49]: MCPlas, a MATLAB toolbox for reproducible plasma modelling with COMSOL — https://arxiv.org/html/2512.18091
+[^n633-50]: 2D Hybrid Fluid-Analytical Model of Inductive/Capacitive Plasma Discharges - 63rd Annual Gaseous Electronics Conference and 7th International Conference on Reactive Plasmas PostDeadline — https://meetings.aps.org/Meeting/GEC10/Session/PR1.1
+[^n633-51]: Artificial Intelligence Enabled Diagnostics Using Photoplethysmography (PPG): Beyond SpO2 and Heart Rate — https://www.mdpi.com/2075-1729/16/9/1530
 
 #### 解答乙
 

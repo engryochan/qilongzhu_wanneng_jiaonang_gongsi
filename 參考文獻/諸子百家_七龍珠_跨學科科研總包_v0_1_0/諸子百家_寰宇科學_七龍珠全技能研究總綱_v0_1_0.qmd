@@ -3,7 +3,11 @@ title: "諸子百家 × 全球科研人物 × 《七龍珠》全技能：研究�
 subtitle: "歷史思想、現代物理、工程驗證與證據註冊表"
 date: 2026-10-14
 lang: zh-TW
-format: html
+format:
+  html:
+    embed-resources: true
+html-math-method: katex
+mainfont: "system-ui"
 toc: true
 number-sections: true
 ---
