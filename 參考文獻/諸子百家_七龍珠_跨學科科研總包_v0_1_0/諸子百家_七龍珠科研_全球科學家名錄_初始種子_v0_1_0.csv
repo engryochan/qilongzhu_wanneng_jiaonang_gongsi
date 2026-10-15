@@ -1,0 +1,146 @@
+﻿record_id,name,field,region_association,contribution,era,citizenship,orcid,orcid_status,affiliation,identity_source_url,representative_doi,paper_source_url,claim_evidence,last_verified_date,notes
+SCI-0001,伽利略 Galileo Galilei,力學與流體,義大利,落體及運動,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0002,牛頓 Isaac Newton,力學與流體,英國,運動定律與引力,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0003,歐拉 Leonhard Euler,力學與流體,瑞士,流體方程,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0004,拉格朗日 Joseph-Louis Lagrange,力學與流體,義大利／法國,分析力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0005,哈密頓 William Rowan Hamilton,力學與流體,愛爾蘭,哈密頓力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0006,伯努利 Daniel Bernoulli,力學與流體,瑞士,流體能量,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0007,納維 Claude-Louis Navier,力學與流體,法國,黏性流體,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0008,斯托克斯 George Gabriel Stokes,力學與流體,愛爾蘭／英國,黏性流體,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0009,雷諾 Osborne Reynolds,力學與流體,英國,湍流,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0010,普朗特 Ludwig Prandtl,力學與流體,德國,邊界層,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0011,馮卡門 Theodore von Kármán,力學與流體,匈牙利／美國,渦街及航空,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0012,周培源 Zhou Peiyuan,力學與流體,中國,湍流,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0013,吳仲華 Wu Zhonghua,力學與流體,中國,葉輪機械,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0014,Morteza Gharib,力學與流體,伊朗／美國,渦環及生物流體,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0015,Detlef Lohse,力學與流體,德國／荷蘭學術背景,湍流及多相流,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0016,Howard A. Stone,力學與流體,美國,微流體,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0017,George K. Batchelor,力學與流體,澳大利亞／英國,湍流,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0018,Jean-Baptiste le Rond d'Alembert,力學與流體,法國,流體力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0019,Hassan Aref,力學與流體,埃及出生／美國學術背景,渦動力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0020,James Lighthill,力學與流體,英國,生物流體及聲學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0021,Vilhelm Bjerknes,大氣氣象與電磁,挪威,動力氣象,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0022,Edward Lorenz,大氣氣象與電磁,美國,混沌氣象,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0023,Jule Charney,大氣氣象與電磁,美國,數值天氣預報,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0024,真鍋淑郎 Syukuro Manabe,大氣氣象與電磁,日本／美國,氣候模式,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0025,Kerry Emanuel,大氣氣象與電磁,美國,熱帶氣旋,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0026,Eugenia Kalnay,大氣氣象與電磁,阿根廷／美國,資料同化,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0027,法拉第 Michael Faraday,大氣氣象與電磁,英國,電磁感應,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0028,馬克士威 James Clerk Maxwell,大氣氣象與電磁,英國,電磁場,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0029,赫茲 Heinrich Hertz,大氣氣象與電磁,德國,電磁波,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0030,洛侖茲 Hendrik Lorentz,大氣氣象與電磁,荷蘭,電磁力,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0031,尼古拉·特斯拉 Nikola Tesla,大氣氣象與電磁,塞爾維亞裔／美國,交流電,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0032,Charles P. Steinmetz,大氣氣象與電磁,德國／美國,電力工程,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0033,Hannes Alfvén,大氣氣象與電磁,瑞典,磁流體,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0034,Irving Langmuir,大氣氣象與電磁,美國,電漿,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0035,Aurélien Houard,大氣氣象與電磁,法國,雷射引導閃電,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0036,Jean-Pierre Wolf,大氣氣象與電磁,瑞士,大氣光學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0037,Francisca Nneka Okeke,大氣氣象與電磁,奈及利亞,地磁與電離層,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0038,Edward Appleton,大氣氣象與電磁,英國,電離層,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0039,John B. Goodenough,大氣氣象與電磁,美國,電池電化學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0040,Tebello Nyokong,大氣氣象與電磁,南非,光化學與光動力研究,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0041,愛因斯坦 Albert Einstein,引力與時空,德國／瑞士／美國,廣義相對論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0042,羅傑·潘洛斯 Roger Penrose,引力與時空,英國,黑洞時空,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0043,基普·索恩 Kip Thorne,引力與時空,美國,引力波,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0044,Rainer Weiss,引力與時空,德國／美國,LIGO,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0045,Andrea Ghez,引力與時空,美國,銀河中心,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0046,Reinhard Genzel,引力與時空,德國,銀河中心,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0047,Stephen Hawking,引力與時空,英國,黑洞理論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0048,Subrahmanyan Chandrasekhar,引力與時空,印度／美國,恆星結構,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0049,Gabriela González,引力與時空,阿根廷／美國學術背景,引力波實驗,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0050,Clifford Will,引力與時空,美國,相對論檢驗,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0051,John Archibald Wheeler,引力與時空,美國,量子引力思想,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0052,Abhay Ashtekar,引力與時空,印度／美國學術背景,圈量子引力,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0053,Nergis Mavalvala,引力與時空,巴基斯坦／美國學術背景,引力波儀器,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0054,普朗克 Max Planck,量子物理與資訊,德國,量子論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0055,波耳 Niels Bohr,量子物理與資訊,丹麥,原子理論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0056,海森堡 Werner Heisenberg,量子物理與資訊,德國,矩陣力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0057,薛丁格 Erwin Schrödinger,量子物理與資訊,奧地利,波動力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0058,狄拉克 Paul Dirac,量子物理與資訊,英國,相對論量子,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0059,費曼 Richard Feynman,量子物理與資訊,美國,量子電動力學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0060,Alain Aspect,量子物理與資訊,法國,量子糾纏,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0061,Anton Zeilinger,量子物理與資訊,奧地利,量子態傳送,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0062,潘建偉 Pan Jianwei,量子物理與資訊,中國,量子通訊,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0063,丁致良 Julian J.-L. Ting,量子物理與資訊,臺灣學術背景,量子通道及光學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0064,John S. Bell,量子物理與資訊,北愛爾蘭／英國,貝爾不等式,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0065,Charles H. Bennett,量子物理與資訊,美國,量子資訊,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0066,Gilles Brassard,量子物理與資訊,加拿大,量子密碼,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0067,Peter Shor,量子物理與資訊,美國,量子演算法,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0068,David Deutsch,量子物理與資訊,以色列出生／英國學術背景,量子計算理論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0069,Artur Ekert,量子物理與資訊,波蘭／英國學術背景,量子密碼,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0070,菲涅耳 Augustin-Jean Fresnel,光學聲學,法國,波動光學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0071,Arthur Ashkin,光學聲學,美國,光學鑷子,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0072,Gérard Mourou,光學聲學,法國,超強雷射,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0073,Donna Strickland,光學聲學,加拿大,超快光學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0074,中村修二 Shuji Nakamura,光學聲學,日本／美國,藍光LED,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0075,Federico Capasso,光學聲學,義大利／美國,超表面光學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0076,Lord Rayleigh,光學聲學,英國,聲學與散射,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0077,Asier Marzo,光學聲學,西班牙,聲學全像,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0078,Bruce Drinkwater,光學聲學,英國,超聲波操作,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0079,Sriram Subramanian,光學聲學,印度／英國學術背景,超聲波觸覺,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0080,John Pendry,光學聲學,英國,超材料,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0081,Steven Cummer,光學聲學,美國,聲學超材料,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0082,Andrea Alù,光學聲學,義大利／美國學術背景,電磁超材料,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0083,Evelyn Hu,光學聲學,美國,奈米光子學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0084,Jocelyn Bell Burnell,光學聲學,北愛爾蘭／英國,射電天文,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0085,Margaret Dayhoff,生物與再生,美國,生物資訊,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0086,Michael Waterman,生物與再生,美國,生物序列,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0087,David Haussler,生物與再生,美國,基因組計算,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0088,Ewan Birney,生物與再生,英國,基因組資訊,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0089,陳潤生 Chen Runsheng,生物與再生,中國,生物資訊,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0090,Jennifer Doudna,生物與再生,美國,CRISPR,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0091,Emmanuelle Charpentier,生物與再生,法國,CRISPR,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0092,山中伸彌 Shinya Yamanaka,生物與再生,日本,iPSC,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0093,David Liu,生物與再生,美國,基因編輯,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0094,Hans Clevers,生物與再生,荷蘭,類器官,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0095,Robert Langer,生物與再生,美國,生物材料,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0096,竹內昌治 Shoji Takeuchi,生物與再生,日本,生物混合機器人,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0097,Niels Ryberg Finsen,生物與再生,丹麥,光療,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0098,Aziz Sancar,生物與再生,土耳其／美國,DNA修復,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0099,Russell Foster,生物與再生,英國,晝夜節律,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0100,Anthony Atala,生物與再生,美國,再生醫學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0101,George Church,生物與再生,美國,合成生物學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0102,James Collins,生物與再生,美國,合成生物學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0103,Feng Zhang,生物與再生,中國出生／美國學術背景,基因編輯,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0104,David Baker,生物與再生,美國,蛋白質設計,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0105,John Jumper,生物與再生,美國,蛋白質結構預測,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0106,Tu Youyou 屠呦呦,生物與再生,中國,天然藥物研究,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0107,Santiago Ramón y Cajal,神經人工智能與計算,西班牙,神經元,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0108,Karl Deisseroth,神經人工智能與計算,美國,光遺傳,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0109,Edward Boyden,神經人工智能與計算,美國,神經技術,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0110,Miguel Nicolelis,神經人工智能與計算,巴西,腦機介面,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0111,Grégoire Courtine,神經人工智能與計算,法國,腦脊髓介面,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0112,Jocelyne Bloch,神經人工智能與計算,瑞士,神經外科,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0113,John Donoghue,神經人工智能與計算,美國,BrainGate,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0114,John Hopfield,神經人工智能與計算,美國,神經網絡,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0115,Geoffrey Hinton,神經人工智能與計算,英國／加拿大,深度學習,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0116,Yoshua Bengio,神經人工智能與計算,法國／加拿大,深度學習,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0117,Yann LeCun,神經人工智能與計算,法國／美國,卷積網絡,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0118,李飛飛 Fei-Fei Li,神經人工智能與計算,中國出生／美國,電腦視覺,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0119,Alan Turing,神經人工智能與計算,英國,計算理論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0120,Claude Shannon,神經人工智能與計算,美國,資訊論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0121,Edsger Dijkstra,神經人工智能與計算,荷蘭,演算法,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0122,Donald Knuth,神經人工智能與計算,美國,演算法分析,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0123,John von Neumann,神經人工智能與計算,匈牙利／美國,計算架構,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0124,陶哲軒 Terence Tao,神經人工智能與計算,澳大利亞／美國,數學分析,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0125,Demis Hassabis,神經人工智能與計算,英國,深度學習與蛋白質AI,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0126,Judea Pearl,神經人工智能與計算,以色列／美國,因果推論,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0127,Michael Jordan,神經人工智能與計算,美國,機器學習,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0128,Rodney Brooks,神經人工智能與計算,澳大利亞／美國,機械人,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0129,Marc Raibert,神經人工智能與計算,美國,腿式機械人,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0130,Daniela Rus,神經人工智能與計算,羅馬尼亞／美國學術背景,機械人,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0131,Pieter Abbeel,神經人工智能與計算,比利時／美國學術背景,機械人強化學習,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0132,Sergey Levine,神經人工智能與計算,美國學術背景,機械人學習,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0133,Anima Anandkumar,神經人工智能與計算,印度／美國學術背景,人工智能,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0134,Regina Barzilay,神經人工智能與計算,以色列／美國學術背景,人工智能醫學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0135,Shawn Carlson,研究檢驗與哲學,美國,占星雙盲檢驗,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0136,Susan Blackmore,研究檢驗與哲學,英國,超心理學檢驗,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0137,Richard Wiseman,研究檢驗與哲學,英國,異常心理學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0138,Christopher French,研究檢驗與哲學,英國,異常心理學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0139,Rupert Sheldrake,研究檢驗與哲學,英國,有爭議超心理假說,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0140,Karl Popper,研究檢驗與哲學,奧地利／英國,可證偽性,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0141,Thomas Kuhn,研究檢驗與哲學,美國,科學史,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0142,John Ioannidis,研究檢驗與哲學,希臘／美國學術背景,可重現性,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0143,Deborah Mayo,研究檢驗與哲學,美國,統計哲學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0144,David Spiegelhalter,研究檢驗與哲學,英國,不確定性與風險,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍
+SCI-0145,Barbara McClintock,研究檢驗與哲學,美國,細胞遺傳學,歷史或現代（個別待判）,UNKNOWN_NOT_VERIFIED,,NOT_CHECKED,,,,,SEED_NOT_INDIVIDUALLY_VERIFIED,,國別欄屬通行歷史／學術背景，不能視為目前護照國籍

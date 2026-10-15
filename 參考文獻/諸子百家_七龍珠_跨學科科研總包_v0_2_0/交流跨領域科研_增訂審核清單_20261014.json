@@ -1,0 +1,42 @@
+{
+  "scope": "三份Markdown原文保留並增訂；僅依公開來源核對，非全部原文實地重驗",
+  "items": [
+    {
+      "original_file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_1_0.md",
+      "original_sha256": "95d22d9602260f0ffa10354e9bd088d318090332c6305e93331e70ebdd896288",
+      "output_file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md",
+      "output_sha256": "c915c9dfdd376b55b45fbf869f7e2fd096b1582f74e238f6d7a9eab475489c37",
+      "original_lines": 369,
+      "new_lines": 521,
+      "added_lines": 152,
+      "original_preserved_as_prefix": true
+    },
+    {
+      "original_file": "神經網絡學.md",
+      "original_sha256": "f8eb5ecf2b684b0017abdd94d4fe4d243f47b752296439291b1f57d94b33d789",
+      "output_file": "神經網絡學_交流跨領域研究增訂_20261014.md",
+      "output_sha256": "950c1df84ad6dd895ccc899e46d0864fd7fa943ab069e40d2777e6cf93ad8ce8",
+      "original_lines": 11323,
+      "new_lines": 11422,
+      "added_lines": 99,
+      "original_preserved_as_prefix": true
+    },
+    {
+      "original_file": "七龍珠能力技術對照冊.md",
+      "original_sha256": "220b7cc17a294b3a8ef1bdd97acea059972db7c30500f885ae7cdfe2bf91f54c",
+      "output_file": "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md",
+      "output_sha256": "9bf95f8894e2a592e1a81845b23cacb2ac9338bef2b57a9055feb0d7e7ef5188",
+      "original_lines": 318,
+      "new_lines": 435,
+      "added_lines": 117,
+      "original_preserved_as_prefix": true
+    },
+    {
+      "evidence_csv": "寰宇交流科技_證據註冊表_20261014.csv",
+      "record_count": 35,
+      "sha256": "e38f08add120b0f2969b9dc9827d9460ddd6321e89b3278baffd38774ae881c1",
+      "as_of": "2026-10-14",
+      "scope": "public, source-linked curated registry, not exhaustive worldwide census"
+    }
+  ]
+}

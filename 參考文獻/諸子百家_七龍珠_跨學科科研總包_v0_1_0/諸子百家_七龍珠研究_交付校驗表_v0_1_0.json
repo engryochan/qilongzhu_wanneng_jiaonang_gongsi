@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-14",
+  "candidate_scientists": 145,
+  "candidate_abilities": 110,
+  "schools": 14,
+  "disciplines": 32,
+  "files": [
+    {
+      "file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_1_0.qmd",
+      "bytes": 33199,
+      "lines": 369,
+      "sha256": "95d22d9602260f0ffa10354e9bd088d318090332c6305e93331e70ebdd896288",
+      "encoding": "UTF-8 BOM for CSV; UTF-8 for QMD"
+    },
+    {
+      "file": "諸子百家_七龍珠科研_全球科學家名錄_初始種子_v0_1_0.csv",
+      "bytes": 36655,
+      "lines": 146,
+      "sha256": "00193cfe85d97d04ecdea57e682ac30a8945f4eea53fa4db001123ce6939c7af",
+      "encoding": "UTF-8 BOM for CSV; UTF-8 for QMD"
+    },
+    {
+      "file": "諸子百家_七龍珠全技能_研究分類註冊表_v0_1_0.csv",
+      "bytes": 21395,
+      "lines": 111,
+      "sha256": "5d5d23e52a2a4ccac49a43914934dde56bed6a35de7f169e8460cc57e8fe38b2",
+      "encoding": "UTF-8 BOM for CSV; UTF-8 for QMD"
+    },
+    {
+      "file": "諸子百家_學派思想註冊表_v0_1_0.csv",
+      "bytes": 1941,
+      "lines": 15,
+      "sha256": "29761682961b37968e90a7ec2d78915a1ab0c6ea7dfde2ec6cec763a536a2379",
+      "encoding": "UTF-8 BOM for CSV; UTF-8 for QMD"
+    }
+  ]
+}

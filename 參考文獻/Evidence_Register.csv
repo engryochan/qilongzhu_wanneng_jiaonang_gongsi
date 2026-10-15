@@ -1,0 +1,12 @@
+﻿source_id,domain,organization,title,url,evidence_type,limitations
+S01,氣流,NASA NTRS,Synthetic jet actuator research,https://ntrs.nasa.gov/api/citations/20040084676/downloads/20040084676.pdf,研究文獻,振盪吸排、零週期淨質量通量；不等於零能量
+S02,光學,Thorlabs,Free-space electro-optic modulators,https://www.thorlabs.us/catalogpages/V21/980.pdf,廠商歷史型錄,電光調制原理；未確認2026在售型號
+S03,雷電,Houard et al. / Nature Photonics,Laser-guided lightning (2023),https://www.nature.com/articles/s41566-022-01139-z,同行評審野外實驗,50 m引導；小樣本、特殊塔台環境
+S04,雷電,University of Geneva,Laser Lightning Rod consortium,https://www.unige.ch/medias/en/2023/devier-la-foudre-grace-au-paratonnerre-laser,大學官方,UNIGE、École Polytechnique、EPFL、HES-SO、TRUMPF
+S05,傷口,WHAM / Curtin University,Electrical stimulation therapy for wound healing (2024),https://journals.cambridgemedia.com.au/wpr/volume-32-number-3/electrical-stimulation-therapy-wound-healing-wham-evidence-summary,證據摘要／統合分析二次綜合,特定傷口輔助治療；低至中等確定性；非交流獨有效果
+S06,量子,QuTiP,Floquet Formalism stable documentation,https://qutip.readthedocs.io/en/stable/guide/dynamics/dynamics-floquet.html,官方軟體文件,FloquetBasis、fsesolve、fmmesolve；未執行軟體測試
+S07,量子,Weitenberg / Simonet,Tailoring quantum gases by Floquet engineering,https://inspirehep.net/literature/2798683,綜述索引,週期驅動量子氣體；不是新量子力學
+S08,生物流體,Elveflow,OB1 MK4 pressure controller,https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/,廠商官方規格,多壓力量程選項；不是同時滿足所有極限
+S09,生物流體,Elveflow,OB1 model comparison,https://elveflow.com/microfluidic-products/microfluidics-services/ob1-pressure-controller-upgrades/,廠商官方,MK4串列通訊OS agnostic；應用程式相容性仍須確認
+S10,生物流體,Emulate,Chip-S1 Stretchable Chip,https://emulatebio.com/chip-s1-stretchable-chip/,廠商官方,週期伸展模擬呼吸與蠕動；不是人體再生證明
+S11,傷口,NIH PMC,Electrically stimulated cell migration (2018),https://pmc.ncbi.nlm.nih.gov/articles/PMC6036678/,研究綜述,細胞遷移與電刺激；不可直接外推到全身療癒
