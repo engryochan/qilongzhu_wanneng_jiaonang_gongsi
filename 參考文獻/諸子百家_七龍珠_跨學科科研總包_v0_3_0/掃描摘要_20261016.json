@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-16",
+  "file_count": 55,
+  "scan_status_counts": {
+    "TEXT_FULLY_SCANNED_NOT_FACT_VERIFIED": 53,
+    "GENERATED_DERIVATIVE_HASHED_NOT_SEPARATELY_FACT_VERIFIED": 2
+  },
+  "line_candidates_outside_target": 18930,
+  "unique_candidate_texts": 6765,
+  "syntax_issues": [],
+  "semantic_verification_complete": false,
+  "exclusions": [
+    ".Rproj.user",
+    ".git",
+    ".quarto",
+    "__pycache__",
+    "node_modules"
+  ],
+  "candidate_extraction": "source MD/QMD/CSV outside target; target has evidence audit tables",
+  "warning": "all files inventoried, text scanned; not all assertions externally verified"
+}
