@@ -78,6 +78,32 @@ def main():
     for r in b04traces:
         text=(HERE/r['file']).read_text(encoding='utf-8')
         assert r['old'] not in text and r['new'] in text,'B04 correction missing or reverted'
+    b05=json.loads((HERE/'細胞重編程核查回執_B05_20261016.json').read_text(encoding='utf-8'))
+    assert {s['id'] for s in b05['sources']}=={f'RP{i:02d}' for i in range(1,9)}
+    assert b05['experiment_run'] is False and b05['registry_details_verified'] is False
+    assert b05['sources'][0]['evidence_level']=='MOUSE_DERIVED_CELLS_IN_VITRO'
+    assert b05['sources'][7]['access_depth']=='REGISTRY_ENTRY_NOT_SUBSTANTIVELY_RETRIEVED'
+    b05traces=[r for r in traces if r.get('batch')=='B05']
+    assert len(b05traces)==b05['correction_records'] and len(b05traces)==5
+    for r in b05traces:
+        text=(HERE/r['file']).read_text(encoding='utf-8')
+        assert r['old'] not in text and r['new'] in text,'B05 correction missing or reverted'
+    b06=json.loads((HERE/'並行仿真核查回執_B06_20261016.json').read_text(encoding='utf-8'))
+    assert {s['id'] for s in b06['sources']}=={f'SIM{i:02d}' for i in range(1,7)}
+    assert not b06['simulation_run'] and not b06['robot_deployment_run']
+    assert b06['sources'][0]['research_or_document_group']==b06['sources'][1]['research_or_document_group']
+    b06traces=[r for r in traces if r.get('batch')=='B06']
+    assert len(b06traces)==b06['correction_records']==6
+    for r in b06traces:
+        text=(HERE/r['file']).read_text(encoding='utf-8')
+        assert r['old'] not in text and r['new'] in text,'B06 correction missing or reverted'
+    inputs=b06['illustration'];assert inputs['status']=='ASSUMED_INPUTS_NOT_MEASURED'
+    q=inputs['aggregate_transitions_per_wall_second'];dt=inputs['control_step_sim_seconds']
+    duration=inputs['wall_seconds'];envs=inputs['environments']
+    assert q*duration==360000000 and math.isclose(q*duration*dt,7200000)
+    assert math.isclose(q*duration*dt/envs,1757.8125)
+    assert math.isclose(q*dt/envs,.48828125)
+    assert math.isclose(q*duration*dt/(inputs['year_days']*86400),.228310502283105)
     # Independent arithmetic of the explicitly labelled point-mass thought experiment.
     mass=9.80665*(0.1**2)/6.67430e-11
     energy=mass*299792458**2

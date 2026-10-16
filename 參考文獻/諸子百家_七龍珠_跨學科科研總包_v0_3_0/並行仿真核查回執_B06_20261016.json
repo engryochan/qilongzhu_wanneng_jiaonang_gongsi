@@ -1,0 +1,65 @@
+{
+  "batch": "B06",
+  "checked_as_of": "2026-10-16",
+  "simulation_run": false,
+  "robot_deployment_run": false,
+  "sources": [
+    {
+      "id": "SIM01",
+      "url": "https://proceedings.mlr.press/v164/rudin22a.html",
+      "access_depth": "PUBLISHER_ABSTRACT_CHECKED",
+      "source_version_or_year": "2022",
+      "research_or_document_group": "ANYMAL_RUDIN",
+      "limitation": "ANYmal限定任務；未核全文實驗設定及原始資料"
+    },
+    {
+      "id": "SIM02",
+      "url": "https://arxiv.org/abs/2109.11978",
+      "access_depth": "AUTHOR_ABSTRACT_AND_VERSION_CHECKED",
+      "source_version_or_year": "v3 2022-08-19",
+      "research_or_document_group": "ANYMAL_RUDIN",
+      "limitation": "與SIM01同一研究，非獨立重現"
+    },
+    {
+      "id": "SIM03",
+      "url": "https://developer.nvidia.com/blog/closing-the-sim-to-real-gap-training-spot-quadruped-locomotion-with-nvidia-isaac-lab/",
+      "access_depth": "VENDOR_CASE_TEXT_CHECKED",
+      "source_version_or_year": "",
+      "research_or_document_group": "SPOT_NVIDIA",
+      "limitation": "廠商案例；4096環境、RTX4090、約4小時，非本機實測"
+    },
+    {
+      "id": "SIM04",
+      "url": "https://isaac-sim.github.io/IsaacLab/v2.0.0/source/setup/faq.html",
+      "access_depth": "VERSIONED_MAINTAINER_DOCUMENTATION_CHECKED",
+      "source_version_or_year": "v2.0.0",
+      "research_or_document_group": "ISAAC_ECOSYSTEM",
+      "limitation": "歷史版本文件，不將當時架構或授權敘述冒充最新狀態"
+    },
+    {
+      "id": "SIM05",
+      "url": "https://docs.isaacsim.omniverse.nvidia.com/5.1.0/isaac_lab_tutorials/troubleshooting.html",
+      "access_depth": "VERSIONED_MAINTAINER_DOCUMENTATION_CHECKED",
+      "source_version_or_year": "5.1.0",
+      "research_or_document_group": "ISAAC_ECOSYSTEM",
+      "limitation": "版本化故障排除；不是各類失敗原因的統計排名"
+    },
+    {
+      "id": "SIM06",
+      "url": "https://arxiv.org/abs/1707.06347",
+      "access_depth": "ORIGINAL_ALGORITHM_ABSTRACT_CHECKED",
+      "source_version_or_year": "2017",
+      "research_or_document_group": "PPO",
+      "limitation": "採樣與策略目標優化；本輪未重現演算法或核全部推導"
+    }
+  ],
+  "correction_records": 6,
+  "illustration": {
+    "status": "ASSUMED_INPUTS_NOT_MEASURED",
+    "environments": 4096,
+    "aggregate_transitions_per_wall_second": 100000,
+    "control_step_sim_seconds": 0.02,
+    "wall_seconds": 3600,
+    "year_days": 365
+  }
+}

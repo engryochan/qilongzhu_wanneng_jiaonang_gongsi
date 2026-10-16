@@ -1,0 +1,73 @@
+{
+  "batch": "B05",
+  "checked_as_of": "2026-10-16",
+  "experiment_run": false,
+  "registry_details_verified": false,
+  "sources": [
+    {
+      "id": "RP01",
+      "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2023.1323194/full",
+      "source_date_or_year": "2024-01-23",
+      "access_depth": "ORIGINAL_RESULTS_AND_METHODS_CHECKED",
+      "evidence_level": "MOUSE_DERIVED_CELLS_IN_VITRO",
+      "limitation": "ERCC1研究：關鍵結果不可寫成整隻小鼠再生；卷年2023與上線日2024分開"
+    },
+    {
+      "id": "RP02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27984723/",
+      "source_date_or_year": "2016",
+      "access_depth": "ORIGINAL_ABSTRACT_AND_FIGURE_CAPTIONS_CHECKED",
+      "evidence_level": "PROGEROID_MOUSE",
+      "limitation": "早衰模型壽命，非人體延壽；未核全部原始資料"
+    },
+    {
+      "id": "RP03",
+      "url": "https://www.nature.com/articles/s41586-020-2975-4",
+      "source_date_or_year": "2020",
+      "access_depth": "PUBLISHER_ABSTRACT_INDEX_CHECKED",
+      "evidence_level": "MOUSE_RETINAL_GANGLION_CELLS",
+      "limitation": "OSK三因子；直接全文讀取失敗，未重現"
+    },
+    {
+      "id": "RP04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24025773/",
+      "source_date_or_year": "2013",
+      "access_depth": "ORIGINAL_ABSTRACT_CHECKED",
+      "evidence_level": "MOUSE_IN_VIVO",
+      "limitation": "多器官畸胎瘤實驗不能推出所有方案的發生率"
+    },
+    {
+      "id": "RP05",
+      "url": "https://www.lifebiosciences.com/life-biosciences-announces-fda-clearance-of-ind-application-for-er-100-in-optic-neuropathies/",
+      "source_date_or_year": "2026-01-28",
+      "access_depth": "SPONSOR_ANNOUNCEMENT_CHECKED",
+      "evidence_level": "HUMAN_TRIAL_AUTHORIZATION_REPORTED",
+      "limitation": "公司報告IND獲准；不是FDA原始決定或上市批准"
+    },
+    {
+      "id": "RP06",
+      "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/",
+      "source_date_or_year": "2026-06-09",
+      "access_depth": "SPONSOR_ANNOUNCEMENT_CHECKED",
+      "evidence_level": "FIRST_PARTICIPANT_DOSING_REPORTED",
+      "limitation": "公告日不冒充實際給藥日"
+    },
+    {
+      "id": "RP07",
+      "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/",
+      "source_date_or_year": "2026-10-08",
+      "access_depth": "SPONSOR_INTERIM_DATA_ANNOUNCEMENT_CHECKED",
+      "evidence_level": "HUMAN_PHASE1_OPEN_LABEL",
+      "limitation": "三人第56日；兩人視野改善訊號，不是確證療效或長期安全"
+    },
+    {
+      "id": "RP08",
+      "url": "https://clinicaltrials.gov/study/NCT07290244",
+      "source_date_or_year": "",
+      "access_depth": "REGISTRY_ENTRY_NOT_SUBSTANTIVELY_RETRIEVED",
+      "evidence_level": "REGISTRY_PENDING",
+      "limitation": "頁面僅殼層，API失敗；試驗ID見公司公告，未獨立核登錄詳細內容"
+    }
+  ],
+  "correction_records": 5
+}
