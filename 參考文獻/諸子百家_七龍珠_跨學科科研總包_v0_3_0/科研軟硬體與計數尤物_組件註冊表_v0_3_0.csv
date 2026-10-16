@@ -1,26 +1,26 @@
-﻿domain,product_or_category,version_as_of,url,license_or_type,use,limitation,verification_scope
-CFD,OpenFOAM Foundation,14 (2026-07-14),https://openfoam.org/release/14/,open source,氣流、湍流、熱與離子風模型,WSL2/Linux可行，須先測試套件與求解器,官方發佈
-CFD,SU2,version not independently checked,https://su2code.github.io/,open source,空氣動力學優化,不直接支持生物臨床,候選官網
-FEM,FEniCSx,0.11 (2026-06),https://fenicsproject.org/download/,open source,波動／力學／材料耦合,非完整多物理場流程,官方發佈
-FEM,Elmer FEM,not independently checked,https://www.csc.fi/en/elmer/,open source,電磁／熱／力耦合,條件與材料要獨立驗算,候選官網
-電磁,MEEP,not independently checked,https://meep.readthedocs.io/,open source,電磁波、光子結構,時變材料功能須核對具體版本,候選官網
-電磁,COMSOL Multiphysics,not independently checked,https://www.comsol.com/,commercial,電磁／聲／流體多物理場,商業授權、性能受網格影響,候選官網
-聲學,k-Wave,not independently checked,https://www.k-wave.org/,open source,聲學／超聲波傳播,不支持任意無裝置念力,官方入口
-流場量測,OpenPIV,not independently checked,https://github.com/OpenPIV/openpiv-python,open source,實驗粒子影像測速,非實驗裝置本體,官方開源
-量子,QuTiP,5.3.1 release on 2026-08-04,https://github.com/qutip/qutip/releases,open source,Floquet量子動力學與噪聲,需版本鎖定與模型適用性審查,官方發佈
-量子,Qiskit,not independently checked,https://www.ibm.com/quantum/blog/utility-scale-dynamic-circuits,open source + cloud,量子電路與動態回饋,不得假設所有硬體支援任意脈衝波形,官方產品
-量子,PennyLane,not independently checked,https://pennylane.ai/,open source,可微量子程式,特定元件需合適硬體,候選官網
-神經,MNE-Python,not independently checked,https://mne.tools/stable/,open source,EEG/MEG神經訊號頻譜／相干分析,不能以同步證明療效,官方文件
-神經,Brian2,not independently checked,https://briansimulator.org/,open source,神經元節律模擬,與臨床成效不同,官方入口
-神經,NEURON,not independently checked,https://neuron.yale.edu/neuron/,open source,神經動力學多區室模擬,模型需實測參數,官方入口
-機械,ROS 2,not independently checked,https://docs.ros.org/,open source,機械人訊息、運動系統,不等於安全認證完成,官方入口
-機械,MuJoCo,not independently checked,https://mujoco.org/,open source,運動與接觸模擬,不含人體生理真實性保證,官方入口
-生物,Bioconductor,not independently checked,https://bioconductor.org/,open source R,組學與細胞資料,需處理批次效應與多重檢定,官方入口
-生物,Scanpy,not independently checked,https://scanpy.readthedocs.io/,open source Python,單細胞多組學,不能直接當臨床證據,官方入口
-生物,CellProfiler,not independently checked,https://cellprofiler.org/,open source,細胞影像量化,需真值標註及盲評,官方入口
-統計,R targets,not independently checked,https://docs.ropensci.org/targets/,open source R,可重現科研資料管線,版本鎖定,官方入口
-統計,Python SciPy,not independently checked,https://scipy.org/,open source Python,訊號、最佳化、統計,方法需因問題選擇,官方入口
-硬體類型,高速度攝影／PIV光學台,model not specified,https://github.com/OpenPIV/openpiv-python,laboratory equipment category,小尺度氣流量測,光學安全與現場風險評估必需,工具類別
-硬體類型,示波器與隔離式資料擷取,model not specified,https://www.ni.com/,laboratory equipment category,電場／頻率／時序量測,電氣安全與隔離需專業人員,工具類別
-硬體類型,器官晶片／顯微鏡／安全微流體驅動,model not specified,https://ncats.nih.gov/research/research-activities/tissue-chip,laboratory equipment category,流體剪切／細胞觀察,需要倫理、生物安全與臨床治理,工具類別
-硬體類型,EEG/MEG／科研生理訊號儀,model not specified,https://mne.tools/stable/,laboratory equipment category,神經節律測量,不是自行腦刺激裝置,工具類別
+﻿domain,product_or_category,version_as_of,url,license_or_type,use,limitation,verification_scope,audit_as_of,local_test,model_or_version_pinned,evidence_id,audit_status
+CFD,OpenFOAM Foundation,14 (2026-07-14),https://openfoam.org/release/14/,open source,氣流、湍流、熱與離子風模型,WSL2/Linux可行，須先測試套件與求解器,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,EV44,RELEASE_CHECKED
+CFD,SU2,version not independently checked,https://su2code.github.io/,open source,空氣動力學優化,不直接支持生物臨床,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+FEM,FEniCSx,0.11 (2026-06),https://fenicsproject.org/download/,open source,波動／力學／材料耦合,非完整多物理場流程,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,EV28,RELEASE_CHECKED
+FEM,Elmer FEM,not independently checked,https://www.csc.fi/en/elmer/,open source,電磁／熱／力耦合,條件與材料要獨立驗算,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,ACCESS_LIMITED_REQUIRES_REVIEW
+電磁,MEEP,not independently checked,https://meep.readthedocs.io/,open source,電磁波、光子結構,時變材料功能須核對具體版本,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+電磁,COMSOL Multiphysics,not independently checked,https://www.comsol.com/,commercial,電磁／聲／流體多物理場,商業授權、性能受網格影響,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+聲學,k-Wave,not independently checked,https://www.k-wave.org/,open source,聲學／超聲波傳播,不支持任意無裝置念力,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+流場量測,OpenPIV,not independently checked,https://github.com/OpenPIV/openpiv-python,open source,實驗粒子影像測速,非實驗裝置本體,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+量子,QuTiP,5.3.1 (2026-08-04),https://github.com/qutip/qutip/releases,open source,Floquet量子動力學與噪聲,需版本鎖定與模型適用性審查,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,EV46,RELEASE_CHECKED
+量子,Qiskit,not independently checked,https://www.ibm.com/quantum/blog/utility-scale-dynamic-circuits,open source + cloud,量子電路與動態回饋,不得假設所有硬體支援任意脈衝波形,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+量子,PennyLane,not independently checked,https://pennylane.ai/,open source,可微量子程式,特定元件需合適硬體,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,ACCESS_LIMITED_REQUIRES_REVIEW
+神經,MNE-Python,not independently checked,https://mne.tools/stable/,open source,EEG/MEG神經訊號頻譜／相干分析,不能以同步證明療效,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+神經,Brian2,not independently checked,https://briansimulator.org/,open source,神經元節律模擬,與臨床成效不同,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+神經,NEURON,not independently checked,https://neuron.yale.edu/neuron/,open source,神經動力學多區室模擬,模型需實測參數,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,ACCESS_LIMITED_REQUIRES_REVIEW
+機械,ROS 2,not independently checked,https://docs.ros.org/,open source,機械人訊息、運動系統,不等於安全認證完成,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,ACCESS_LIMITED_REQUIRES_REVIEW
+機械,MuJoCo,not independently checked,https://mujoco.org/,open source,運動與接觸模擬,不含人體生理真實性保證,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+生物,Bioconductor,not independently checked,https://bioconductor.org/,open source R,組學與細胞資料,需處理批次效應與多重檢定,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+生物,Scanpy,not independently checked,https://scanpy.readthedocs.io/,open source Python,單細胞多組學,不能直接當臨床證據,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,ACCESS_LIMITED_REQUIRES_REVIEW
+生物,CellProfiler,not independently checked,https://cellprofiler.org/,open source,細胞影像量化,需真值標註及盲評,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+統計,R targets,not independently checked,https://docs.ropensci.org/targets/,open source R,可重現科研資料管線,版本鎖定,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+統計,Python SciPy,not independently checked,https://scipy.org/,open source Python,訊號、最佳化、統計,方法需因問題選擇,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,OFFICIAL_ENTRY_ONLY
+硬體類型,高速度攝影／PIV光學台,model not specified,https://github.com/OpenPIV/openpiv-python,laboratory equipment category,小尺度氣流量測,光學安全與現場風險評估必需,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,CATEGORY_ONLY_NO_DEVICE_VERIFIED
+硬體類型,示波器與隔離式資料擷取,model not specified,https://www.ni.com/,laboratory equipment category,電場／頻率／時序量測,電氣安全與隔離需專業人員,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,CATEGORY_ONLY_NO_DEVICE_VERIFIED
+硬體類型,器官晶片／顯微鏡／安全微流體驅動,model not specified,https://ncats.nih.gov/research/research-activities/tissue-chip,laboratory equipment category,流體剪切／細胞觀察,需要倫理、生物安全與臨床治理,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,CATEGORY_ONLY_NO_DEVICE_VERIFIED
+硬體類型,EEG/MEG／科研生理訊號儀,model not specified,https://mne.tools/stable/,laboratory equipment category,神經節律測量,不是自行腦刺激裝置,入口或發佈資料核對；不等於安裝、性能、授權全文、作業系統相容性驗證,2026-10-16,NOT_RUN,NO,,CATEGORY_ONLY_NO_DEVICE_VERIFIED

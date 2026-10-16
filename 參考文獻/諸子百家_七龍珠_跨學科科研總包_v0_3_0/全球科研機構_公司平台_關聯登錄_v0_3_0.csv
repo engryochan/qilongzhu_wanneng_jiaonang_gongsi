@@ -1,26 +1,26 @@
-﻿country_or_region_not_scientist_citizenship,entity_type,entity,relevant_research,official_or_public_url,evidence_type,as_of,limitations
-美國,政府,NASA Glenn Research Center,合成射流模型、流體／航空,https://www.grc.nasa.gov/WWW/winddocs/user/keywords/synjet.html,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國,大學,MIT,離子風推進、腦節律／光學,https://news.mit.edu/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國,研究機構,NIH NCATS,器官晶片、轉譯醫學,https://ncats.nih.gov/research/research-activities/tissue-chip,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國,監管,FDA,醫療器械審批與適應症,https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-device-treat-pancreatic-cancer,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國／跨國,企業,Novocure,交變腫瘤治療電場,https://www.novocure.com/,OFFICIAL_VENDOR,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國,公司／科研軟件,IBM Quantum,Qiskit／動態量子電路,https://www.ibm.com/quantum/blog/utility-scale-dynamic-circuits,OFFICIAL_VENDOR,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-美國,大學,University of Michigan,腔內 Floquet 光子材料,https://www.nature.com/articles/s41467-024-52014-0,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-中國,大學,四川大學與華西醫院,骨髓幹細胞機械力／衰老,https://www.nature.com/articles/s41467-026-68387-3,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-中國,大學,南京大學,時空調變電磁超表面,https://doi.org/10.1002/lpor.202502026,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-中國,學術機構,中國科學技術大學,量子資訊研究候選,https://www.ustc.edu.cn/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-日本,大學,東京大學竹內研究室,生物混合機械、光控肌肉,https://www.hybrid.t.u-tokyo.ac.jp/en/research-category/biohybrid-robots/,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-日本,國家研究機構,NIMS,奈米與光學材料,https://www.nims.go.jp/eng/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-日本,國家研究機構,RIKEN,光、量子、生物與腦神經科研,https://www.riken.jp/en/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-瑞士,研究團隊,Säntis雷電試驗跨國團隊,激光引導雷電,https://www.nature.com/articles/s41566-022-01139-z,PAPER,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-瑞士,大學,EPFL,腦—脊髓介面與神經控制,https://www.epfl.ch/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-德國,科研組織,Max Planck Society,基礎量子與生物科學研究,https://www.mpg.de/en,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-法國,科研組織,CNRS,光雷電、物理研究,https://www.cnrs.fr/en,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-荷蘭,大學,TU Delft / QuTech,量子資訊與控制,https://qutech.nl/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-英國,大學,University of Bristol,聲學懸浮與超聲波,https://www.bristol.ac.uk/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-歐盟,政府科研機構,European Commission JRC / EURL ECVAM,器官晶片標準化、替代試驗,https://joint-research-centre.ec.europa.eu/scientific-activities/reference-and-measurement/european-union-reference-laboratories/eu-reference-laboratory-alternatives-animal-testing-eurl-ecvam_en,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-臺灣,大學,國立臺灣大學,40Hz腦節律人體研究,https://pmc.ncbi.nlm.nih.gov/articles/PMC11864247/,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-加拿大,大學,University of Waterloo,量子科學與計算研究候選,https://uwaterloo.ca/institute-for-quantum-computing/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-韓國,科研組織,Institute for Basic Science,基礎量子與生物研究候選,https://www.ibs.re.kr/eng.do,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-澳洲,科研組織,CSIRO,材料、流體與醫學轉譯候選,https://www.csiro.au/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
-以色列,大學,Technion,生物醫工及量子光學候選,https://www.technion.ac.il/en/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能
+﻿country_or_region_not_scientist_citizenship,entity_type,entity,relevant_research,official_or_public_url,evidence_type,as_of,limitations,audit_as_of,supporting_evidence_id,audit_status,legal_identity_status,ownership_status,geographic_scope
+美國,政府,NASA Glenn Research Center,合成射流模型、流體／航空,https://www.grc.nasa.gov/WWW/winddocs/user/keywords/synjet.html,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV43,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國,大學,MIT,離子風推進、腦節律／光學,https://news.mit.edu/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV03,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國,研究機構,NIH NCATS,器官晶片、轉譯醫學,https://ncats.nih.gov/research/research-activities/tissue-chip,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV49,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國,監管,FDA,醫療器械審批與適應症,https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-device-treat-pancreatic-cancer,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV36,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國／跨國,企業,Novocure,交變腫瘤治療電場,https://www.novocure.com/,OFFICIAL_VENDOR,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV36,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國,公司／科研軟件,IBM Quantum,Qiskit／動態量子電路,https://www.ibm.com/quantum/blog/utility-scale-dynamic-circuits,OFFICIAL_VENDOR,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV48,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+美國,大學,University of Michigan,腔內 Floquet 光子材料,https://www.nature.com/articles/s41467-024-52014-0,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV10,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+中國,大學,四川大學與華西醫院,骨髓幹細胞機械力／衰老,https://www.nature.com/articles/s41467-026-68387-3,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV17,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+中國,大學,南京大學,時空調變電磁超表面,https://doi.org/10.1002/lpor.202502026,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV39,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+中國,學術機構,中國科學技術大學,量子資訊研究候選,https://www.ustc.edu.cn/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+日本,大學,東京大學竹內研究室,生物混合機械、光控肌肉,https://www.hybrid.t.u-tokyo.ac.jp/en/research-category/biohybrid-robots/,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV52,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+日本,國家研究機構,NIMS,奈米與光學材料,https://www.nims.go.jp/eng/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+日本,國家研究機構,RIKEN,光、量子、生物與腦神經科研,https://www.riken.jp/en/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+瑞士,研究團隊,Säntis雷電試驗跨國團隊,激光引導雷電,https://www.nature.com/articles/s41566-022-01139-z,PAPER,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV08,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+瑞士,大學,EPFL,腦—脊髓介面與神經控制,https://www.epfl.ch/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV26,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+德國,科研組織,Max Planck Society,基礎量子與生物科學研究,https://www.mpg.de/en,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+法國,科研組織,CNRS,光雷電、物理研究,https://www.cnrs.fr/en,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+荷蘭,大學,TU Delft / QuTech,量子資訊與控制,https://qutech.nl/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+英國,大學,University of Bristol,聲學懸浮與超聲波,https://www.bristol.ac.uk/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+歐盟,政府科研機構,European Commission JRC / EURL ECVAM,器官晶片標準化、替代試驗,https://joint-research-centre.ec.europa.eu/scientific-activities/reference-and-measurement/european-union-reference-laboratories/eu-reference-laboratory-alternatives-animal-testing-eurl-ecvam_en,OFFICIAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV50,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+臺灣,大學,國立臺灣大學,40Hz腦節律人體研究,https://pmc.ncbi.nlm.nih.gov/articles/PMC11864247/,PAPER_AFFILIATION,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,EV40,RESEARCH_RELATION_ONLY_IDENTITY_NOT_FULLY_CHECKED,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+加拿大,大學,University of Waterloo,量子科學與計算研究候選,https://uwaterloo.ca/institute-for-quantum-computing/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+韓國,科研組織,Institute for Basic Science,基礎量子與生物研究候選,https://www.ibs.re.kr/eng.do,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+澳洲,科研組織,CSIRO,材料、流體與醫學轉譯候選,https://www.csiro.au/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定
+以色列,大學,Technion,生物醫工及量子光學候選,https://www.technion.ac.il/en/,OFFICIAL_GENERAL,2026-10-15,列入候選不代表權威排名、已實測或支持動畫原作技能,2026-10-16,,UNREVIEWED_ENTITY_CANDIDATE,NOT_VERIFIED,UNKNOWN_NOT_VERIFIED,機構／試驗所在地線索；不是法定國籍、公司註冊地或所有制認定

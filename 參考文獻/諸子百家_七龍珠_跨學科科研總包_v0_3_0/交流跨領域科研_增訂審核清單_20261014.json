@@ -1,18 +1,10 @@
 {
   "title": "諸子百家七龍珠跨學科科研總包-2026-10-15增訂驗收",
   "version": "v0.3.0",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "original_user_upload": "諸子百家_七龍珠_跨學科科研總包_v0_2_0.zip",
   "original_upload_sha256": "318f80e03aa155729b63cb14c02da377f283c037a6dfd8bad16fc3cc87429302",
   "source_zip_file_count": 6,
-  "source_files_sha256": {
-    "交流科技三文件_查證交付說明_20261014.md": "9068361d92cf86586753e7df19aa10ebc034872c36b5439597faa737da581c34",
-    "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md": "c915c9dfdd376b55b45fbf869f7e2fd096b1582f74e238f6d7a9eab475489c37",
-    "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md": "9bf95f8894e2a592e1a81845b23cacb2ac9338bef2b57a9055feb0d7e7ef5188",
-    "寰宇交流科技_證據註冊表_20261014.csv": "e38f08add120b0f2969b9dc9827d9460ddd6321e89b3278baffd38774ae881c1",
-    "神經網絡學_交流跨領域研究增訂_20261014.md": "950c1df84ad6dd895ccc899e46d0864fd7fa943ab069e40d2777e6cf93ad8ce8",
-    "交流跨領域科研_增訂審核清單_20261014.json": "c50a0894312e16a6e90072474586165a10efbe191486e6bd81caf20acef3b280"
-  },
   "legacy_v020_audit_claims_preserved_unverified": {
     "scope": "三份Markdown原文保留並增訂；僅依公開來源核對，非全部原文實地重驗",
     "items": [
@@ -60,79 +52,99 @@
   "new_evidence_records": 25,
   "new_evidence_unique_events_note": "EV duplicates tagged in 科研證據_來源與獨立性審核_v0_3_0.csv; count is rows, not independent studies",
   "safety_boundary": "No real-world experiments, clinical protocols, production systems, company data, or gambling site accessed. Public research and static local archive only.",
-  "scope_limit": "Selected representative scholarly/institutional sources, not an exhaustive global registry; original historical paragraphs not independently re-audited",
-  "main_docs_immutability": "Three Markdown historical bodies are exact binary prefixes of v0.2.0; appended v0.3.0 sections only",
-  "current_files_before_audit_refresh": [
-    {
-      "file": "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md",
-      "sha256": "d17224b39082a1c3bc4a135e27323b42aa7a75f31c6898e93f9633b045ef5dff",
-      "bytes": 38466,
-      "lines": 478,
-      "retains_source_exact_prefix": true
+  "scope_limit": "全專案文字掃描與核心來源分級完成；尚未逐條核實所有歷史事實、人物或原作能力。",
+  "historical_delivery_claims": {
+    "source_files_sha256": {
+      "交流科技三文件_查證交付說明_20261014.md": "9068361d92cf86586753e7df19aa10ebc034872c36b5439597faa737da581c34",
+      "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md": "c915c9dfdd376b55b45fbf869f7e2fd096b1582f74e238f6d7a9eab475489c37",
+      "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md": "9bf95f8894e2a592e1a81845b23cacb2ac9338bef2b57a9055feb0d7e7ef5188",
+      "寰宇交流科技_證據註冊表_20261014.csv": "e38f08add120b0f2969b9dc9827d9460ddd6321e89b3278baffd38774ae881c1",
+      "神經網絡學_交流跨領域研究增訂_20261014.md": "950c1df84ad6dd895ccc899e46d0864fd7fa943ab069e40d2777e6cf93ad8ce8",
+      "交流跨領域科研_增訂審核清單_20261014.json": "c50a0894312e16a6e90072474586165a10efbe191486e6bd81caf20acef3b280"
     },
-    {
-      "file": "交流科技三文件_查證交付說明_20261014.md",
-      "sha256": "9068361d92cf86586753e7df19aa10ebc034872c36b5439597faa737da581c34",
-      "bytes": 2267,
-      "lines": 24,
-      "retains_source_exact_prefix": false
+    "current_files_before_audit_refresh": [
+      {
+        "file": "七龍珠能力技術對照冊_v1_1_0_交流科技增訂.md",
+        "sha256": "d17224b39082a1c3bc4a135e27323b42aa7a75f31c6898e93f9633b045ef5dff",
+        "bytes": 38466,
+        "lines": 478,
+        "retains_source_exact_prefix": true
+      },
+      {
+        "file": "交流科技三文件_查證交付說明_20261014.md",
+        "sha256": "9068361d92cf86586753e7df19aa10ebc034872c36b5439597faa737da581c34",
+        "bytes": 2267,
+        "lines": 24,
+        "retains_source_exact_prefix": false
+      },
+      {
+        "file": "交流跨領域科研_增訂審核清單_20261014.json",
+        "sha256": "c50a0894312e16a6e90072474586165a10efbe191486e6bd81caf20acef3b280",
+        "bytes": 1860,
+        "lines": 42,
+        "retains_source_exact_prefix": false
+      },
+      {
+        "file": "全球科研機構_公司平台_關聯登錄_v0_3_0.csv",
+        "sha256": "9c0d222a4fdb8161ef0f1b971527ce8efc58cfb07a24bf1d06aaf3edcd6722fe",
+        "bytes": 5462,
+        "lines": 26,
+        "retains_source_exact_prefix": false
+      },
+      {
+        "file": "寰宇交流科技_證據註冊表_20261014.csv",
+        "sha256": "ec69af89580f4e73b9ad82e9f671032ed7160db06f3228195bb15d0274b063a7",
+        "bytes": 22488,
+        "lines": 61,
+        "retains_source_exact_prefix": true
+      },
+      {
+        "file": "神經網絡學_交流跨領域研究增訂_20261014.md",
+        "sha256": "d373aca3c0bfdc893a798f45e3b6b919196e309e78a28bfa285d728d6da6a471",
+        "bytes": 718288,
+        "lines": 11468,
+        "retains_source_exact_prefix": true
+      },
+      {
+        "file": "科研證據_來源與獨立性審核_v0_3_0.csv",
+        "sha256": "78e09f106349e2a2d63d404f70c2d967eba7c8ef4da0953004790f4bc48822a7",
+        "bytes": 14173,
+        "lines": 61,
+        "retains_source_exact_prefix": false
+      },
+      {
+        "file": "科研軟硬體與計數尤物_組件註冊表_v0_3_0.csv",
+        "sha256": "69b1ff8f6619687ee0a52ebeafaa0502d049500fd8cbeb905aa5ed6d6ba1b7c3",
+        "bytes": 4248,
+        "lines": 26,
+        "retains_source_exact_prefix": false
+      },
+      {
+        "file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md",
+        "sha256": "a48a5bcb53219c66422236ed60aa020c661e5daba60b328b6d161e3b8111c77a",
+        "bytes": 67191,
+        "lines": 656,
+        "retains_source_exact_prefix": true
+      }
+    ],
+    "qa_checks": {
+      "zip_source_testzip": "PASS (checked at extraction)",
+      "three_main_docs_exact_prefix": true,
+      "evidence_csv_original_prefix": true,
+      "new_evidence_ids_sequential": true,
+      "unique_archive_names": true,
+      "no_unknown_claims_promoted_to_verified": "review protocol implemented; not a machine guarantee"
     },
-    {
-      "file": "交流跨領域科研_增訂審核清單_20261014.json",
-      "sha256": "c50a0894312e16a6e90072474586165a10efbe191486e6bd81caf20acef3b280",
-      "bytes": 1860,
-      "lines": 42,
-      "retains_source_exact_prefix": false
-    },
-    {
-      "file": "全球科研機構_公司平台_關聯登錄_v0_3_0.csv",
-      "sha256": "9c0d222a4fdb8161ef0f1b971527ce8efc58cfb07a24bf1d06aaf3edcd6722fe",
-      "bytes": 5462,
-      "lines": 26,
-      "retains_source_exact_prefix": false
-    },
-    {
-      "file": "寰宇交流科技_證據註冊表_20261014.csv",
-      "sha256": "ec69af89580f4e73b9ad82e9f671032ed7160db06f3228195bb15d0274b063a7",
-      "bytes": 22488,
-      "lines": 61,
-      "retains_source_exact_prefix": true
-    },
-    {
-      "file": "神經網絡學_交流跨領域研究增訂_20261014.md",
-      "sha256": "d373aca3c0bfdc893a798f45e3b6b919196e309e78a28bfa285d728d6da6a471",
-      "bytes": 718288,
-      "lines": 11468,
-      "retains_source_exact_prefix": true
-    },
-    {
-      "file": "科研證據_來源與獨立性審核_v0_3_0.csv",
-      "sha256": "78e09f106349e2a2d63d404f70c2d967eba7c8ef4da0953004790f4bc48822a7",
-      "bytes": 14173,
-      "lines": 61,
-      "retains_source_exact_prefix": false
-    },
-    {
-      "file": "科研軟硬體與計數尤物_組件註冊表_v0_3_0.csv",
-      "sha256": "69b1ff8f6619687ee0a52ebeafaa0502d049500fd8cbeb905aa5ed6d6ba1b7c3",
-      "bytes": 4248,
-      "lines": 26,
-      "retains_source_exact_prefix": false
-    },
-    {
-      "file": "諸子百家_寰宇科學_七龍珠全技能研究總綱_v0_2_0_增訂.md",
-      "sha256": "a48a5bcb53219c66422236ed60aa020c661e5daba60b328b6d161e3b8111c77a",
-      "bytes": 67191,
-      "lines": 656,
-      "retains_source_exact_prefix": true
-    }
-  ],
-  "qa_checks": {
-    "zip_source_testzip": "PASS (checked at extraction)",
-    "three_main_docs_exact_prefix": true,
-    "evidence_csv_original_prefix": true,
-    "new_evidence_ids_sequential": true,
-    "unique_archive_names": true,
-    "no_unknown_claims_promoted_to_verified": "review protocol implemented; not a machine guarantee"
+    "main_docs_immutability": "Three Markdown historical bodies are exact binary prefixes of v0.2.0; appended v0.3.0 sections only"
+  },
+  "current_verification": {
+    "source_receipt": "來源核查回執_20261016.json",
+    "counts": "本輪核查統計_20261016.json",
+    "manifest": "交付現況_SHA256_20261016.csv",
+    "manifest_excludes_itself": true,
+    "historical_zip_not_reverified": true,
+    "full_semantic_fact_verification": false,
+    "main_docs_exact_prefix_preserved_this_revision": false,
+    "raw_source_versions_untouched": true
   }
 }

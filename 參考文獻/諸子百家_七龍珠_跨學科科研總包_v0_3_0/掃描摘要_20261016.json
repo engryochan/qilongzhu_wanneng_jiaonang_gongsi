@@ -1,12 +1,12 @@
 {
   "as_of": "2026-10-16",
-  "file_count": 55,
+  "file_count": 66,
   "scan_status_counts": {
-    "TEXT_FULLY_SCANNED_NOT_FACT_VERIFIED": 53,
-    "GENERATED_DERIVATIVE_HASHED_NOT_SEPARATELY_FACT_VERIFIED": 2
+    "TEXT_FULLY_SCANNED_NOT_FACT_VERIFIED": 63,
+    "GENERATED_DERIVATIVE_HASHED_NOT_SEPARATELY_FACT_VERIFIED": 3
   },
-  "line_candidates_outside_target": 18930,
-  "unique_candidate_texts": 6765,
+  "line_candidates": 24966,
+  "unique_candidate_texts": 7472,
   "syntax_issues": [],
   "semantic_verification_complete": false,
   "exclusions": [
@@ -16,6 +16,6 @@
     "__pycache__",
     "node_modules"
   ],
-  "candidate_extraction": "source MD/QMD/CSV outside target; target has evidence audit tables",
+  "candidate_extraction": "all source MD/QMD/CSV; outputs excluded; line candidates are not atomic claims",
   "warning": "all files inventoried, text scanned; not all assertions externally verified"
 }

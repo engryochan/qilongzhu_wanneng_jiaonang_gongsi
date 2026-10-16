@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-16",
+  "evidence_rows": 60,
+  "source_groups": 50,
+  "source_groups_are_not_independent_studies": true,
+  "audit_status_counts": {
+    "METADATA_ONLY": 9,
+    "CLAIM_SCOPE_CHECKED": 1,
+    "INSTITUTIONAL_REPORT_CHECKED": 1,
+    "SOURCE_UNAVAILABLE": 4,
+    "ABSTRACT_SCOPE_CHECKED": 16,
+    "PUBLISHER_INDEX_ONLY": 8,
+    "REGULATORY_SCOPE_CHECKED": 3,
+    "DOCUMENTATION_SCOPE_CHECKED": 4,
+    "RELEASE_CHECKED": 3,
+    "STANDARD_METADATA_CHECKED": 1,
+    "SAME_STUDY_DIFFERENT_ENTRY": 1,
+    "SAME_SOURCE_REENTRY": 3,
+    "DUPLICATE_SUPPORT_ONLY": 5,
+    "RELATED_PROGRAM_ENTRY": 1
+  },
+  "seed_counts": {
+    "七龍珠110項技能_逐項待核_v0_3_0.csv": 110,
+    "全球145位人物_身份與貢獻待核_v0_3_0.csv": 145,
+    "諸子百家14類思想_史料待核_v0_3_0.csv": 14
+  },
+  "all_claims_verified": false
+}
