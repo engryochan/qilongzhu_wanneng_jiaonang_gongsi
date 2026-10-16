@@ -47,7 +47,13 @@ def run():
         if n == 37:
             r['source_title']='Nonreciprocal scattering and implications for thermal emission control on a mid-infrared spatiotemporally modulated metasurface'
         if n == 42:
-            r['maturity']='UNVERIFIED'; r['boundary_or_limitation']='本輪未取得足夠來源內容；原題名及臨床結論未重核，不供療效採信'
+            r['maturity']='UNVERIFIED' if status=='SOURCE_UNAVAILABLE' else 'CLINICAL_REVIEW'
+            r['boundary_or_limitation']=note
+        if n == 5:
+            r['source_title']='Liquid crystal-enabled electro-osmosis through spatial charge separation in distorted regions as a novel mechanism of electrokinetics'
+        if n == 7:
+            r.setdefault('legacy_institution_context',r['country_or_institution_context_not_citizenship'])
+            r['country_or_institution_context_not_citizenship']='加拿大：University of Toronto／Concordia作者機構，非國籍'
         if n == 15:
             r['boundary_or_limitation']=note
         if n == 35:
@@ -95,6 +101,9 @@ def run():
     write('全球科研機構_公司平台_關聯登錄_v0_3_0.csv',entities)
 
     seed_dir=ROOT/'參考文獻/諸子百家_七龍珠_跨學科科研總包_v0_1_0'
+    person_receipt_path=HERE/'人物核查回執_20261016.json'
+    person_receipt=json.loads(person_receipt_path.read_text(encoding='utf-8')) if person_receipt_path.exists() else {'checks':{},'sources':{}}
+    reviewed_people=0
     seed_counts={}
     for old,new,key,expected in [
         ('諸子百家_七龍珠全技能_研究分類註冊表_v0_1_0.csv','七龍珠110項技能_逐項待核_v0_3_0.csv','skill_id',110),
@@ -123,12 +132,35 @@ def run():
                 r['validation_boundary']=limits
             elif key=='record_id':
                 r['identity_acceptance_rule']='官方履歷或可靠史料確認同一人；再核原論文作者及貢獻，不從所在地填國籍'
+                item=person_receipt['checks'].get(r['record_id'])
+                r['external_review_status']='NOT_REVIEWED'
+                r['checked_source_ids']='';r['checked_source_urls']='';r['checked_contribution']=''
+                if item:
+                    refs,note=item
+                    source_ids=refs.split(';')
+                    sources=[person_receipt['sources'][source_id] for source_id in source_ids]
+                    r['external_review_status']='LATIN_AUTHOR_ONLY_CHINESE_ALIAS_PENDING' if r['record_id']=='SCI-0063' else 'PARTIAL_NAME_AND_CONTRIBUTION_SOURCE_CHECKED'
+                    r['checked_source_ids']=refs;r['checked_source_urls']=';'.join(s[0] for s in sources)
+                    r['source_access_depth']=';'.join(sorted({s[1] for s in sources}))
+                    r['checked_contribution']=note
+                    r['audit_status']='PARTIAL_EXTERNAL_SOURCE_CHECKED'
+                    r['next_check']='未核法定國籍、完整履歷、當前職稱及全部研究；按checked_contribution限定採信'
+                    reviewed_people+=1
             else:
                 r['primary_text_check']='原典版本、篇章、成書及作者歸屬待逐項核；歷史思想啟發不作自然科學實證'
+                r['classification_source_url']='https://zh.wikisource.org/wiki/漢書/卷030'
+                if r['school'] in {'儒家','道家','陰陽家','法家','名家','墨家','縱橫家','雜家','農家','小說家'}:
+                    r['classification_review']='HANSHU_CATEGORY_TEXT_CHECKED_FIGURES_AND_ATTRIBUTIONS_PENDING'
+                    r['classification_note']='僅確認諸子略分類；官職起源敘述是原典觀點，非已證歷史起源。'
+                else:
+                    r['classification_review']='EDITORIAL_EXTENSION_NOT_ONE_OF_TEN_SCHOOLS'
+                    r['classification_note']='兵書、術數、方技在漢書另列；工藝博物為本研究擴充，不是古代第十四家。人物年代及具體著作另核。'
         write(new,rows);seed_counts[new]=len(rows)
     report={'as_of':DATE,'evidence_rows':len(evidence),'source_groups':len({r['source_group_id'] for r in evidence}),
             'source_groups_are_not_independent_studies':True,'audit_status_counts':dict(Counter(r['audit_status'] for r in evidence)),
-            'seed_counts':seed_counts,'all_claims_verified':False}
+            'seed_counts':seed_counts,'people_with_partial_source_review':reviewed_people,
+            'people_still_without_external_review':145-reviewed_people,
+            'all_claims_verified':False}
     (HERE/'本輪核查統計_20261016.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 

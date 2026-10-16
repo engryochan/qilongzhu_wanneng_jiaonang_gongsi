@@ -4,15 +4,16 @@
   "source_groups": 50,
   "source_groups_are_not_independent_studies": true,
   "audit_status_counts": {
-    "METADATA_ONLY": 9,
+    "INSTITUTIONAL_ABSTRACT_CHECKED": 1,
     "CLAIM_SCOPE_CHECKED": 1,
     "INSTITUTIONAL_REPORT_CHECKED": 1,
-    "SOURCE_UNAVAILABLE": 4,
+    "PUBLISHER_INDEX_ABSTRACT_CHECKED": 4,
     "ABSTRACT_SCOPE_CHECKED": 16,
     "PUBLISHER_INDEX_ONLY": 8,
     "REGULATORY_SCOPE_CHECKED": 3,
     "DOCUMENTATION_SCOPE_CHECKED": 4,
     "RELEASE_CHECKED": 3,
+    "METADATA_ONLY": 8,
     "STANDARD_METADATA_CHECKED": 1,
     "SAME_STUDY_DIFFERENT_ENTRY": 1,
     "SAME_SOURCE_REENTRY": 3,
@@ -24,5 +25,7 @@
     "全球145位人物_身份與貢獻待核_v0_3_0.csv": 145,
     "諸子百家14類思想_史料待核_v0_3_0.csv": 14
   },
+  "people_with_partial_source_review": 49,
+  "people_still_without_external_review": 96,
   "all_claims_verified": false
 }

@@ -1,0 +1,12 @@
+claim_id,subject,checked_claim,value,unit,data_as_of,audit_as_of,status,source_url,limitation
+B02-BCI01,Neuralink,公司公布全球試驗入組Neuralnauts,21,人,2026-01-28,2026-10-16,COMPANY_REPORT_INDEX_CHECKED,https://neuralink.com/updates/two-years-of-telepathy/,非核查日最新人數；不是同一終點完成者總數
+B02-BCI02,北腦一號,政府網站轉載公司人士稱累計植入,40餘,例,2026-08-13,2026-10-16,GOVERNMENT_REPOST_COMPANY_CLAIM,https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202608/t20260813_4821140.html,非獨立臨床登記；預計2027申證不是已批准
+B02-BCI03,博睿康醫療科技上海,國家藥監局公告特定植入式手部抓握代償系統獲批,限定適應症,監管事件,2026-03-13,2026-10-16,REGULATOR_ANNOUNCEMENT_INDEX_CHECKED,https://www.nmpa.gov.cn/directory/web/nmpa/zhuanti/zt2023/ypgzhlfzh/shypqxgg/ggjzcx/20260313134742156.html,含氣動手套與患者條件；全球首發為公告表述非本輪全球比較審核
+B02-BCI04,Meta Brain2Qwerty v2,主動打字MEG研究官方報告詞準確率,61,百分比,2026-06-29,2026-10-16,RESEARCH_OWNER_INDEX_CHECKED,https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/,最佳受試者78%；不是任意思想讀取；未獨立複驗
+B02-BCI05,Meta Brain2Qwerty v2,同研究參與者數,9,人,2026-06-29,2026-10-16,SAME_RESEARCH_AS_B02-BCI04,https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/,各10小時約22000句；不能按數據維度當成多項獨立研究
+B02-ROB01,Unitree,公司稱2025純人形機器人實售並交付終端客戶,超過5500,台,2025,2026-10-16,COMPANY_REPORT_INDEX_CHECKED,https://shop.unitree.com/zh-au/blogs/news/clarification-regarding-unitrees-2025-sales-data,公告2026-01-22；非訂單數；非全部類型機器人；非獨立審計
+B02-ROB02,Unitree,同公告稱2025純人形機器人量產產出,超過6500,台,2025,2026-10-16,SAME_COMPANY_REPORT_AS_B02-ROB01,https://shop.unitree.com/zh-au/blogs/news/clarification-regarding-unitrees-2025-sales-data,產出與交付不是相同口徑；兩數之差不是可直接確認的期末庫存
+B02-ROB03,Tesla Optimus,2026Q2官方報告生產線仍在安裝並預期開始生產,建設與預期生產,階段,2026-07-22,2026-10-16,COMPANY_FILING_TEXT_CHECKED,https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf,不證明截至10月尚未投產；亦不支持原文千台已部署；產能不是產量
+B02-BIO01,Cortical Labs CL1,官方產品與文件支持培養神經元晶片及Python閉環API,產品及介面存在,功能範圍,未標來源日,2026-10-16,VENDOR_DOCUMENTATION_INDEX_CHECKED,https://docs.corticallabs.com/,未本機測試；不證通用智能；35000美元價格與20萬至80萬細胞數本輪未驗
+B02-BIO02,FinalSpark Neuroplatform,官方平台頁目前採聯絡詢價且提供共享或獨享遠端類器官服務,聯絡詢價,定價形式,未標來源日,2026-10-16,VENDOR_PAGE_INDEX_CHECKED,https://finalspark.com/neuroplatform/,不否定歷史曾有1000美元方案；不能把歷史價格當作現行報價
+B02-CLIN01,EV42 tACS綜述,索引摘要列6項RCT總參與者,232,人,2026-08-10,2026-10-16,PUBLISHER_INDEX_ABSTRACT_CHECKED,https://pubmed.ncbi.nlm.nih.gov/42575228/,疼痛SMD=-0.355；睡眠SMD=0.004未顯著；兩終點證據確定性低；未重算原始數據

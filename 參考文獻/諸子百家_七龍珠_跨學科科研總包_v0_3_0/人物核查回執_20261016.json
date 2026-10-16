@@ -1,0 +1,400 @@
+{
+  "as_of": "2026-10-16",
+  "scope": "各列只核來源所列姓名與特定研究貢獻；不核法定國籍、全部履歷、全部論文、當前任職或機構所有制。官方索引內容與直接讀取分開標示。原始種子欄位保留。",
+  "sources": {
+    "P01": [
+      "https://www.xsg.pku.edu.cn/heros/scholar/detail/628.html",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "北京大學校史館，周培源人物與研究簡介"
+    ],
+    "P02": [
+      "https://www.iet.cas.cn/team/ys/202109/t20210918_6207775.html",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "中科院工程熱物理所，吳仲華歷史簡介"
+    ],
+    "P03": [
+      "https://kxrsbn.casad.cas.cn/2017n/kxrsbn_ysfc/201710/t20171026_4950482.html",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "中科院院士歷史資料，葉輪機械三元流動理論"
+    ],
+    "P04": [
+      "https://www.gharib.caltech.edu/people/",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "Caltech研究組人物與流體／生物力學方向"
+    ],
+    "P05": [
+      "https://authors.library.caltech.edu/records/xzy5y-mpw80",
+      "INSTITUTIONAL_ABSTRACT_INDEX_CHECKED",
+      "CaltechAUTHORS原作者渦環論文，形成數約4為特定實驗結果"
+    ],
+    "P06": [
+      "https://www.nobelprize.org/uploads/2021/10/press-physicsprize2021.pdf",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2021物理獎官方新聞稿"
+    ],
+    "P07": [
+      "https://www.nature.com/articles/s41566-022-01139-z",
+      "PAPER_AUTHOR_AND_ABSTRACT_CHECKED",
+      "雷射引導閃電原論文作者與摘要"
+    ],
+    "P08": [
+      "https://www.kva.se/nyheter/nobelpriset-i-fysik-2020/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "瑞典皇家科學院2020物理獎新聞稿"
+    ],
+    "P09": [
+      "https://www.nobelprize.org/prizes/physics/2017/ceremony-speech/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2017物理獎官方頒獎演說，LIGO關聯"
+    ],
+    "P10": [
+      "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022-2.pdf",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2022物理獎官方新聞稿，糾纏光子與量子資訊"
+    ],
+    "P11": [
+      "https://faculty.ustc.edu.cn/panjianwei/zh_CN/index.htm",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "中科大潘建偉官方教師頁，量子通信及多光子糾纏研究"
+    ],
+    "P12": [
+      "https://arxiv.org/abs/2608.12729",
+      "AUTHOR_PREPRINT_METADATA_CHECKED",
+      "Julian Juhi-Lian Ting署名與感測器預印本；中文別名、學位與職稱未核定"
+    ],
+    "P13": [
+      "https://www.aps.org/apsnews/2018/11/the-2018-nobel-prize-in-physics",
+      "PROFESSIONAL_SOCIETY_INDEX_CHECKED",
+      "美國物理學會2018物理獎介紹，光鑷及超短強雷射"
+    ],
+    "P14": [
+      "https://www.nature.com/articles/ncomms9661",
+      "PUBLISHER_AUTHOR_INDEX_CHECKED",
+      "2015聲學全像論文作者，不能由單篇推論個人全部能力"
+    ],
+    "P15": [
+      "https://www.ibp.cas.cn/rc/crs/202411/t20241107_7435365.html",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "中科院生物物理所，陳潤生與生物資訊方向"
+    ],
+    "P16": [
+      "https://www.nobelprize.org/prizes/chemistry/2020/press-release/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2020化學獎官方新聞稿，CRISPR/Cas9及基因編輯方法"
+    ],
+    "P17": [
+      "https://www.nobelprize.org/prizes/medicine/2012/press-release/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2012生理醫學獎，成熟細胞重編程與iPS細胞"
+    ],
+    "P18": [
+      "https://www.nobelprize.org/uploads/2018/06/popular-chemistryprize2015.pdf",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2015化學獎官方科普背景，DNA修復機制"
+    ],
+    "P19": [
+      "https://www.nobelprize.org/uploads/2024/10/press-chemistryprize2024-3.pdf",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2024化學獎，蛋白質設計與結構預測分開"
+    ],
+    "P20": [
+      "https://www.nobelprize.org/prizes/medicine/2015/tu/facts/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "屠呦呦授獎資料，青蒿素與瘧疾；不是所有天然藥物療效背書"
+    ],
+    "P21": [
+      "https://www.nature.com/articles/s41586-023-06094-5",
+      "PAPER_AUTHOR_AND_ABSTRACT_CHECKED",
+      "2023腦脊髓橋接原論文作者與個案摘要"
+    ],
+    "P22": [
+      "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "2024物理獎，人工神經網絡基礎方法；任職資訊僅授獎時點"
+    ],
+    "P23": [
+      "https://www.cs.stanford.edu/people/fei-fei-li",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "Stanford官方人物頁；電腦視覺方向另見校方完整profile索引"
+    ],
+    "P24": [
+      "https://statistics.berkeley.edu/people/michael-jordan",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "Berkeley統計系Michael Jordan，機器學習與統計，非同名運動員"
+    ],
+    "P25": [
+      "https://www.nobelprize.org/nobel_prizes/medicine/laureates/1983/index.html",
+      "AWARDING_BODY_INDEX_CHECKED",
+      "1983生理醫學獎，Barbara McClintock與可移動遺傳元件"
+    ],
+    "P26": [
+      "https://catalogue.museogalileo.it/indepth/GravitationalAcceleration.html",
+      "MUSEUM_TEXT_CHECKED",
+      "伽利略博物館：落體與斜面；不是現代無限條件普適實驗"
+    ],
+    "P27": [
+      "https://newtonproject.ox.ac.uk/texts/introduction",
+      "UNIVERSITY_EDITORIAL_TEXT_CHECKED",
+      "牛頓文稿編輯計畫，De motu與Principia形成史；未逐卷核原作"
+    ],
+    "P28": [
+      "https://www.nature.com/articles/318419a0",
+      "PUBLISHER_METADATA_ONLY",
+      "Shawn Carlson，Nature 318,419–425(1985)，DOI10.1038/318419a0；沒有可讀摘要"
+    ],
+    "P29": [
+      "https://www.susanblackmore.uk/biography/",
+      "AUTHOR_SELF_DESCRIPTION_CHECKED",
+      "本人自述研究轉向；不當作獨立履歷或超常現象裁決"
+    ],
+    "P30": [
+      "https://www.herts.ac.uk/research/centres/psychology/behaviour-change-in-health-and-business/public-understanding-of-psychology",
+      "INSTITUTIONAL_TEXT_CHECKED",
+      "Richard Wiseman，大眾參與心理學研究；未逐項驗證實驗結論"
+    ],
+    "P31": [
+      "https://www.gold.ac.uk/psychology/staff/french/",
+      "INSTITUTIONAL_INDEX_CHECKED",
+      "Christopher French，異常心理學；頁面直接讀取失敗，使用校方索引"
+    ],
+    "P32": [
+      "https://www.sheldrake.org/research/morphic-resonance",
+      "PROPONENT_TEXT_AND_HOSTED_COUNTERARGUMENT_CHECKED",
+      "Rupert Sheldrake假說與其網站所收Steven Rose反駁；相反詮釋非獨立重現"
+    ],
+    "P33": [
+      "https://www.lse.ac.uk/philosophy/research/sir-karl-popper",
+      "INSTITUTIONAL_TEXT_CHECKED",
+      "Karl Popper與可證偽性；未通讀全部原著"
+    ],
+    "P34": [
+      "https://news.mit.edu/1996/kuhn",
+      "INSTITUTIONAL_HISTORICAL_TEXT_CHECKED",
+      "Thomas Kuhn，1962科學革命的結構；歷史訃告非現任名單"
+    ],
+    "P35": [
+      "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124",
+      "ORIGINAL_ARTICLE_TEXT_CHECKED",
+      "John P. A. Ioannidis 2005條件式模型，非全球論文真偽普查"
+    ],
+    "P36": [
+      "https://liberalarts.vt.edu/departments-and-schools/department-of-philosophy/faculty/deborah-mayo.html-.html",
+      "INSTITUTIONAL_TEXT_CHECKED",
+      "Deborah Mayo，統計哲學與推論；校方頁面稱emerita"
+    ],
+    "P37": [
+      "https://www.cambridge.org/core/books/statistical-inference-as-severe-testing/D9DF409EF568090F3F60407FF2B973B2",
+      "PUBLISHER_DESCRIPTION_AND_METADATA_CHECKED",
+      "Mayo 2018嚴格檢驗著作與書介；未取得全書"
+    ],
+    "P38": [
+      "https://www.dpmms.cam.ac.uk/~ds28/",
+      "UNIVERSITY_HOSTED_AUTHOR_TEXT_CHECKED",
+      "David Spiegelhalter，不確定性與風險溝通；本人頁面稱emeritus"
+    ],
+    "P39": [
+      "https://www.spr.ac.uk/about-spr",
+      "ORGANIZATION_SELF_DESCRIPTION_CHECKED",
+      "SPR不持機構統一立場；會員資格不等同接受超常現象真實性"
+    ]
+  },
+  "checks": {
+    "SCI-0012": [
+      "P01",
+      "周培源：相對論、流體及湍流研究；歷史人物，不作現任名單。"
+    ],
+    "SCI-0013": [
+      "P02;P03",
+      "吳仲華：工程熱物理與葉輪機械三元流動理論；歷史人物。"
+    ],
+    "SCI-0014": [
+      "P04;P05",
+      "Morteza Gharib：渦動力學、生物流體；1998原作者摘要可追溯。"
+    ],
+    "SCI-0024": [
+      "P06",
+      "Syukuro Manabe：氣候物理建模與人類活動影響研究。"
+    ],
+    "SCI-0035": [
+      "P07",
+      "Aurélien Houard：2023雷射引導閃電原論文作者。"
+    ],
+    "SCI-0036": [
+      "P07",
+      "Jean-Pierre Wolf：同篇雷射引導閃電原論文作者；非另一獨立實驗。"
+    ],
+    "SCI-0042": [
+      "P08",
+      "Roger Penrose：廣義相對論下黑洞形成的理論成果。"
+    ],
+    "SCI-0043": [
+      "P09",
+      "Kip Thorne：LIGO與引力波探測貢獻；未核全部個人履歷。"
+    ],
+    "SCI-0044": [
+      "P09",
+      "Rainer Weiss：LIGO與引力波探測貢獻。"
+    ],
+    "SCI-0045": [
+      "P08",
+      "Andrea Ghez：銀河中心超大質量緻密天體研究。"
+    ],
+    "SCI-0046": [
+      "P08",
+      "Reinhard Genzel：銀河中心超大質量緻密天體研究。"
+    ],
+    "SCI-0060": [
+      "P10",
+      "Alain Aspect：糾纏光子與Bell不等式實驗、量子資訊。"
+    ],
+    "SCI-0061": [
+      "P10",
+      "Anton Zeilinger：糾纏光子與量子資訊；此來源不單獨核每項傳態性能。"
+    ],
+    "SCI-0062": [
+      "P11",
+      "潘建偉：官方教師頁支持量子通信、量子資訊與糾纏研究。"
+    ],
+    "SCI-0063": [
+      "P12",
+      "只確認Julian Juhi-Lian Ting拉丁姓名與預印本署名；丁致良中文別名、教授職稱、學位和書目仍待獨立同一人連結。"
+    ],
+    "SCI-0071": [
+      "P13",
+      "Arthur Ashkin：光鑷；功能範圍不等於宏觀物體念力。"
+    ],
+    "SCI-0072": [
+      "P13",
+      "Gérard Mourou：超短高強度雷射脈衝研究。"
+    ],
+    "SCI-0073": [
+      "P13",
+      "Donna Strickland：超短高強度雷射脈衝研究。"
+    ],
+    "SCI-0077": [
+      "P14",
+      "Asier Marzo：2015聲學全像操控論文作者。"
+    ],
+    "SCI-0078": [
+      "P14",
+      "Bruce W. Drinkwater：同篇聲學全像論文作者。"
+    ],
+    "SCI-0079": [
+      "P14",
+      "Sriram Subramanian：同篇聲學全像論文作者；不由本篇獨立驗證所有觸覺主張。"
+    ],
+    "SCI-0089": [
+      "P15",
+      "陳潤生：生物資訊、理論生物與非編碼RNA研究。"
+    ],
+    "SCI-0090": [
+      "P16",
+      "Jennifer A. Doudna：CRISPR/Cas9基因編輯方法。"
+    ],
+    "SCI-0091": [
+      "P16",
+      "Emmanuelle Charpentier：CRISPR/Cas9基因編輯方法。"
+    ],
+    "SCI-0092": [
+      "P17",
+      "Shinya Yamanaka：成熟細胞重編程成多能幹細胞；不等於人體返老還童。"
+    ],
+    "SCI-0098": [
+      "P18",
+      "Aziz Sancar：DNA修復機制研究。"
+    ],
+    "SCI-0104": [
+      "P19",
+      "David Baker：計算蛋白質設計。"
+    ],
+    "SCI-0105": [
+      "P19",
+      "John Jumper：蛋白質結構預測。"
+    ],
+    "SCI-0106": [
+      "P20",
+      "屠呦呦：青蒿素與抗瘧藥物研究。"
+    ],
+    "SCI-0111": [
+      "P21",
+      "Grégoire Courtine：植入式腦脊髓橋接原論文作者。"
+    ],
+    "SCI-0112": [
+      "P21",
+      "Jocelyne Bloch：同篇臨床神經橋接原論文作者。"
+    ],
+    "SCI-0114": [
+      "P22",
+      "John J. Hopfield：聯想記憶網絡與人工神經網絡方法。"
+    ],
+    "SCI-0115": [
+      "P22",
+      "Geoffrey Hinton：Boltzmann機等神經網絡方法；非所有深度學習單一發明人。"
+    ],
+    "SCI-0118": [
+      "P23",
+      "Fei-Fei Li：Stanford教師身份與電腦視覺研究線索。"
+    ],
+    "SCI-0125": [
+      "P19",
+      "Demis Hassabis：蛋白質結構預測，與一般AI能力和全部商業成果分開。"
+    ],
+    "SCI-0127": [
+      "P24",
+      "Michael Jordan：Berkeley統計／機器學習研究者，同名消歧已核。"
+    ],
+    "SCI-0145": [
+      "P25",
+      "Barbara McClintock：可移動遺傳元件；比泛稱細胞遺傳學更具體。"
+    ],
+    "SCI-0001": [
+      "P26",
+      "Galileo Galilei：博物館記述落體速度隨時間及由靜止位移隨時間平方的關係；需保留重力及阻力條件。"
+    ],
+    "SCI-0002": [
+      "P27",
+      "Isaac Newton：編輯計畫說明運動定律雛形與萬有引力的發展；不是當代所有尺度均適用的保證。"
+    ],
+    "SCI-0135": [
+      "P28",
+      "Shawn Carlson：1985占星雙盲論文作者與書目已核；本輪僅出版頁書目，未重算原始資料，不由題名推定全部結果。"
+    ],
+    "SCI-0136": [
+      "P29",
+      "Susan Blackmore：本人自述曾研究超心理學，後轉向意識研究；個人未找到有說服力證據，不等於證明所有可能現象不存在。"
+    ],
+    "SCI-0137": [
+      "P30",
+      "Richard Wiseman：校方列大眾參與心理學實驗與科普；本輪未逐項核其超常主張實驗。"
+    ],
+    "SCI-0138": [
+      "P31",
+      "Christopher French：校方索引可支持異常心理學、超常信念及體驗研究；不是已證明超能力存在。"
+    ],
+    "SCI-0139": [
+      "P32",
+      "Rupert Sheldrake：可追溯形態共振假說及與Steven Rose的相反詮釋；僅核提出與爭論存在，不採信超常機制成立。"
+    ],
+    "SCI-0140": [
+      "P33",
+      "Karl Popper：LSE紀念頁將可證偽性列為其科學劃界主張；可檢驗不等於已證實，未通讀原著。"
+    ],
+    "SCI-0141": [
+      "P34",
+      "Thomas Kuhn：MIT歷史資料確認1962著作與科學變遷研究；範式轉移不替代特定假說所需實證。"
+    ],
+    "SCI-0142": [
+      "P35",
+      "John P. A. Ioannidis：2005原文建模統計功效、研究前勝算及偏誤對陽性預測值的影響；非實測全球過半論文為假。"
+    ],
+    "SCI-0143": [
+      "P36;P37",
+      "Deborah G. Mayo：統計哲學及嚴格檢驗著作；書介層，不宣稱通讀全書或方法普遍優於其他方法。"
+    ],
+    "SCI-0144": [
+      "P38",
+      "David Spiegelhalter：大學網域本人頁支持不確定性、風險及統計溝通方向；完整履歷與法定國籍未核。"
+    ]
+  },
+  "latest_batch": "B03_20261016"
+}

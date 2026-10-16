@@ -1,0 +1,49 @@
+{
+  "batch": "B04",
+  "checked_as_of": "2026-10-16",
+  "model_experiment_run": false,
+  "sources": [
+    {
+      "id": "MM01",
+      "url": "https://arxiv.org/html/2511.21437v2",
+      "access_depth": "ORIGINAL_METHODS_AND_CONCLUSIONS_CHECKED",
+      "source_version_date_or_year": "2026-03-29",
+      "project_group": "MERGEVAL",
+      "limitation": "研究範圍及六法清單；未重算實驗"
+    },
+    {
+      "id": "MM02",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0d4f8a5109c5083b5307fcd0bddae7a7-Abstract-Conference.html",
+      "access_depth": "CONFERENCE_ABSTRACT_CHECKED",
+      "source_version_date_or_year": "2025",
+      "project_group": "KNOTS",
+      "limitation": "LoRA更新對齊；未重查全部資料"
+    },
+    {
+      "id": "MM03",
+      "url": "https://arxiv.org/html/2403.13257v3",
+      "access_depth": "TOOL_PAPER_DESCRIPTION_CHECKED",
+      "source_version_date_or_year": "",
+      "project_group": "MERGEKIT",
+      "limitation": "工具架構描述；不是本機實測"
+    },
+    {
+      "id": "MM04",
+      "url": "https://arxiv.org/html/2603.09938v2",
+      "access_depth": "SURVEY_TAXONOMY_CHECKED",
+      "source_version_date_or_year": "2026-03-30",
+      "project_group": "FUSE_SURVEY",
+      "limitation": "綜述分類；未逐條核引文"
+    },
+    {
+      "id": "MM05",
+      "url": "https://github.com/arcee-ai/mergekit",
+      "access_depth": "MAINTAINER_DOCUMENTATION_CHECKED",
+      "source_version_date_or_year": "",
+      "project_group": "MERGEKIT",
+      "limitation": "浮動倉庫，未固定commit，未安裝或執行"
+    }
+  ],
+  "project_groups_are_not_independent_studies": true,
+  "correction_records": 8
+}

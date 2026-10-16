@@ -43,6 +43,41 @@ def main():
         assert not r['supporting_evidence_id'] or r['supporting_evidence_id'] in ids
     receipt=json.loads((HERE/'來源核查回執_20261016.json').read_text(encoding='utf-8'))
     assert set(receipt['checks'])=={str(i) for i in range(1,61)}
+    assert by_id['EV42']['maturity']=='CLINICAL_REVIEW'
+    for ev in ['EV04','EV05','EV07','EV42']:
+        assert by_id[ev]['audit_status']=='PUBLISHER_INDEX_ABSTRACT_CHECKED'
+    people=read('全球145位人物_身份與貢獻待核_v0_3_0.csv')
+    pr=json.loads((HERE/'人物核查回執_20261016.json').read_text(encoding='utf-8'))
+    assert len(pr['checks'])==49
+    assert set(pr['checks']) <= {r['record_id'] for r in people}
+    for r in people:
+        item=pr['checks'].get(r['record_id'])
+        if item:
+            refs=item[0].split(';')
+            assert all(k in pr['sources'] for k in refs)
+            assert r['checked_source_ids']==item[0]
+            assert r['checked_source_urls']==';'.join(pr['sources'][k][0] for k in refs)
+            assert r['audit_status']=='PARTIAL_EXTERNAL_SOURCE_CHECKED'
+        else: assert r['external_review_status']=='NOT_REVIEWED'
+    assert sum(r['external_review_status']=='NOT_REVIEWED' for r in people)==96
+    # Illustrative assumptions only, not measured research-field error rates.
+    assert math.isclose((.8*.1)/(.8*.1+.05),8/13)
+    assert math.isclose((.8*.01)/(.8*.01+.05),4/29)
+    assert math.isclose(1-.95**20,.6415140775914581)
+    schools=read('諸子百家14類思想_史料待核_v0_3_0.csv')
+    assert sum(r['classification_review']=='EDITORIAL_EXTENSION_NOT_ONE_OF_TEN_SCHOOLS' for r in schools)==4
+    supplemental=read('補充事實核查_B02_20261016.csv')
+    assert len(supplemental)==11 and len({r['claim_id'] for r in supplemental})==11
+    assert all(r['source_url'].startswith('https://') for r in supplemental)
+    b04=json.loads((HERE/'模型合併核查回執_B04_20261016.json').read_text(encoding='utf-8'))
+    assert {s['id'] for s in b04['sources']}=={f'MM{i:02d}' for i in range(1,6)}
+    assert b04['model_experiment_run'] is False
+    traces=json.loads((HERE/'正文修訂追溯_20261016.json').read_text(encoding='utf-8'))
+    b04traces=[r for r in traces if r.get('batch')=='B04']
+    assert len(b04traces)==b04['correction_records'] and len(b04traces)>=6
+    for r in b04traces:
+        text=(HERE/r['file']).read_text(encoding='utf-8')
+        assert r['old'] not in text and r['new'] in text,'B04 correction missing or reverted'
     # Independent arithmetic of the explicitly labelled point-mass thought experiment.
     mass=9.80665*(0.1**2)/6.67430e-11
     energy=mass*299792458**2
@@ -50,6 +85,9 @@ def main():
     assert math.isclose(energy,1.3206e26,rel_tol=1e-4)
     manifest=read('交付現況_SHA256_20261016.csv')
     assert len(manifest)==len({r['file'] for r in manifest})
+    expected={str(p.relative_to(HERE)) for p in HERE.rglob('*')
+              if p.is_file() and p.name!='交付現況_SHA256_20261016.csv' and '__pycache__' not in p.parts}
+    assert {r['file'] for r in manifest}==expected,'Manifest has missing or extra files'
     for r in manifest:
         p=HERE/r['file'];data=p.read_bytes()
         assert len(data)==int(r['bytes']) and hashlib.sha256(data).hexdigest()==r['sha256'],f'Stale hash: {p.name}'
