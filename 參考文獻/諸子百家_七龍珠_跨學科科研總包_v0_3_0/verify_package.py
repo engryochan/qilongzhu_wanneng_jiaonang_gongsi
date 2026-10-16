@@ -104,6 +104,15 @@ def main():
     assert math.isclose(q*duration*dt/envs,1757.8125)
     assert math.isclose(q*dt/envs,.48828125)
     assert math.isclose(q*duration*dt/(inputs['year_days']*86400),.228310502283105)
+    b07=json.loads((HERE/'遙視與情報用途核查回執_B07_20261016.json').read_text(encoding='utf-8'))
+    assert {s['id'] for s in b07['sources']}=={f'RV{i:02d}' for i in range(1,7)}
+    assert not b07['experiment_run'] and not b07['memo_quote_verified']
+    assert sum(s['access_depth']=='REDIRECTED_TO_READINGROOM_NO_DOCUMENT' for s in b07['sources'])==3
+    b07traces=[r for r in traces if r.get('batch')=='B07']
+    assert len(b07traces)==b07['correction_records'] and len(b07traces)>=7
+    for r in b07traces:
+        text=(HERE/r['file']).read_text(encoding='utf-8')
+        assert r['old'] not in text and r['new'] in text,'B07 correction missing or reverted'
     # Independent arithmetic of the explicitly labelled point-mass thought experiment.
     mass=9.80665*(0.1**2)/6.67430e-11
     energy=mass*299792458**2

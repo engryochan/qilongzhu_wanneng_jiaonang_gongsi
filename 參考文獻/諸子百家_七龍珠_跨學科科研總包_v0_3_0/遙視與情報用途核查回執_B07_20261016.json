@@ -1,0 +1,51 @@
+{
+  "batch": "B07",
+  "checked_as_of": "2026-10-16",
+  "experiment_run": false,
+  "memo_quote_verified": false,
+  "sources": [
+    {
+      "id": "RV01",
+      "url": "https://www.cia.gov/stories/story/ask-molly-did-cia-really-study-psychic-powers/",
+      "source_date": "2021-10-27",
+      "access_depth": "AGENCY_RETROSPECTIVE_TEXT_CHECKED",
+      "limitation": "歷史回顧，不是1995報告原件或全部研究的獨立重現"
+    },
+    {
+      "id": "RV02",
+      "url": "https://www.alice.id.tue.nl/references/mumford-rose-goslin-1995.pdf",
+      "source_date": "1995-09-29",
+      "access_depth": "ORIGINAL_REPORT_UNIVERSITY_MIRROR_EXECUTIVE_SUMMARY_CHECKED",
+      "limitation": "讀取183頁報告文本的封面及執行摘要E-1至E-5；未逐頁審計附錄或比對CIA副本雜湊"
+    },
+    {
+      "id": "RV03",
+      "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000100150004-8",
+      "source_date": "",
+      "access_depth": "REDIRECTED_TO_READINGROOM_NO_DOCUMENT",
+      "limitation": "備忘錄及PDF入口均未取得原件，幾近不存在引語待核"
+    },
+    {
+      "id": "RV04",
+      "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180006-4",
+      "source_date": "",
+      "access_depth": "REDIRECTED_TO_READINGROOM_NO_DOCUMENT",
+      "limitation": "報告CIA入口失效；未比對鏡像與CIA副本"
+    },
+    {
+      "id": "RV05",
+      "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5",
+      "source_date": "",
+      "access_depth": "REDIRECTED_TO_READINGROOM_NO_DOCUMENT",
+      "limitation": "草稿入口失效；不將草稿與9月29日報告混成同一版本"
+    },
+    {
+      "id": "RV06",
+      "url": "https://www.princeton.edu/~paw/archive_new/PAW06-07/04-1108/notebook.html",
+      "source_date": "2006-11-08",
+      "access_depth": "UNIVERSITY_ALUMNI_PUBLICATION_TEXT_CHECKED",
+      "limitation": "當時預告次年關閉；不是事後關閉公告，未確證完成日期"
+    }
+  ],
+  "correction_records": 8
+}
