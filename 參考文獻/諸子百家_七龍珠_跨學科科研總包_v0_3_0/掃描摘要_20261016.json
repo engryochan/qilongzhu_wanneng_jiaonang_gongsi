@@ -1,12 +1,12 @@
 {
   "as_of": "2026-10-16",
-  "file_count": 90,
+  "file_count": 94,
   "scan_status_counts": {
-    "TEXT_FULLY_SCANNED_NOT_FACT_VERIFIED": 81,
-    "GENERATED_DERIVATIVE_HASHED_NOT_SEPARATELY_FACT_VERIFIED": 9
+    "TEXT_FULLY_SCANNED_NOT_FACT_VERIFIED": 84,
+    "GENERATED_DERIVATIVE_HASHED_NOT_SEPARATELY_FACT_VERIFIED": 10
   },
-  "line_candidates": 25216,
-  "unique_candidate_texts": 7683,
+  "line_candidates": 25239,
+  "unique_candidate_texts": 7698,
   "syntax_issues": [],
   "semantic_verification_complete": false,
   "exclusions": [

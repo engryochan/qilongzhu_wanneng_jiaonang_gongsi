@@ -1,0 +1,38 @@
+{
+  "batch": "B08",
+  "checked_as_of": "2026-10-16",
+  "quantum_hardware_run": false,
+  "physical_teleportation_run": false,
+  "local_check_scope": "IDEAL_CLASSICAL_STATEVECTOR_ALGEBRA_ONLY",
+  "sources": [
+    {
+      "id": "QT01",
+      "url": "https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/quantum-teleportation",
+      "access_depth": "OFFICIAL_PROTOCOL_AND_ALGEBRA_CHECKED",
+      "scope": "SINGLE_QUBIT_IDEAL_PROTOCOL",
+      "limitation": "兩經典位元與一糾纏對；不代表所有傳態協議或硬體實測"
+    },
+    {
+      "id": "QT02",
+      "url": "https://arxiv.org/abs/quant-ph/0501086",
+      "access_depth": "AUTHOR_ABSTRACT_CHECKED",
+      "scope": "CONTINUOUS_VARIABLE_COHERENT_STATE",
+      "limitation": "相干態無複製基準2/3；未核全部實驗資料"
+    },
+    {
+      "id": "QT03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8694421/",
+      "access_depth": "ORIGINAL_ABSTRACT_AND_INTRODUCTION_CHECKED",
+      "scope": "PROPAGATING_COHERENT_MICROWAVE",
+      "limitation": "原文分開相干態與qubit基準；未重算保真度或驗證裝置"
+    },
+    {
+      "id": "QT04",
+      "url": "https://www.nature.com/articles/299802a0",
+      "access_depth": "PUBLISHER_BIBLIOGRAPHY_CHECKED",
+      "scope": "NO_CLONING_ORIGINAL_REFERENCE",
+      "limitation": "1982書目可核；本輪未通讀原論文，定理說明另依QT01"
+    }
+  ],
+  "correction_records": 4
+}

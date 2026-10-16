@@ -11,6 +11,42 @@ def read(name):
         assert all(None not in r and None not in r.values() for r in rows),f'Invalid CSV: {name}'
         return rows
 
+def ideal_teleportation_check():
+    # Classical arithmetic, basis |Q A B>; never accesses quantum hardware.
+    s=2**-.5
+    inputs=[(1,0),(0,1),(s,s),(s,-s),(s,1j*s),(s,-1j*s),(math.sqrt(.3),1j*math.sqrt(.7))]
+    branches_checked=0
+    for psi in inputs:
+        state=[0j]*8
+        for q in range(2):
+            for a in range(2):state[4*q+2*a+a]=psi[q]*s
+        cnot=[0j]*8
+        for index,amp in enumerate(state):
+            q=index//4;a=(index//2)%2;b=index%2
+            cnot[4*q+2*(a^q)+b]+=amp
+        after=[0j]*8
+        for a in range(2):
+            for b in range(2):
+                lo=2*a+b;hi=4+lo
+                after[lo]=(cnot[lo]+cnot[hi])*s
+                after[hi]=(cnot[lo]-cnot[hi])*s
+        rho=[[0j]*2 for _ in range(2)]
+        for q in range(2):
+            for a in range(2):
+                v=after[4*q+2*a:4*q+2*a+2]
+                prob=sum(abs(z)**2 for z in v)
+                assert math.isclose(prob,.25,abs_tol=1e-12)
+                for i in range(2):
+                    for j in range(2):rho[i][j]+=v[i]*v[j].conjugate()
+                if a:v=[v[1],v[0]] # X, followed by Z
+                if q:v=[v[0],-v[1]]
+                overlap=sum(complex(psi[i]).conjugate()*v[i]/math.sqrt(prob) for i in range(2))
+                assert math.isclose(abs(overlap)**2,1,abs_tol=1e-12)
+                branches_checked+=1
+        for i in range(2):
+            for j in range(2):assert abs(rho[i][j]-(.5 if i==j else 0))<1e-12
+    return branches_checked
+
 def main():
     for p in HERE.glob('*.json'): json.loads(p.read_text(encoding='utf-8-sig'))
     for p in HERE.glob('*.csv'): read(p.name)
@@ -113,6 +149,15 @@ def main():
     for r in b07traces:
         text=(HERE/r['file']).read_text(encoding='utf-8')
         assert r['old'] not in text and r['new'] in text,'B07 correction missing or reverted'
+    b08=json.loads((HERE/'量子傳態核查回執_B08_20261016.json').read_text(encoding='utf-8'))
+    assert {r['id'] for r in b08['sources']}=={f'QT{i:02d}' for i in range(1,5)}
+    assert not b08['quantum_hardware_run'] and not b08['physical_teleportation_run']
+    b08traces=[r for r in traces if r.get('batch')=='B08']
+    assert len(b08traces)==b08['correction_records']==4
+    for r in b08traces:
+        text=(HERE/r['file']).read_text(encoding='utf-8')
+        assert r['old'] not in text and r['new'] in text,'B08 correction missing or reverted'
+    ideal_branches=ideal_teleportation_check();assert ideal_branches==28
     # Independent arithmetic of the explicitly labelled point-mass thought experiment.
     mass=9.80665*(0.1**2)/6.67430e-11
     energy=mass*299792458**2
@@ -130,7 +175,8 @@ def main():
     assert not j['current_verification']['full_semantic_fact_verification']
     summary={'result':'PASS_LOCAL_INTEGRITY_ONLY','evidence_rows':60,'seed_rows':[110,145,14],
              'manifest_entries_checked':len(manifest),'gravity_example_mass_kg':mass,
-             'rest_energy_equivalent_J':energy,'all_facts_verified':False}
+             'rest_energy_equivalent_J':energy,'ideal_quantum_protocol_algebra_branches':ideal_branches,
+             'quantum_hardware_run':False,'all_facts_verified':False}
     print(json.dumps(summary,ensure_ascii=True,indent=2))
 
 if __name__=='__main__':main()
